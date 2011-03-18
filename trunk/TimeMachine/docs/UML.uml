@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<uml:Model xmi:version="2.1" xmlns:xmi="http://schema.omg.org/spec/XMI/2.1" xmlns:uml="http://www.eclipse.org/uml2/3.0.0/UML" xmi:id="_qb8akM37EdqwVrslYOdUDA" name="UML">
+<uml:Model xmi:version="2.1" xmlns:xmi="http://schema.omg.org/spec/XMI/2.1" xmlns:uml="http://www.eclipse.org/uml2/3.0.0/UML" xmi:id="_qb8akM37EdqwVrslYOdUDA" name="Service">
   <ownedComment xmi:id="_aNKk8EgAEeCaff7wG7ulKw" annotatedElement="_gbD5UEf6EeCaff7wG7ulKw">
     <body>系统模型</body>
   </ownedComment>
@@ -99,6 +99,7 @@
   <packagedElement xmi:type="uml:Actor" xmi:id="_-0lqIEcWEeCObZI7vuNmQA" name=""/>
   <packagedElement xmi:type="uml:UseCase" xmi:id="_PLWLQEcZEeCObZI7vuNmQA" name="好友分组"/>
   <packagedElement xmi:type="uml:Package" xmi:id="_gbD5UEf6EeCaff7wG7ulKw" name="Entity">
+    <packageImport xmi:id="_tpejYE71EeCcN9XmDH4pbA"/>
     <packagedElement xmi:type="uml:Class" xmi:id="_atEbwEf6EeCaff7wG7ulKw" name="BaseEntity">
       <ownedAttribute xmi:id="_dzINwEf6EeCaff7wG7ulKw" name="Id"/>
       <ownedAttribute xmi:id="_JNgYAEmDEeCnnuKcigt5Dw" name="createDate"/>
@@ -109,18 +110,26 @@
       <ownedAttribute xmi:id="_QKfVEEl_EeCnnuKcigt5Dw" name="name"/>
       <ownedAttribute xmi:id="_sxubQEl_EeCnnuKcigt5Dw" name="password"/>
       <ownedAttribute xmi:id="_QSrV0EmBEeCnnuKcigt5Dw" name="categoryList"/>
+      <ownedAttribute xmi:id="_3C7kQEy_EeCVqsPVuxKMpw" name="email"/>
+      <ownedAttribute xmi:id="_kQcpYE7zEeCcN9XmDH4pbA" name="role"/>
+      <ownedAttribute xmi:id="_vnj2IE70EeCcN9XmDH4pbA" name="userMeta"/>
+      <ownedAttribute xmi:id="_rIwkAE7-EeCcN9XmDH4pbA" name="albumList"/>
+      <ownedAttribute xmi:id="_1i2YwE8IEeCcN9XmDH4pbA" name="headPicture"/>
     </packagedElement>
     <packagedElement xmi:type="uml:Class" xmi:id="_7vCA0Ef6EeCaff7wG7ulKw" name="Picture">
       <generalization xmi:id="_HXgf0Ef7EeCaff7wG7ulKw" general="_atEbwEf6EeCaff7wG7ulKw"/>
       <ownedAttribute xmi:id="_j_IVoEf9EeCaff7wG7ulKw" name="commentList" type="_yYbBUEf7EeCaff7wG7ulKw"/>
       <ownedAttribute xmi:id="__-rwoEmFEeCnnuKcigt5Dw" name="customDate"/>
+      <ownedAttribute xmi:id="_rmwZgE78EeCcN9XmDH4pbA" name="Album"/>
+      <ownedAttribute xmi:id="_ubq6sE8IEeCcN9XmDH4pbA" name="picyureType"/>
     </packagedElement>
     <packagedElement xmi:type="uml:Class" xmi:id="_9XWpgEf6EeCaff7wG7ulKw" name="SimpleComment">
       <generalization xmi:id="_H3lHAEf7EeCaff7wG7ulKw" general="_atEbwEf6EeCaff7wG7ulKw"/>
-      <ownedAttribute xmi:id="_O33A8Ef9EeCaff7wG7ulKw" name="commentatorId">
+      <ownedAttribute xmi:id="_O33A8Ef9EeCaff7wG7ulKw" name="commentator">
         <defaultValue xmi:type="uml:LiteralString" xmi:id="_-7sNQEf-EeCaff7wG7ulKw" value=""/>
       </ownedAttribute>
       <ownedAttribute xmi:id="_ovssEEmGEeCnnuKcigt5Dw" name="type"/>
+      <ownedAttribute xmi:id="_07Cg8E7_EeCcN9XmDH4pbA" name="picture"/>
     </packagedElement>
     <packagedElement xmi:type="uml:Class" xmi:id="_Oxb6wEf7EeCaff7wG7ulKw" name="Album">
       <generalization xmi:id="_SaV7IEf7EeCaff7wG7ulKw" general="_atEbwEf6EeCaff7wG7ulKw"/>
@@ -128,6 +137,7 @@
       <ownedAttribute xmi:id="_vLEUYEmDEeCnnuKcigt5Dw" name="name"/>
       <ownedAttribute xmi:id="_qMvjwEmEEeCnnuKcigt5Dw" name="customDate"/>
       <ownedAttribute xmi:id="_a56dcEmFEeCnnuKcigt5Dw" name="cover" type="_7vCA0Ef6EeCaff7wG7ulKw"/>
+      <ownedAttribute xmi:id="_uUOpIE-8EeCKh-ceYGVbbw" name="owner"/>
     </packagedElement>
     <packagedElement xmi:type="uml:Association" xmi:id="_Yc6hkEf7EeCaff7wG7ulKw" name="A_&lt;album>_&lt;user>" memberEnd="_Yc6hkUf7EeCaff7wG7ulKw _Yc6hlEf7EeCaff7wG7ulKw">
       <ownedEnd xmi:id="_Yc6hkUf7EeCaff7wG7ulKw" name="album" type="_Oxb6wEf7EeCaff7wG7ulKw" association="_Yc6hkEf7EeCaff7wG7ulKw">
@@ -164,7 +174,8 @@
       <ownedAttribute xmi:id="_WZlUkEl_EeCnnuKcigt5Dw" name="eMail"/>
       <ownedAttribute xmi:id="_jv84wEl_EeCnnuKcigt5Dw" name="country"/>
       <ownedAttribute xmi:id="_lPbugEl_EeCnnuKcigt5Dw" name="birthday"/>
-      <ownedAttribute xmi:id="_f2p2gEmAEeCnnuKcigt5Dw" name="other"/>
+      <ownedAttribute xmi:id="_f2p2gEmAEeCnnuKcigt5Dw" name="otherStuff"/>
+      <ownedAttribute xmi:id="_63ZgwE72EeCcN9XmDH4pbA" name="sex"/>
     </packagedElement>
     <packagedElement xmi:type="uml:Class" xmi:id="_81hSUEf7EeCaff7wG7ulKw" name="AlbumMeta">
       <ownedAttribute xmi:id="_YptVYEmFEeCnnuKcigt5Dw" name="description"/>
@@ -214,16 +225,22 @@
     </packagedElement>
     <packagedElement xmi:type="uml:Class" xmi:id="_pCLc0El-EeCnnuKcigt5Dw" name="Friend">
       <generalization xmi:id="_Bt0QIEl_EeCnnuKcigt5Dw" general="_atEbwEf6EeCaff7wG7ulKw"/>
+      <ownedAttribute xmi:id="_ylr9sE8AEeCcN9XmDH4pbA" name="user"/>
+      <ownedAttribute xmi:id="_3nhf4E8AEeCcN9XmDH4pbA" name="category"/>
+      <ownedAttribute xmi:id="_EqzNEE--EeCKh-ceYGVbbw" name="nickName"/>
     </packagedElement>
     <packagedElement xmi:type="uml:Class" xmi:id="_0_8PUEl-EeCnnuKcigt5Dw" name="Category">
       <generalization xmi:id="_CUsp8El_EeCnnuKcigt5Dw" general="_atEbwEf6EeCaff7wG7ulKw"/>
       <ownedAttribute xmi:id="_t9X5kEmAEeCnnuKcigt5Dw" name="name"/>
+      <ownedAttribute xmi:id="_-yJTgE8AEeCcN9XmDH4pbA" name="owner"/>
+      <ownedAttribute xmi:id="_XSXh8E-6EeCKh-ceYGVbbw" name="friendList"/>
     </packagedElement>
     <packagedElement xmi:type="uml:Class" xmi:id="_3fKq0El-EeCnnuKcigt5Dw" name="Message">
       <generalization xmi:id="_FmhAAEl_EeCnnuKcigt5Dw" general="_atEbwEf6EeCaff7wG7ulKw"/>
       <ownedAttribute xmi:id="_49SZMEl_EeCnnuKcigt5Dw" name="inviteeId"/>
       <ownedAttribute xmi:id="_GkKekEmAEeCnnuKcigt5Dw" name="content"/>
       <ownedAttribute xmi:id="_KY-0AEmAEeCnnuKcigt5Dw" name="inviterId"/>
+      <ownedAttribute xmi:id="_55tg8Ey7EeCVqsPVuxKMpw" name="isRead"/>
     </packagedElement>
     <packagedElement xmi:type="uml:Association" xmi:id="_dmhxgEmBEeCnnuKcigt5Dw" name="A_&lt;category>_&lt;user>" memberEnd="_dmhxgUmBEeCnnuKcigt5Dw _dmhxhEmBEeCnnuKcigt5Dw">
       <ownedEnd xmi:id="_dmhxgUmBEeCnnuKcigt5Dw" name="category" type="_0_8PUEl-EeCnnuKcigt5Dw" association="_dmhxgEmBEeCnnuKcigt5Dw">
@@ -254,6 +271,100 @@
         <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_S2GC5UmDEeCnnuKcigt5Dw" value="1"/>
         <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_S2GC5kmDEeCnnuKcigt5Dw" value="1"/>
       </ownedEnd>
+    </packagedElement>
+    <packagedElement xmi:type="uml:Class" xmi:id="_guqqQEy6EeCVqsPVuxKMpw" name="Role">
+      <generalization xmi:id="_jhmr8Ey6EeCVqsPVuxKMpw" general="_atEbwEf6EeCaff7wG7ulKw"/>
+      <ownedAttribute xmi:id="_wXtbsEy6EeCVqsPVuxKMpw" name="name"/>
+      <ownedAttribute xmi:id="_zRJG8Ey6EeCVqsPVuxKMpw" name="userList"/>
+    </packagedElement>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Package" xmi:id="_PBTLEE7zEeCcN9XmDH4pbA" name="Service">
+    <ownedComment xmi:id="_9rYAEE79EeCcN9XmDH4pbA" annotatedElement="_MvfggE7zEeCcN9XmDH4pbA">
+      <body>param:User   return:boolean
+the same
+the same
+param:String return:User
+the same
+</body>
+    </ownedComment>
+    <ownedComment xmi:id="_yMgTkE7-EeCcN9XmDH4pbA" annotatedElement="_MvfggE7zEeCcN9XmDH4pbA">
+      <body>一个是id，一个是email和password</body>
+    </ownedComment>
+    <ownedComment xmi:id="_He0d0E8DEeCcN9XmDH4pbA">
+      <body>add picture 要返回id</body>
+    </ownedComment>
+    <ownedComment xmi:id="_FuesIE8EEeCcN9XmDH4pbA" annotatedElement="_MvfggE7zEeCcN9XmDH4pbA">
+      <body>要返回id</body>
+    </ownedComment>
+    <packagedElement xmi:type="uml:Interface" xmi:id="_MvfggE7zEeCcN9XmDH4pbA" name="IUserService&lt;T extends User>">
+      <generalization xmi:id="_tc34MFBdEeCHPIlMT0Qt-w" general="_ofAQAFBdEeCHPIlMT0Qt-w"/>
+      <ownedOperation xmi:id="_W984kE7zEeCcN9XmDH4pbA" name="addUser"/>
+      <ownedOperation xmi:id="_IHlEwE70EeCcN9XmDH4pbA" name="deleteUser"/>
+      <ownedOperation xmi:id="_FxhhcE72EeCcN9XmDH4pbA" name="updateUser"/>
+      <ownedOperation xmi:id="_kPbOUE72EeCcN9XmDH4pbA" name="searchUserByName"/>
+      <ownedOperation xmi:id="_Wn3XAE73EeCcN9XmDH4pbA" name="searchUserByEmail"/>
+      <ownedOperation xmi:id="_XnSsUE76EeCcN9XmDH4pbA" name="searchUser"/>
+      <ownedOperation xmi:id="_t0_gwE7-EeCcN9XmDH4pbA" name="getUser"/>
+    </packagedElement>
+    <packagedElement xmi:type="uml:Interface" xmi:id="_YdvwAE72EeCcN9XmDH4pbA" name="IAlbumService">
+      <generalization xmi:id="_uXHS4FBdEeCHPIlMT0Qt-w" general="_ofAQAFBdEeCHPIlMT0Qt-w"/>
+      <ownedOperation xmi:id="_iqR4oE76EeCcN9XmDH4pbA" name="addAlbum"/>
+      <ownedOperation xmi:id="_p6RUcE76EeCcN9XmDH4pbA" name="deleteAlbum"/>
+      <ownedOperation xmi:id="_ZtBNQE77EeCcN9XmDH4pbA" name="updateCustomDate"/>
+      <ownedOperation xmi:id="_gWHLsE78EeCcN9XmDH4pbA" name="updateDescription"/>
+    </packagedElement>
+    <packagedElement xmi:type="uml:Class" xmi:id="_SjOncE74EeCcN9XmDH4pbA" name="Constraint">
+      <ownedAttribute xmi:id="_gQTbcE74EeCcN9XmDH4pbA" name="sex"/>
+      <ownedAttribute xmi:id="_4goLwE74EeCcN9XmDH4pbA" name="minAge"/>
+      <ownedAttribute xmi:id="_T5jrwE75EeCcN9XmDH4pbA" name="maxAge"/>
+      <ownedAttribute xmi:id="_bt7nAE75EeCcN9XmDH4pbA" name="city"/>
+      <ownedAttribute xmi:id="_mOgCwE75EeCcN9XmDH4pbA" name="country"/>
+      <ownedAttribute xmi:id="_t8HOsE75EeCcN9XmDH4pbA" name="minBirthday"/>
+      <ownedAttribute xmi:id="_zBjegE75EeCcN9XmDH4pbA" name="maxBirthday"/>
+    </packagedElement>
+    <packagedElement xmi:type="uml:Interface" xmi:id="_JwJWUE76EeCcN9XmDH4pbA" name="IPictureService">
+      <generalization xmi:id="_J0vFoFBeEeCHPIlMT0Qt-w" general="_ofAQAFBdEeCHPIlMT0Qt-w"/>
+      <ownedOperation xmi:id="_sLE5cE76EeCcN9XmDH4pbA" name="addPicture"/>
+      <ownedOperation xmi:id="_gbZJwE77EeCcN9XmDH4pbA" name="deletePicture"/>
+      <ownedOperation xmi:id="_mRPi0E77EeCcN9XmDH4pbA" name="updateCustomDate"/>
+      <ownedOperation xmi:id="_cf4hAE78EeCcN9XmDH4pbA" name="updateDescription"/>
+    </packagedElement>
+    <packagedElement xmi:type="uml:Interface" xmi:id="_MGqaYE79EeCcN9XmDH4pbA" name="ICommentService">
+      <generalization xmi:id="_wFWWUFBdEeCHPIlMT0Qt-w" general="_ofAQAFBdEeCHPIlMT0Qt-w"/>
+      <ownedAttribute xmi:id="_Qw0KcE7_EeCcN9XmDH4pbA" name="addComment"/>
+      <ownedOperation xmi:id="_txCYYE7_EeCcN9XmDH4pbA" name="addComment"/>
+      <ownedOperation xmi:id="_vj7SUE7_EeCcN9XmDH4pbA" name="deleteComment"/>
+      <ownedOperation xmi:id="_drjtIE8AEeCcN9XmDH4pbA" name="getProSum"/>
+      <ownedOperation xmi:id="_nixC0E8AEeCcN9XmDH4pbA" name="getConSum"/>
+    </packagedElement>
+    <packagedElement xmi:type="uml:Interface" xmi:id="_ICmLME8BEeCcN9XmDH4pbA" name="IFriendService">
+      <generalization xmi:id="_vFvTcFBdEeCHPIlMT0Qt-w" general="_ofAQAFBdEeCHPIlMT0Qt-w"/>
+      <ownedOperation xmi:id="_9QzAEE8BEeCcN9XmDH4pbA" name="addFriend"/>
+      <ownedOperation xmi:id="_36ilsE8EEeCcN9XmDH4pbA" name="deleteFriend"/>
+    </packagedElement>
+    <packagedElement xmi:type="uml:Interface" xmi:id="_a2bWQE8EEeCcN9XmDH4pbA" name="IMessageService">
+      <generalization xmi:id="_EF2QMFBeEeCHPIlMT0Qt-w" general="_ofAQAFBdEeCHPIlMT0Qt-w"/>
+      <ownedOperation xmi:id="_gByA0E8EEeCcN9XmDH4pbA" name="sendMessage"/>
+      <ownedOperation xmi:id="_pOLe8E8EEeCcN9XmDH4pbA" name="getMessage"/>
+    </packagedElement>
+    <packagedElement xmi:type="uml:Interface" xmi:id="_S-rhcE8FEeCcN9XmDH4pbA" name="ICategoryService">
+      <generalization xmi:id="_LdWpQFBeEeCHPIlMT0Qt-w" general="_ofAQAFBdEeCHPIlMT0Qt-w"/>
+      <ownedOperation xmi:id="_iIpKME8FEeCcN9XmDH4pbA" name="addCategory"/>
+      <ownedOperation xmi:id="_lWMEQE8FEeCcN9XmDH4pbA" name="deleteCategory"/>
+      <ownedOperation xmi:id="_vp0QME8FEeCcN9XmDH4pbA" name="moveUser"/>
+    </packagedElement>
+    <packagedElement xmi:type="uml:Interface" xmi:id="_ofAQAFBdEeCHPIlMT0Qt-w" name="IService&lt;T extends BaseEntity>">
+      <ownedOperation xmi:id="_8YBMYFBeEeCHPIlMT0Qt-w" name="add"/>
+      <ownedOperation xmi:id="__Ls08FBeEeCHPIlMT0Qt-w" name="delete"/>
+      <ownedOperation xmi:id="_Ar0j4FBfEeCHPIlMT0Qt-w" name="update"/>
+    </packagedElement>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Package" xmi:id="_grn58E8CEeCcN9XmDH4pbA" name="data">
+    <packagedElement xmi:type="uml:Package" xmi:id="_jPXpEE8CEeCcN9XmDH4pbA" name="user_id">
+      <packagedElement xmi:type="uml:Package" xmi:id="_kymWYE8CEeCcN9XmDH4pbA" name="album_name">
+        <packagedElement xmi:type="uml:Package" xmi:id="_-NpNYE8CEeCcN9XmDH4pbA" name="picture_id"/>
+      </packagedElement>
+      <packagedElement xmi:type="uml:Package" xmi:id="_l7jtEE8DEeCcN9XmDH4pbA" name="head"/>
     </packagedElement>
   </packagedElement>
 </uml:Model>

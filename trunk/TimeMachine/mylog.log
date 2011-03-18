@@ -1,0 +1,571 @@
+[23:09:35:743][org.hibernate.cfg.Configuration-secondPassCompileForeignKeys] -resolving reference to class: cn.edu.nju.software.timemachine.entity.Category
+[23:09:35:743][org.hibernate.cfg.Configuration-secondPassCompileForeignKeys] -resolving reference to class: cn.edu.nju.software.timemachine.entity.User
+[23:09:35:744][org.hibernate.cfg.Configuration-secondPassCompileForeignKeys] -resolving reference to class: cn.edu.nju.software.timemachine.entity.User
+[23:09:35:744][org.hibernate.cfg.Configuration-secondPassCompileForeignKeys] -resolving reference to class: cn.edu.nju.software.timemachine.entity.PictureMeta
+[23:09:35:744][org.hibernate.cfg.Configuration-secondPassCompileForeignKeys] -resolving reference to class: cn.edu.nju.software.timemachine.entity.Album
+[23:09:35:745][org.hibernate.cfg.Configuration-secondPassCompileForeignKeys] -resolving reference to class: cn.edu.nju.software.timemachine.entity.User
+[23:09:35:745][org.hibernate.cfg.Configuration-secondPassCompileForeignKeys] -resolving reference to class: cn.edu.nju.software.timemachine.entity.Picture
+[23:09:35:746][org.hibernate.cfg.Configuration-secondPassCompileForeignKeys] -resolving reference to class: cn.edu.nju.software.timemachine.entity.Role
+[23:09:35:746][org.hibernate.cfg.Configuration-secondPassCompileForeignKeys] -resolving reference to class: cn.edu.nju.software.timemachine.entity.UserMeta
+[23:09:35:747][org.hibernate.validator.ClassValidator-getDefaultResourceBundle] -ResourceBundle ValidatorMessages not found in Validator classloader. Delegate to org.hibernate.validator.resources.DefaultValidatorMessages
+[23:09:35:749][org.hibernate.validator.ClassValidator-getDefaultResourceBundle] -ResourceBundle ValidatorMessages not found in Validator classloader. Delegate to org.hibernate.validator.resources.DefaultValidatorMessages
+[23:09:35:750][org.hibernate.validator.ClassValidator-getDefaultResourceBundle] -ResourceBundle ValidatorMessages not found in Validator classloader. Delegate to org.hibernate.validator.resources.DefaultValidatorMessages
+[23:09:35:751][org.hibernate.validator.ClassValidator-getDefaultResourceBundle] -ResourceBundle ValidatorMessages not found in Validator classloader. Delegate to org.hibernate.validator.resources.DefaultValidatorMessages
+[23:09:35:752][org.hibernate.validator.ClassValidator-getDefaultResourceBundle] -ResourceBundle ValidatorMessages not found in Validator classloader. Delegate to org.hibernate.validator.resources.DefaultValidatorMessages
+[23:09:35:753][org.hibernate.validator.ClassValidator-getDefaultResourceBundle] -ResourceBundle ValidatorMessages not found in Validator classloader. Delegate to org.hibernate.validator.resources.DefaultValidatorMessages
+[23:09:35:754][org.hibernate.validator.ClassValidator-getDefaultResourceBundle] -ResourceBundle ValidatorMessages not found in Validator classloader. Delegate to org.hibernate.validator.resources.DefaultValidatorMessages
+[23:09:35:755][org.hibernate.validator.ClassValidator-getDefaultResourceBundle] -ResourceBundle ValidatorMessages not found in Validator classloader. Delegate to org.hibernate.validator.resources.DefaultValidatorMessages
+[23:09:35:756][org.hibernate.validator.ClassValidator-getDefaultResourceBundle] -ResourceBundle ValidatorMessages not found in Validator classloader. Delegate to org.hibernate.validator.resources.DefaultValidatorMessages
+[23:09:35:757][org.hibernate.validator.ClassValidator-getDefaultResourceBundle] -ResourceBundle ValidatorMessages not found in Validator classloader. Delegate to org.hibernate.validator.resources.DefaultValidatorMessages
+[23:09:35:758][org.hibernate.validator.ClassValidator-getDefaultResourceBundle] -ResourceBundle ValidatorMessages not found in Validator classloader. Delegate to org.hibernate.validator.resources.DefaultValidatorMessages
+[23:09:35:761][org.hibernate.cfg.AnnotationConfiguration-secondPassCompile] -Execute first pass mapping processing
+[23:09:35:761][org.hibernate.cfg.AnnotationConfiguration-processArtifactsOfType] -Process hbm files
+[23:09:35:762][org.hibernate.cfg.AnnotationConfiguration-processArtifactsOfType] -Process annotated classes
+[23:09:35:762][org.hibernate.cfg.AnnotationConfiguration-processFkSecondPassInOrder] -processing fk mappings (*ToOne and JoinedSubclass)
+[23:09:35:762][org.hibernate.cfg.Configuration-secondPassCompile] -processing extends queue
+[23:09:35:763][org.hibernate.cfg.Configuration-secondPassCompile] -processing collection mappings
+[23:09:35:763][org.hibernate.cfg.Configuration-secondPassCompile] -processing native query and ResultSetMapping mappings
+[23:09:35:764][org.hibernate.cfg.Configuration-secondPassCompile] -processing association property references
+[23:09:35:764][org.hibernate.cfg.Configuration-secondPassCompile] -processing foreign key constraints
+[23:09:35:765][org.hibernate.cfg.Configuration-secondPassCompileForeignKeys] -resolving reference to class: cn.edu.nju.software.timemachine.entity.Picture
+[23:09:35:765][org.hibernate.cfg.Configuration-secondPassCompileForeignKeys] -resolving reference to class: cn.edu.nju.software.timemachine.entity.User
+[23:09:35:765][org.hibernate.cfg.Configuration-secondPassCompileForeignKeys] -resolving reference to class: cn.edu.nju.software.timemachine.entity.User
+[23:09:35:766][org.hibernate.cfg.Configuration-secondPassCompileForeignKeys] -resolving reference to class: cn.edu.nju.software.timemachine.entity.User
+[23:09:35:766][org.hibernate.cfg.Configuration-secondPassCompileForeignKeys] -resolving reference to class: cn.edu.nju.software.timemachine.entity.Category
+[23:09:35:767][org.hibernate.cfg.Configuration-secondPassCompileForeignKeys] -resolving reference to class: cn.edu.nju.software.timemachine.entity.User
+[23:09:35:767][org.hibernate.cfg.Configuration-secondPassCompileForeignKeys] -resolving reference to class: cn.edu.nju.software.timemachine.entity.User
+[23:09:35:768][org.hibernate.cfg.Configuration-secondPassCompileForeignKeys] -resolving reference to class: cn.edu.nju.software.timemachine.entity.PictureMeta
+[23:09:35:768][org.hibernate.cfg.Configuration-secondPassCompileForeignKeys] -resolving reference to class: cn.edu.nju.software.timemachine.entity.Album
+[23:09:35:768][org.hibernate.cfg.Configuration-secondPassCompileForeignKeys] -resolving reference to class: cn.edu.nju.software.timemachine.entity.User
+[23:09:35:769][org.hibernate.cfg.Configuration-secondPassCompileForeignKeys] -resolving reference to class: cn.edu.nju.software.timemachine.entity.Picture
+[23:09:35:769][org.hibernate.cfg.Configuration-secondPassCompileForeignKeys] -resolving reference to class: cn.edu.nju.software.timemachine.entity.Role
+[23:09:35:770][org.hibernate.cfg.Configuration-secondPassCompileForeignKeys] -resolving reference to class: cn.edu.nju.software.timemachine.entity.UserMeta
+[23:09:35:770][org.hibernate.validator.ClassValidator-getDefaultResourceBundle] -ResourceBundle ValidatorMessages not found in Validator classloader. Delegate to org.hibernate.validator.resources.DefaultValidatorMessages
+[23:09:35:772][org.hibernate.validator.ClassValidator-getDefaultResourceBundle] -ResourceBundle ValidatorMessages not found in Validator classloader. Delegate to org.hibernate.validator.resources.DefaultValidatorMessages
+[23:09:35:773][org.hibernate.validator.ClassValidator-getDefaultResourceBundle] -ResourceBundle ValidatorMessages not found in Validator classloader. Delegate to org.hibernate.validator.resources.DefaultValidatorMessages
+[23:09:35:774][org.hibernate.validator.ClassValidator-getDefaultResourceBundle] -ResourceBundle ValidatorMessages not found in Validator classloader. Delegate to org.hibernate.validator.resources.DefaultValidatorMessages
+[23:09:35:775][org.hibernate.validator.ClassValidator-getDefaultResourceBundle] -ResourceBundle ValidatorMessages not found in Validator classloader. Delegate to org.hibernate.validator.resources.DefaultValidatorMessages
+[23:09:35:776][org.hibernate.validator.ClassValidator-getDefaultResourceBundle] -ResourceBundle ValidatorMessages not found in Validator classloader. Delegate to org.hibernate.validator.resources.DefaultValidatorMessages
+[23:09:35:777][org.hibernate.validator.ClassValidator-getDefaultResourceBundle] -ResourceBundle ValidatorMessages not found in Validator classloader. Delegate to org.hibernate.validator.resources.DefaultValidatorMessages
+[23:09:35:778][org.hibernate.validator.ClassValidator-getDefaultResourceBundle] -ResourceBundle ValidatorMessages not found in Validator classloader. Delegate to org.hibernate.validator.resources.DefaultValidatorMessages
+[23:09:35:779][org.hibernate.validator.ClassValidator-getDefaultResourceBundle] -ResourceBundle ValidatorMessages not found in Validator classloader. Delegate to org.hibernate.validator.resources.DefaultValidatorMessages
+[23:09:35:780][org.hibernate.validator.ClassValidator-getDefaultResourceBundle] -ResourceBundle ValidatorMessages not found in Validator classloader. Delegate to org.hibernate.validator.resources.DefaultValidatorMessages
+[23:09:35:781][org.hibernate.validator.ClassValidator-getDefaultResourceBundle] -ResourceBundle ValidatorMessages not found in Validator classloader. Delegate to org.hibernate.validator.resources.DefaultValidatorMessages
+[23:09:35:787][org.hibernate.tool.hbm2ddl.SchemaExport-execute] -Running hbm2ddl schema export
+[23:09:35:788][org.hibernate.tool.hbm2ddl.SchemaExport-execute] -import file not found: /import.sql
+[23:09:35:789][org.hibernate.tool.hbm2ddl.SchemaExport-execute] -exporting generated schema to database
+[23:09:35:792][org.hibernate.util.JDBCExceptionReporter-logExceptions] -SQL Exception
+org.apache.commons.dbcp.SQLNestedException: Cannot create PoolableConnectionFactory (Communications link failure
+
+The last packet sent successfully to the server was 0 milliseconds ago. The driver has not received any packets from the server.)
+	at org.apache.commons.dbcp.BasicDataSource.createDataSource(BasicDataSource.java:855)
+	at org.apache.commons.dbcp.BasicDataSource.getConnection(BasicDataSource.java:540)
+	at org.springframework.orm.hibernate3.LocalDataSourceConnectionProvider.getConnection(LocalDataSourceConnectionProvider.java:81)
+	at org.hibernate.tool.hbm2ddl.SuppliedConnectionProviderConnectionHelper.prepare(SuppliedConnectionProviderConnectionHelper.java:51)
+	at org.hibernate.tool.hbm2ddl.SchemaExport.execute(SchemaExport.java:252)
+	at org.hibernate.tool.hbm2ddl.SchemaExport.create(SchemaExport.java:211)
+	at org.hibernate.impl.SessionFactoryImpl.<init>(SessionFactoryImpl.java:343)
+	at org.hibernate.cfg.Configuration.buildSessionFactory(Configuration.java:1327)
+	at org.hibernate.cfg.AnnotationConfiguration.buildSessionFactory(AnnotationConfiguration.java:867)
+	at org.springframework.orm.hibernate3.LocalSessionFactoryBean.newSessionFactory(LocalSessionFactoryBean.java:855)
+	at org.springframework.orm.hibernate3.LocalSessionFactoryBean.buildSessionFactory(LocalSessionFactoryBean.java:774)
+	at org.springframework.orm.hibernate3.AbstractSessionFactoryBean.afterPropertiesSet(AbstractSessionFactoryBean.java:211)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.invokeInitMethods(AbstractAutowireCapableBeanFactory.java:1460)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.initializeBean(AbstractAutowireCapableBeanFactory.java:1400)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:513)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:450)
+	at org.springframework.beans.factory.support.AbstractBeanFactory$1.getObject(AbstractBeanFactory.java:290)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:222)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:287)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:189)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.findAutowireCandidates(DefaultListableBeanFactory.java:825)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.doResolveDependency(DefaultListableBeanFactory.java:767)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.resolveDependency(DefaultListableBeanFactory.java:685)
+	at org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor$AutowiredMethodElement.inject(AutowiredAnnotationBeanPostProcessor.java:559)
+	at org.springframework.beans.factory.annotation.InjectionMetadata.inject(InjectionMetadata.java:84)
+	at org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor.postProcessPropertyValues(AutowiredAnnotationBeanPostProcessor.java:283)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.populateBean(AbstractAutowireCapableBeanFactory.java:1055)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:511)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:450)
+	at org.springframework.beans.factory.support.AbstractBeanFactory$1.getObject(AbstractBeanFactory.java:290)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:222)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:287)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:189)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.findAutowireCandidates(DefaultListableBeanFactory.java:825)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.doResolveDependency(DefaultListableBeanFactory.java:767)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.resolveDependency(DefaultListableBeanFactory.java:685)
+	at org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor$AutowiredFieldElement.inject(AutowiredAnnotationBeanPostProcessor.java:478)
+	at org.springframework.beans.factory.annotation.InjectionMetadata.inject(InjectionMetadata.java:84)
+	at org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor.postProcessPropertyValues(AutowiredAnnotationBeanPostProcessor.java:283)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.populateBean(AbstractAutowireCapableBeanFactory.java:1055)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:511)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:450)
+	at org.springframework.beans.factory.support.AbstractBeanFactory$1.getObject(AbstractBeanFactory.java:290)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:222)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:287)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:189)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.preInstantiateSingletons(DefaultListableBeanFactory.java:562)
+	at org.springframework.context.support.AbstractApplicationContext.finishBeanFactoryInitialization(AbstractApplicationContext.java:871)
+	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:423)
+	at org.springframework.test.context.support.AbstractGenericContextLoader.loadContext(AbstractGenericContextLoader.java:84)
+	at org.springframework.test.context.support.AbstractGenericContextLoader.loadContext(AbstractGenericContextLoader.java:42)
+	at org.springframework.test.context.TestContext.loadApplicationContext(TestContext.java:173)
+	at org.springframework.test.context.TestContext.getApplicationContext(TestContext.java:197)
+	at org.springframework.test.context.support.DependencyInjectionTestExecutionListener.injectDependencies(DependencyInjectionTestExecutionListener.java:109)
+	at org.springframework.test.context.support.DependencyInjectionTestExecutionListener.prepareTestInstance(DependencyInjectionTestExecutionListener.java:75)
+	at org.springframework.test.context.TestContextManager.prepareTestInstance(TestContextManager.java:255)
+	at org.springframework.test.context.junit4.SpringJUnit4ClassRunner.createTest(SpringJUnit4ClassRunner.java:111)
+	at org.springframework.test.context.junit4.SpringJUnit4ClassRunner.invokeTestMethod(SpringJUnit4ClassRunner.java:148)
+	at org.junit.internal.runners.JUnit4ClassRunner.runMethods(JUnit4ClassRunner.java:59)
+	at org.junit.internal.runners.JUnit4ClassRunner$1.run(JUnit4ClassRunner.java:52)
+	at org.junit.internal.runners.ClassRoadie.runUnprotected(ClassRoadie.java:34)
+	at org.junit.internal.runners.ClassRoadie.runProtected(ClassRoadie.java:44)
+	at org.junit.internal.runners.JUnit4ClassRunner.run(JUnit4ClassRunner.java:50)
+	at org.springframework.test.context.junit4.SpringJUnit4ClassRunner.run(SpringJUnit4ClassRunner.java:97)
+	at org.junit.runners.Suite.runChild(Suite.java:115)
+	at org.junit.runners.Suite.runChild(Suite.java:23)
+	at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:180)
+	at org.junit.runners.ParentRunner.access$000(ParentRunner.java:41)
+	at org.junit.runners.ParentRunner$1.evaluate(ParentRunner.java:173)
+	at org.junit.internal.runners.statements.RunBefores.evaluate(RunBefores.java:28)
+	at org.junit.internal.runners.statements.RunAfters.evaluate(RunAfters.java:31)
+	at org.junit.runners.ParentRunner.run(ParentRunner.java:220)
+	at org.eclipse.jdt.internal.junit4.runner.JUnit4TestReference.run(JUnit4TestReference.java:46)
+	at org.eclipse.jdt.internal.junit.runner.TestExecution.run(TestExecution.java:38)
+	at org.eclipse.jdt.internal.junit.runner.RemoteTestRunner.runTests(RemoteTestRunner.java:467)
+	at org.eclipse.jdt.internal.junit.runner.RemoteTestRunner.runTests(RemoteTestRunner.java:683)
+	at org.eclipse.jdt.internal.junit.runner.RemoteTestRunner.run(RemoteTestRunner.java:390)
+	at org.eclipse.jdt.internal.junit.runner.RemoteTestRunner.main(RemoteTestRunner.java:197)
+Caused by: com.mysql.jdbc.exceptions.jdbc4.CommunicationsException: Communications link failure
+
+The last packet sent successfully to the server was 0 milliseconds ago. The driver has not received any packets from the server.
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:39)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:27)
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:513)
+	at com.mysql.jdbc.Util.handleNewInstance(Util.java:409)
+	at com.mysql.jdbc.SQLError.createCommunicationsException(SQLError.java:1118)
+	at com.mysql.jdbc.MysqlIO.<init>(MysqlIO.java:343)
+	at com.mysql.jdbc.ConnectionImpl.connectOneTryOnly(ConnectionImpl.java:2308)
+	at com.mysql.jdbc.ConnectionImpl.createNewIO(ConnectionImpl.java:2122)
+	at com.mysql.jdbc.ConnectionImpl.<init>(ConnectionImpl.java:774)
+	at com.mysql.jdbc.JDBC4Connection.<init>(JDBC4Connection.java:49)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:39)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:27)
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:513)
+	at com.mysql.jdbc.Util.handleNewInstance(Util.java:409)
+	at com.mysql.jdbc.ConnectionImpl.getInstance(ConnectionImpl.java:375)
+	at com.mysql.jdbc.NonRegisteringDriver.connect(NonRegisteringDriver.java:289)
+	at org.apache.commons.dbcp.DriverConnectionFactory.createConnection(DriverConnectionFactory.java:37)
+	at org.apache.commons.dbcp.PoolableConnectionFactory.makeObject(PoolableConnectionFactory.java:290)
+	at org.apache.commons.dbcp.BasicDataSource.validateConnectionFactory(BasicDataSource.java:877)
+	at org.apache.commons.dbcp.BasicDataSource.createDataSource(BasicDataSource.java:851)
+	... 77 more
+Caused by: java.net.ConnectException: Connection refused
+	at java.net.PlainSocketImpl.socketConnect(Native Method)
+	at java.net.PlainSocketImpl.doConnect(PlainSocketImpl.java:333)
+	at java.net.PlainSocketImpl.connectToAddress(PlainSocketImpl.java:195)
+	at java.net.PlainSocketImpl.connect(PlainSocketImpl.java:182)
+	at java.net.SocksSocketImpl.connect(SocksSocketImpl.java:366)
+	at java.net.Socket.connect(Socket.java:519)
+	at java.net.Socket.connect(Socket.java:469)
+	at java.net.Socket.<init>(Socket.java:366)
+	at java.net.Socket.<init>(Socket.java:209)
+	at com.mysql.jdbc.StandardSocketFactory.connect(StandardSocketFactory.java:256)
+	at com.mysql.jdbc.MysqlIO.<init>(MysqlIO.java:292)
+	... 92 more
+[23:09:35:794][org.hibernate.util.JDBCExceptionReporter-logExceptions] -SQL Error: 0, SQLState: null
+[23:09:35:794][org.hibernate.util.JDBCExceptionReporter-logExceptions] -Cannot create PoolableConnectionFactory (Communications link failure
+
+The last packet sent successfully to the server was 0 milliseconds ago. The driver has not received any packets from the server.)
+[23:09:35:794][org.hibernate.tool.hbm2ddl.SchemaExport-execute] -schema export unsuccessful
+org.apache.commons.dbcp.SQLNestedException: Cannot create PoolableConnectionFactory (Communications link failure
+
+The last packet sent successfully to the server was 0 milliseconds ago. The driver has not received any packets from the server.)
+	at org.apache.commons.dbcp.BasicDataSource.createDataSource(BasicDataSource.java:855)
+	at org.apache.commons.dbcp.BasicDataSource.getConnection(BasicDataSource.java:540)
+	at org.springframework.orm.hibernate3.LocalDataSourceConnectionProvider.getConnection(LocalDataSourceConnectionProvider.java:81)
+	at org.hibernate.tool.hbm2ddl.SuppliedConnectionProviderConnectionHelper.prepare(SuppliedConnectionProviderConnectionHelper.java:51)
+	at org.hibernate.tool.hbm2ddl.SchemaExport.execute(SchemaExport.java:252)
+	at org.hibernate.tool.hbm2ddl.SchemaExport.create(SchemaExport.java:211)
+	at org.hibernate.impl.SessionFactoryImpl.<init>(SessionFactoryImpl.java:343)
+	at org.hibernate.cfg.Configuration.buildSessionFactory(Configuration.java:1327)
+	at org.hibernate.cfg.AnnotationConfiguration.buildSessionFactory(AnnotationConfiguration.java:867)
+	at org.springframework.orm.hibernate3.LocalSessionFactoryBean.newSessionFactory(LocalSessionFactoryBean.java:855)
+	at org.springframework.orm.hibernate3.LocalSessionFactoryBean.buildSessionFactory(LocalSessionFactoryBean.java:774)
+	at org.springframework.orm.hibernate3.AbstractSessionFactoryBean.afterPropertiesSet(AbstractSessionFactoryBean.java:211)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.invokeInitMethods(AbstractAutowireCapableBeanFactory.java:1460)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.initializeBean(AbstractAutowireCapableBeanFactory.java:1400)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:513)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:450)
+	at org.springframework.beans.factory.support.AbstractBeanFactory$1.getObject(AbstractBeanFactory.java:290)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:222)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:287)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:189)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.findAutowireCandidates(DefaultListableBeanFactory.java:825)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.doResolveDependency(DefaultListableBeanFactory.java:767)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.resolveDependency(DefaultListableBeanFactory.java:685)
+	at org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor$AutowiredMethodElement.inject(AutowiredAnnotationBeanPostProcessor.java:559)
+	at org.springframework.beans.factory.annotation.InjectionMetadata.inject(InjectionMetadata.java:84)
+	at org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor.postProcessPropertyValues(AutowiredAnnotationBeanPostProcessor.java:283)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.populateBean(AbstractAutowireCapableBeanFactory.java:1055)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:511)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:450)
+	at org.springframework.beans.factory.support.AbstractBeanFactory$1.getObject(AbstractBeanFactory.java:290)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:222)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:287)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:189)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.findAutowireCandidates(DefaultListableBeanFactory.java:825)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.doResolveDependency(DefaultListableBeanFactory.java:767)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.resolveDependency(DefaultListableBeanFactory.java:685)
+	at org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor$AutowiredFieldElement.inject(AutowiredAnnotationBeanPostProcessor.java:478)
+	at org.springframework.beans.factory.annotation.InjectionMetadata.inject(InjectionMetadata.java:84)
+	at org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor.postProcessPropertyValues(AutowiredAnnotationBeanPostProcessor.java:283)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.populateBean(AbstractAutowireCapableBeanFactory.java:1055)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:511)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:450)
+	at org.springframework.beans.factory.support.AbstractBeanFactory$1.getObject(AbstractBeanFactory.java:290)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:222)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:287)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:189)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.preInstantiateSingletons(DefaultListableBeanFactory.java:562)
+	at org.springframework.context.support.AbstractApplicationContext.finishBeanFactoryInitialization(AbstractApplicationContext.java:871)
+	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:423)
+	at org.springframework.test.context.support.AbstractGenericContextLoader.loadContext(AbstractGenericContextLoader.java:84)
+	at org.springframework.test.context.support.AbstractGenericContextLoader.loadContext(AbstractGenericContextLoader.java:42)
+	at org.springframework.test.context.TestContext.loadApplicationContext(TestContext.java:173)
+	at org.springframework.test.context.TestContext.getApplicationContext(TestContext.java:197)
+	at org.springframework.test.context.support.DependencyInjectionTestExecutionListener.injectDependencies(DependencyInjectionTestExecutionListener.java:109)
+	at org.springframework.test.context.support.DependencyInjectionTestExecutionListener.prepareTestInstance(DependencyInjectionTestExecutionListener.java:75)
+	at org.springframework.test.context.TestContextManager.prepareTestInstance(TestContextManager.java:255)
+	at org.springframework.test.context.junit4.SpringJUnit4ClassRunner.createTest(SpringJUnit4ClassRunner.java:111)
+	at org.springframework.test.context.junit4.SpringJUnit4ClassRunner.invokeTestMethod(SpringJUnit4ClassRunner.java:148)
+	at org.junit.internal.runners.JUnit4ClassRunner.runMethods(JUnit4ClassRunner.java:59)
+	at org.junit.internal.runners.JUnit4ClassRunner$1.run(JUnit4ClassRunner.java:52)
+	at org.junit.internal.runners.ClassRoadie.runUnprotected(ClassRoadie.java:34)
+	at org.junit.internal.runners.ClassRoadie.runProtected(ClassRoadie.java:44)
+	at org.junit.internal.runners.JUnit4ClassRunner.run(JUnit4ClassRunner.java:50)
+	at org.springframework.test.context.junit4.SpringJUnit4ClassRunner.run(SpringJUnit4ClassRunner.java:97)
+	at org.junit.runners.Suite.runChild(Suite.java:115)
+	at org.junit.runners.Suite.runChild(Suite.java:23)
+	at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:180)
+	at org.junit.runners.ParentRunner.access$000(ParentRunner.java:41)
+	at org.junit.runners.ParentRunner$1.evaluate(ParentRunner.java:173)
+	at org.junit.internal.runners.statements.RunBefores.evaluate(RunBefores.java:28)
+	at org.junit.internal.runners.statements.RunAfters.evaluate(RunAfters.java:31)
+	at org.junit.runners.ParentRunner.run(ParentRunner.java:220)
+	at org.eclipse.jdt.internal.junit4.runner.JUnit4TestReference.run(JUnit4TestReference.java:46)
+	at org.eclipse.jdt.internal.junit.runner.TestExecution.run(TestExecution.java:38)
+	at org.eclipse.jdt.internal.junit.runner.RemoteTestRunner.runTests(RemoteTestRunner.java:467)
+	at org.eclipse.jdt.internal.junit.runner.RemoteTestRunner.runTests(RemoteTestRunner.java:683)
+	at org.eclipse.jdt.internal.junit.runner.RemoteTestRunner.run(RemoteTestRunner.java:390)
+	at org.eclipse.jdt.internal.junit.runner.RemoteTestRunner.main(RemoteTestRunner.java:197)
+Caused by: com.mysql.jdbc.exceptions.jdbc4.CommunicationsException: Communications link failure
+
+The last packet sent successfully to the server was 0 milliseconds ago. The driver has not received any packets from the server.
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:39)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:27)
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:513)
+	at com.mysql.jdbc.Util.handleNewInstance(Util.java:409)
+	at com.mysql.jdbc.SQLError.createCommunicationsException(SQLError.java:1118)
+	at com.mysql.jdbc.MysqlIO.<init>(MysqlIO.java:343)
+	at com.mysql.jdbc.ConnectionImpl.connectOneTryOnly(ConnectionImpl.java:2308)
+	at com.mysql.jdbc.ConnectionImpl.createNewIO(ConnectionImpl.java:2122)
+	at com.mysql.jdbc.ConnectionImpl.<init>(ConnectionImpl.java:774)
+	at com.mysql.jdbc.JDBC4Connection.<init>(JDBC4Connection.java:49)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:39)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:27)
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:513)
+	at com.mysql.jdbc.Util.handleNewInstance(Util.java:409)
+	at com.mysql.jdbc.ConnectionImpl.getInstance(ConnectionImpl.java:375)
+	at com.mysql.jdbc.NonRegisteringDriver.connect(NonRegisteringDriver.java:289)
+	at org.apache.commons.dbcp.DriverConnectionFactory.createConnection(DriverConnectionFactory.java:37)
+	at org.apache.commons.dbcp.PoolableConnectionFactory.makeObject(PoolableConnectionFactory.java:290)
+	at org.apache.commons.dbcp.BasicDataSource.validateConnectionFactory(BasicDataSource.java:877)
+	at org.apache.commons.dbcp.BasicDataSource.createDataSource(BasicDataSource.java:851)
+	... 77 more
+Caused by: java.net.ConnectException: Connection refused
+	at java.net.PlainSocketImpl.socketConnect(Native Method)
+	at java.net.PlainSocketImpl.doConnect(PlainSocketImpl.java:333)
+	at java.net.PlainSocketImpl.connectToAddress(PlainSocketImpl.java:195)
+	at java.net.PlainSocketImpl.connect(PlainSocketImpl.java:182)
+	at java.net.SocksSocketImpl.connect(SocksSocketImpl.java:366)
+	at java.net.Socket.connect(Socket.java:519)
+	at java.net.Socket.connect(Socket.java:469)
+	at java.net.Socket.<init>(Socket.java:366)
+	at java.net.Socket.<init>(Socket.java:209)
+	at com.mysql.jdbc.StandardSocketFactory.connect(StandardSocketFactory.java:256)
+	at com.mysql.jdbc.MysqlIO.<init>(MysqlIO.java:292)
+	... 92 more
+[23:09:35:796][org.hibernate.impl.SessionFactoryImpl-checkNamedQueries] -Checking 0 named HQL queries
+[23:09:35:796][org.hibernate.impl.SessionFactoryImpl-checkNamedQueries] -Checking 0 named SQL queries
+[23:09:35:798][org.springframework.beans.factory.support.AbstractBeanFactory-doGetBean] -Returning cached instance of singleton bean 'org.springframework.aop.support.DefaultBeanFactoryPointcutAdvisor#0'
+[23:09:35:798][org.springframework.beans.factory.support.AbstractBeanFactory-doGetBean] -Returning cached instance of singleton bean 'org.springframework.aop.support.DefaultBeanFactoryPointcutAdvisor#0'
+[23:09:35:817][org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory-createBean] -Finished creating instance of bean 'sessionFactory'
+[23:09:35:817][org.springframework.beans.factory.support.AbstractBeanFactory-doGetBean] -Returning cached instance of singleton bean 'org.springframework.aop.support.DefaultBeanFactoryPointcutAdvisor#0'
+[23:09:35:818][org.springframework.beans.factory.support.AbstractBeanFactory-doGetBean] -Returning cached instance of singleton bean 'org.springframework.aop.support.DefaultBeanFactoryPointcutAdvisor#0'
+[23:09:35:857][org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor-registerDependentBeans] -Autowiring by type from bean name 'dao' to bean named 'sessionFactory'
+[23:09:35:860][org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory-invokeInitMethods] -Invoking afterPropertiesSet() on bean with name 'dao'
+[23:09:35:861][org.springframework.beans.factory.support.AbstractBeanFactory-doGetBean] -Returning cached instance of singleton bean 'org.springframework.aop.support.DefaultBeanFactoryPointcutAdvisor#0'
+[23:09:35:861][org.springframework.beans.factory.support.AbstractBeanFactory-doGetBean] -Returning cached instance of singleton bean 'org.springframework.aop.support.DefaultBeanFactoryPointcutAdvisor#0'
+[23:09:35:870][org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory-createBean] -Finished creating instance of bean 'dao'
+[23:09:35:870][org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor-registerDependentBeans] -Autowiring by type from bean name 'categoryService' to bean named 'dao'
+[23:09:35:871][org.springframework.beans.factory.support.AbstractBeanFactory-doGetBean] -Returning cached instance of singleton bean 'org.springframework.aop.support.DefaultBeanFactoryPointcutAdvisor#0'
+[23:09:35:871][org.springframework.beans.factory.support.AbstractBeanFactory-doGetBean] -Returning cached instance of singleton bean 'org.springframework.aop.support.DefaultBeanFactoryPointcutAdvisor#0'
+[23:09:35:876][org.springframework.beans.factory.support.DefaultSingletonBeanRegistry-getSingleton] -Creating shared instance of singleton bean 'txAdvice'
+[23:09:35:876][org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory-createBean] -Creating instance of bean 'txAdvice'
+[23:09:35:877][org.springframework.aop.framework.autoproxy.AbstractAutoProxyCreator-isInfrastructureClass] -Did not attempt to auto-proxy infrastructure class [org.springframework.transaction.interceptor.TransactionInterceptor]
+[23:09:35:879][org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory-doCreateBean] -Eagerly caching bean 'txAdvice' to allow for resolving potential circular references
+[23:09:35:879][org.springframework.beans.CachedIntrospectionResults-<init>] -Getting BeanInfo for class [org.springframework.transaction.interceptor.TransactionInterceptor]
+[23:09:35:883][org.springframework.beans.CachedIntrospectionResults-<init>] -Caching PropertyDescriptors for class [org.springframework.transaction.interceptor.TransactionInterceptor]
+[23:09:35:884][org.springframework.beans.CachedIntrospectionResults-<init>] -Found bean property 'beanFactory' of type [org.springframework.beans.factory.BeanFactory]
+[23:09:35:884][org.springframework.beans.CachedIntrospectionResults-<init>] -Found bean property 'class' of type [java.lang.Class]
+[23:09:35:885][org.springframework.beans.CachedIntrospectionResults-<init>] -Found bean property 'transactionAttributeSource' of type [org.springframework.transaction.interceptor.TransactionAttributeSource]
+[23:09:35:885][org.springframework.beans.CachedIntrospectionResults-<init>] -Found bean property 'transactionAttributeSources' of type [[Lorg.springframework.transaction.interceptor.TransactionAttributeSource;]
+[23:09:35:885][org.springframework.beans.CachedIntrospectionResults-<init>] -Found bean property 'transactionAttributes' of type [java.util.Properties]
+[23:09:35:886][org.springframework.beans.CachedIntrospectionResults-<init>] -Found bean property 'transactionManager' of type [org.springframework.transaction.PlatformTransactionManager]
+[23:09:35:886][org.springframework.beans.CachedIntrospectionResults-<init>] -Found bean property 'transactionManagerBeanName' of type [java.lang.String]
+[23:09:35:887][org.springframework.beans.factory.support.DefaultSingletonBeanRegistry-getSingleton] -Creating shared instance of singleton bean 'transactionManager'
+[23:09:35:887][org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory-createBean] -Creating instance of bean 'transactionManager'
+[23:09:35:888][org.springframework.beans.factory.support.AbstractBeanFactory-doGetBean] -Returning cached instance of singleton bean 'org.springframework.aop.support.DefaultBeanFactoryPointcutAdvisor#0'
+[23:09:35:897][org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory-doCreateBean] -Eagerly caching bean 'transactionManager' to allow for resolving potential circular references
+[23:09:35:897][org.springframework.beans.CachedIntrospectionResults-<init>] -Getting BeanInfo for class [org.springframework.orm.hibernate3.HibernateTransactionManager]
+[23:09:35:907][org.springframework.beans.CachedIntrospectionResults-<init>] -Caching PropertyDescriptors for class [org.springframework.orm.hibernate3.HibernateTransactionManager]
+[23:09:35:907][org.springframework.beans.CachedIntrospectionResults-<init>] -Found bean property 'autodetectDataSource' of type [boolean]
+[23:09:35:908][org.springframework.beans.CachedIntrospectionResults-<init>] -Found bean property 'beanFactory' of type [org.springframework.beans.factory.BeanFactory]
+[23:09:35:909][org.springframework.beans.CachedIntrospectionResults-<init>] -Found bean property 'class' of type [java.lang.Class]
+[23:09:35:909][org.springframework.beans.CachedIntrospectionResults-<init>] -Found bean property 'dataSource' of type [javax.sql.DataSource]
+[23:09:35:910][org.springframework.beans.CachedIntrospectionResults-<init>] -Found bean property 'defaultTimeout' of type [int]
+[23:09:35:911][org.springframework.beans.CachedIntrospectionResults-<init>] -Found bean property 'earlyFlushBeforeCommit' of type [boolean]
+[23:09:35:911][org.springframework.beans.CachedIntrospectionResults-<init>] -Found bean property 'entityInterceptor' of type [org.hibernate.Interceptor]
+[23:09:35:912][org.springframework.beans.CachedIntrospectionResults-<init>] -Found bean property 'entityInterceptorBeanName' of type [java.lang.String]
+[23:09:35:912][org.springframework.beans.CachedIntrospectionResults-<init>] -Found bean property 'failEarlyOnGlobalRollbackOnly' of type [boolean]
+[23:09:35:913][org.springframework.beans.CachedIntrospectionResults-<init>] -Found bean property 'globalRollbackOnParticipationFailure' of type [boolean]
+[23:09:35:914][org.springframework.beans.CachedIntrospectionResults-<init>] -Found bean property 'hibernateManagedSession' of type [boolean]
+[23:09:35:914][org.springframework.beans.CachedIntrospectionResults-<init>] -Found bean property 'jdbcExceptionTranslator' of type [org.springframework.jdbc.support.SQLExceptionTranslator]
+[23:09:35:915][org.springframework.beans.CachedIntrospectionResults-<init>] -Found bean property 'nestedTransactionAllowed' of type [boolean]
+[23:09:35:915][org.springframework.beans.CachedIntrospectionResults-<init>] -Found bean property 'prepareConnection' of type [boolean]
+[23:09:35:916][org.springframework.beans.CachedIntrospectionResults-<init>] -Found bean property 'resourceFactory' of type [java.lang.Object]
+[23:09:35:917][org.springframework.beans.CachedIntrospectionResults-<init>] -Found bean property 'rollbackOnCommitFailure' of type [boolean]
+[23:09:35:917][org.springframework.beans.CachedIntrospectionResults-<init>] -Found bean property 'sessionFactory' of type [org.hibernate.SessionFactory]
+[23:09:35:918][org.springframework.beans.CachedIntrospectionResults-<init>] -Found bean property 'transactionSynchronization' of type [int]
+[23:09:35:919][org.springframework.beans.CachedIntrospectionResults-<init>] -Found bean property 'transactionSynchronizationName' of type [java.lang.String]
+[23:09:35:919][org.springframework.beans.CachedIntrospectionResults-<init>] -Found bean property 'validateExistingTransaction' of type [boolean]
+[23:09:35:920][org.springframework.beans.factory.support.AbstractBeanFactory-doGetBean] -Returning cached instance of singleton bean 'sessionFactory'
+[23:09:35:921][org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory-invokeInitMethods] -Invoking afterPropertiesSet() on bean with name 'transactionManager'
+[23:09:35:930][org.springframework.orm.hibernate3.HibernateTransactionManager-afterPropertiesSet] -Using DataSource [org.apache.commons.dbcp.BasicDataSource@1f09a31] of Hibernate SessionFactory for HibernateTransactionManager
+[23:09:35:931][org.springframework.beans.factory.support.AbstractBeanFactory-doGetBean] -Returning cached instance of singleton bean 'org.springframework.aop.support.DefaultBeanFactoryPointcutAdvisor#0'
+[23:09:35:932][org.springframework.beans.factory.support.AbstractBeanFactory-doGetBean] -Returning cached instance of singleton bean 'org.springframework.aop.support.DefaultBeanFactoryPointcutAdvisor#0'
+[23:09:35:944][org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory-createBean] -Finished creating instance of bean 'transactionManager'
+[23:09:35:945][org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory-createBean] -Creating instance of bean '(inner bean)'
+[23:09:35:946][org.springframework.beans.factory.support.AbstractBeanFactory-doGetBean] -Returning cached instance of singleton bean 'org.springframework.aop.support.DefaultBeanFactoryPointcutAdvisor#0'
+[23:09:35:947][org.springframework.beans.CachedIntrospectionResults-<init>] -Getting BeanInfo for class [org.springframework.transaction.interceptor.NameMatchTransactionAttributeSource]
+[23:09:35:950][org.springframework.beans.CachedIntrospectionResults-<init>] -Caching PropertyDescriptors for class [org.springframework.transaction.interceptor.NameMatchTransactionAttributeSource]
+[23:09:35:950][org.springframework.beans.CachedIntrospectionResults-<init>] -Found bean property 'class' of type [java.lang.Class]
+[23:09:35:950][org.springframework.beans.CachedIntrospectionResults-<init>] -Found bean property 'nameMap' of type [java.util.Map]
+[23:09:35:951][org.springframework.beans.CachedIntrospectionResults-<init>] -Found bean property 'properties' of type [java.util.Properties]
+[23:09:35:953][org.springframework.transaction.interceptor.NameMatchTransactionAttributeSource-addTransactionalMethod] -Adding transactional method [find*] with attribute [PROPAGATION_REQUIRED,ISOLATION_DEFAULT,readOnly]
+[23:09:35:954][org.springframework.transaction.interceptor.NameMatchTransactionAttributeSource-addTransactionalMethod] -Adding transactional method [add*] with attribute [PROPAGATION_REQUIRED,ISOLATION_DEFAULT]
+[23:09:35:954][org.springframework.beans.factory.support.AbstractBeanFactory-doGetBean] -Returning cached instance of singleton bean 'org.springframework.aop.support.DefaultBeanFactoryPointcutAdvisor#0'
+[23:09:35:955][org.springframework.beans.factory.support.AbstractBeanFactory-doGetBean] -Returning cached instance of singleton bean 'org.springframework.aop.support.DefaultBeanFactoryPointcutAdvisor#0'
+[23:09:35:957][org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory-createBean] -Finished creating instance of bean '(inner bean)'
+[23:09:35:958][org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory-invokeInitMethods] -Invoking afterPropertiesSet() on bean with name 'txAdvice'
+[23:09:35:958][org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory-createBean] -Finished creating instance of bean 'txAdvice'
+[23:09:35:969][org.springframework.aop.framework.autoproxy.AbstractAutoProxyCreator-buildAdvisors] -Creating implicit proxy for bean 'categoryService' with 0 common interceptors and 2 specific interceptors
+[23:09:35:970][org.springframework.aop.framework.JdkDynamicAopProxy-getProxy] -Creating JDK dynamic proxy: target source is SingletonTargetSource for target object [cn.edu.nju.software.timemachine.service.impl.CategoryServiceImpl@1b0d33c]
+[23:09:35:976][org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory-createBean] -Finished creating instance of bean 'categoryService'
+[23:09:35:976][org.springframework.beans.factory.support.DefaultSingletonBeanRegistry-getSingleton] -Creating shared instance of singleton bean 'pictureService'
+[23:09:35:977][org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory-createBean] -Creating instance of bean 'pictureService'
+[23:09:35:977][org.springframework.beans.factory.support.AbstractBeanFactory-doGetBean] -Returning cached instance of singleton bean 'org.springframework.aop.support.DefaultBeanFactoryPointcutAdvisor#0'
+[23:09:35:978][org.springframework.beans.factory.annotation.InjectionMetadata-<init>] -Found injected element on class [cn.edu.nju.software.timemachine.service.impl.PictureServiceImpl]: AutowiredFieldElement for protected cn.edu.nju.software.timemachine.dao.IDao cn.edu.nju.software.timemachine.service.impl.ServiceImpl.dao
+[23:09:35:978][org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory-doCreateBean] -Eagerly caching bean 'pictureService' to allow for resolving potential circular references
+[23:09:35:978][org.springframework.beans.CachedIntrospectionResults-<init>] -Getting BeanInfo for class [cn.edu.nju.software.timemachine.service.impl.PictureServiceImpl]
+[23:09:35:981][org.springframework.beans.CachedIntrospectionResults-<init>] -Caching PropertyDescriptors for class [cn.edu.nju.software.timemachine.service.impl.PictureServiceImpl]
+[23:09:35:982][org.springframework.beans.CachedIntrospectionResults-<init>] -Found bean property 'class' of type [java.lang.Class]
+[23:09:35:982][org.springframework.beans.factory.annotation.InjectionMetadata-inject] -Processing injected method of bean 'pictureService': AutowiredFieldElement for protected cn.edu.nju.software.timemachine.dao.IDao cn.edu.nju.software.timemachine.service.impl.ServiceImpl.dao
+[23:09:35:983][org.springframework.beans.factory.support.AbstractBeanFactory-doGetBean] -Returning cached instance of singleton bean 'dao'
+[23:09:35:983][org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor-registerDependentBeans] -Autowiring by type from bean name 'pictureService' to bean named 'dao'
+[23:09:35:984][org.springframework.beans.factory.support.AbstractBeanFactory-doGetBean] -Returning cached instance of singleton bean 'org.springframework.aop.support.DefaultBeanFactoryPointcutAdvisor#0'
+[23:09:35:984][org.springframework.beans.factory.support.AbstractBeanFactory-doGetBean] -Returning cached instance of singleton bean 'org.springframework.aop.support.DefaultBeanFactoryPointcutAdvisor#0'
+[23:09:35:985][org.springframework.aop.framework.autoproxy.AbstractAutoProxyCreator-buildAdvisors] -Creating implicit proxy for bean 'pictureService' with 0 common interceptors and 2 specific interceptors
+[23:09:35:985][org.springframework.aop.framework.JdkDynamicAopProxy-getProxy] -Creating JDK dynamic proxy: target source is SingletonTargetSource for target object [cn.edu.nju.software.timemachine.service.impl.PictureServiceImpl@1aacc14]
+[23:09:35:991][org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory-createBean] -Finished creating instance of bean 'pictureService'
+[23:09:35:991][org.springframework.beans.factory.support.DefaultSingletonBeanRegistry-getSingleton] -Creating shared instance of singleton bean 'commentService'
+[23:09:35:992][org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory-createBean] -Creating instance of bean 'commentService'
+[23:09:35:992][org.springframework.beans.factory.support.AbstractBeanFactory-doGetBean] -Returning cached instance of singleton bean 'org.springframework.aop.support.DefaultBeanFactoryPointcutAdvisor#0'
+[23:09:35:993][org.springframework.beans.factory.annotation.InjectionMetadata-<init>] -Found injected element on class [cn.edu.nju.software.timemachine.service.impl.CommentServiceImpl]: AutowiredFieldElement for protected cn.edu.nju.software.timemachine.dao.IDao cn.edu.nju.software.timemachine.service.impl.ServiceImpl.dao
+[23:09:35:994][org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory-doCreateBean] -Eagerly caching bean 'commentService' to allow for resolving potential circular references
+[23:09:35:994][org.springframework.beans.CachedIntrospectionResults-<init>] -Getting BeanInfo for class [cn.edu.nju.software.timemachine.service.impl.CommentServiceImpl]
+[23:09:35:997][org.springframework.beans.CachedIntrospectionResults-<init>] -Caching PropertyDescriptors for class [cn.edu.nju.software.timemachine.service.impl.CommentServiceImpl]
+[23:09:35:997][org.springframework.beans.CachedIntrospectionResults-<init>] -Found bean property 'class' of type [java.lang.Class]
+[23:09:35:998][org.springframework.beans.factory.annotation.InjectionMetadata-inject] -Processing injected method of bean 'commentService': AutowiredFieldElement for protected cn.edu.nju.software.timemachine.dao.IDao cn.edu.nju.software.timemachine.service.impl.ServiceImpl.dao
+[23:09:35:999][org.springframework.beans.factory.support.AbstractBeanFactory-doGetBean] -Returning cached instance of singleton bean 'dao'
+[23:09:35:999][org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor-registerDependentBeans] -Autowiring by type from bean name 'commentService' to bean named 'dao'
+[23:09:35:999][org.springframework.beans.factory.support.AbstractBeanFactory-doGetBean] -Returning cached instance of singleton bean 'org.springframework.aop.support.DefaultBeanFactoryPointcutAdvisor#0'
+[23:09:36:000][org.springframework.beans.factory.support.AbstractBeanFactory-doGetBean] -Returning cached instance of singleton bean 'org.springframework.aop.support.DefaultBeanFactoryPointcutAdvisor#0'
+[23:09:36:000][org.springframework.aop.framework.autoproxy.AbstractAutoProxyCreator-buildAdvisors] -Creating implicit proxy for bean 'commentService' with 0 common interceptors and 2 specific interceptors
+[23:09:36:001][org.springframework.aop.framework.JdkDynamicAopProxy-getProxy] -Creating JDK dynamic proxy: target source is SingletonTargetSource for target object [cn.edu.nju.software.timemachine.service.impl.CommentServiceImpl@ee21f5]
+[23:09:36:006][org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory-createBean] -Finished creating instance of bean 'commentService'
+[23:09:36:006][org.springframework.beans.factory.support.DefaultSingletonBeanRegistry-getSingleton] -Creating shared instance of singleton bean 'friendService'
+[23:09:36:007][org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory-createBean] -Creating instance of bean 'friendService'
+[23:09:36:007][org.springframework.beans.factory.support.AbstractBeanFactory-doGetBean] -Returning cached instance of singleton bean 'org.springframework.aop.support.DefaultBeanFactoryPointcutAdvisor#0'
+[23:09:36:009][org.springframework.beans.factory.annotation.InjectionMetadata-<init>] -Found injected element on class [cn.edu.nju.software.timemachine.service.impl.FriendServiceImpl]: AutowiredFieldElement for protected cn.edu.nju.software.timemachine.dao.IDao cn.edu.nju.software.timemachine.service.impl.ServiceImpl.dao
+[23:09:36:009][org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory-doCreateBean] -Eagerly caching bean 'friendService' to allow for resolving potential circular references
+[23:09:36:009][org.springframework.beans.CachedIntrospectionResults-<init>] -Getting BeanInfo for class [cn.edu.nju.software.timemachine.service.impl.FriendServiceImpl]
+[23:09:36:015][org.springframework.beans.CachedIntrospectionResults-<init>] -Caching PropertyDescriptors for class [cn.edu.nju.software.timemachine.service.impl.FriendServiceImpl]
+[23:09:36:015][org.springframework.beans.CachedIntrospectionResults-<init>] -Found bean property 'class' of type [java.lang.Class]
+[23:09:36:016][org.springframework.beans.factory.annotation.InjectionMetadata-inject] -Processing injected method of bean 'friendService': AutowiredFieldElement for protected cn.edu.nju.software.timemachine.dao.IDao cn.edu.nju.software.timemachine.service.impl.ServiceImpl.dao
+[23:09:36:017][org.springframework.beans.factory.support.AbstractBeanFactory-doGetBean] -Returning cached instance of singleton bean 'dao'
+[23:09:36:018][org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor-registerDependentBeans] -Autowiring by type from bean name 'friendService' to bean named 'dao'
+[23:09:36:018][org.springframework.beans.factory.support.AbstractBeanFactory-doGetBean] -Returning cached instance of singleton bean 'org.springframework.aop.support.DefaultBeanFactoryPointcutAdvisor#0'
+[23:09:36:019][org.springframework.beans.factory.support.AbstractBeanFactory-doGetBean] -Returning cached instance of singleton bean 'org.springframework.aop.support.DefaultBeanFactoryPointcutAdvisor#0'
+[23:09:36:020][org.springframework.aop.framework.autoproxy.AbstractAutoProxyCreator-buildAdvisors] -Creating implicit proxy for bean 'friendService' with 0 common interceptors and 2 specific interceptors
+[23:09:36:020][org.springframework.aop.framework.JdkDynamicAopProxy-getProxy] -Creating JDK dynamic proxy: target source is SingletonTargetSource for target object [cn.edu.nju.software.timemachine.service.impl.FriendServiceImpl@86d1da]
+[23:09:36:027][org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory-createBean] -Finished creating instance of bean 'friendService'
+[23:09:36:028][org.springframework.beans.factory.support.DefaultSingletonBeanRegistry-getSingleton] -Creating shared instance of singleton bean 'baseService'
+[23:09:36:028][org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory-createBean] -Creating instance of bean 'baseService'
+[23:09:36:028][org.springframework.beans.factory.support.AbstractBeanFactory-doGetBean] -Returning cached instance of singleton bean 'org.springframework.aop.support.DefaultBeanFactoryPointcutAdvisor#0'
+[23:09:36:029][org.springframework.beans.factory.annotation.InjectionMetadata-<init>] -Found injected element on class [cn.edu.nju.software.timemachine.service.impl.ServiceImpl]: AutowiredFieldElement for protected cn.edu.nju.software.timemachine.dao.IDao cn.edu.nju.software.timemachine.service.impl.ServiceImpl.dao
+[23:09:36:030][org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory-doCreateBean] -Eagerly caching bean 'baseService' to allow for resolving potential circular references
+[23:09:36:030][org.springframework.beans.CachedIntrospectionResults-<init>] -Getting BeanInfo for class [cn.edu.nju.software.timemachine.service.impl.ServiceImpl]
+[23:09:36:033][org.springframework.beans.CachedIntrospectionResults-<init>] -Caching PropertyDescriptors for class [cn.edu.nju.software.timemachine.service.impl.ServiceImpl]
+[23:09:36:033][org.springframework.beans.CachedIntrospectionResults-<init>] -Found bean property 'class' of type [java.lang.Class]
+[23:09:36:033][org.springframework.beans.factory.annotation.InjectionMetadata-inject] -Processing injected method of bean 'baseService': AutowiredFieldElement for protected cn.edu.nju.software.timemachine.dao.IDao cn.edu.nju.software.timemachine.service.impl.ServiceImpl.dao
+[23:09:36:034][org.springframework.beans.factory.support.AbstractBeanFactory-doGetBean] -Returning cached instance of singleton bean 'dao'
+[23:09:36:034][org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor-registerDependentBeans] -Autowiring by type from bean name 'baseService' to bean named 'dao'
+[23:09:36:035][org.springframework.beans.factory.support.AbstractBeanFactory-doGetBean] -Returning cached instance of singleton bean 'org.springframework.aop.support.DefaultBeanFactoryPointcutAdvisor#0'
+[23:09:36:035][org.springframework.beans.factory.support.AbstractBeanFactory-doGetBean] -Returning cached instance of singleton bean 'org.springframework.aop.support.DefaultBeanFactoryPointcutAdvisor#0'
+[23:09:36:036][org.springframework.aop.framework.autoproxy.AbstractAutoProxyCreator-buildAdvisors] -Creating implicit proxy for bean 'baseService' with 0 common interceptors and 2 specific interceptors
+[23:09:36:036][org.springframework.aop.framework.JdkDynamicAopProxy-getProxy] -Creating JDK dynamic proxy: target source is SingletonTargetSource for target object [cn.edu.nju.software.timemachine.service.impl.ServiceImpl@1e3cc77]
+[23:09:36:041][org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory-createBean] -Finished creating instance of bean 'baseService'
+[23:09:36:041][org.springframework.beans.factory.support.DefaultSingletonBeanRegistry-getSingleton] -Creating shared instance of singleton bean 'messageService'
+[23:09:36:041][org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory-createBean] -Creating instance of bean 'messageService'
+[23:09:36:041][org.springframework.beans.factory.support.AbstractBeanFactory-doGetBean] -Returning cached instance of singleton bean 'org.springframework.aop.support.DefaultBeanFactoryPointcutAdvisor#0'
+[23:09:36:042][org.springframework.beans.factory.annotation.InjectionMetadata-<init>] -Found injected element on class [cn.edu.nju.software.timemachine.service.impl.MessageService]: AutowiredFieldElement for protected cn.edu.nju.software.timemachine.dao.IDao cn.edu.nju.software.timemachine.service.impl.ServiceImpl.dao
+[23:09:36:043][org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory-doCreateBean] -Eagerly caching bean 'messageService' to allow for resolving potential circular references
+[23:09:36:043][org.springframework.beans.CachedIntrospectionResults-<init>] -Getting BeanInfo for class [cn.edu.nju.software.timemachine.service.impl.MessageService]
+[23:09:36:046][org.springframework.beans.CachedIntrospectionResults-<init>] -Caching PropertyDescriptors for class [cn.edu.nju.software.timemachine.service.impl.MessageService]
+[23:09:36:046][org.springframework.beans.CachedIntrospectionResults-<init>] -Found bean property 'class' of type [java.lang.Class]
+[23:09:36:047][org.springframework.beans.factory.annotation.InjectionMetadata-inject] -Processing injected method of bean 'messageService': AutowiredFieldElement for protected cn.edu.nju.software.timemachine.dao.IDao cn.edu.nju.software.timemachine.service.impl.ServiceImpl.dao
+[23:09:36:048][org.springframework.beans.factory.support.AbstractBeanFactory-doGetBean] -Returning cached instance of singleton bean 'dao'
+[23:09:36:048][org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor-registerDependentBeans] -Autowiring by type from bean name 'messageService' to bean named 'dao'
+[23:09:36:048][org.springframework.beans.factory.support.AbstractBeanFactory-doGetBean] -Returning cached instance of singleton bean 'org.springframework.aop.support.DefaultBeanFactoryPointcutAdvisor#0'
+[23:09:36:049][org.springframework.beans.factory.support.AbstractBeanFactory-doGetBean] -Returning cached instance of singleton bean 'org.springframework.aop.support.DefaultBeanFactoryPointcutAdvisor#0'
+[23:09:36:050][org.springframework.aop.framework.autoproxy.AbstractAutoProxyCreator-buildAdvisors] -Creating implicit proxy for bean 'messageService' with 0 common interceptors and 2 specific interceptors
+[23:09:36:050][org.springframework.aop.framework.JdkDynamicAopProxy-getProxy] -Creating JDK dynamic proxy: target source is SingletonTargetSource for target object [cn.edu.nju.software.timemachine.service.impl.MessageService@4ab84c]
+[23:09:36:056][org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory-createBean] -Finished creating instance of bean 'messageService'
+[23:09:36:057][org.springframework.beans.factory.support.DefaultSingletonBeanRegistry-getSingleton] -Creating shared instance of singleton bean 'albumService'
+[23:09:36:057][org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory-createBean] -Creating instance of bean 'albumService'
+[23:09:36:057][org.springframework.beans.factory.support.AbstractBeanFactory-doGetBean] -Returning cached instance of singleton bean 'org.springframework.aop.support.DefaultBeanFactoryPointcutAdvisor#0'
+[23:09:36:059][org.springframework.beans.factory.annotation.InjectionMetadata-<init>] -Found injected element on class [cn.edu.nju.software.timemachine.service.impl.AlbumServiceImp]: AutowiredFieldElement for protected cn.edu.nju.software.timemachine.dao.IDao cn.edu.nju.software.timemachine.service.impl.ServiceImpl.dao
+[23:09:36:059][org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory-doCreateBean] -Eagerly caching bean 'albumService' to allow for resolving potential circular references
+[23:09:36:060][org.springframework.beans.CachedIntrospectionResults-<init>] -Getting BeanInfo for class [cn.edu.nju.software.timemachine.service.impl.AlbumServiceImp]
+[23:09:36:064][org.springframework.beans.CachedIntrospectionResults-<init>] -Caching PropertyDescriptors for class [cn.edu.nju.software.timemachine.service.impl.AlbumServiceImp]
+[23:09:36:065][org.springframework.beans.CachedIntrospectionResults-<init>] -Found bean property 'class' of type [java.lang.Class]
+[23:09:36:065][org.springframework.beans.factory.annotation.InjectionMetadata-inject] -Processing injected method of bean 'albumService': AutowiredFieldElement for protected cn.edu.nju.software.timemachine.dao.IDao cn.edu.nju.software.timemachine.service.impl.ServiceImpl.dao
+[23:09:36:066][org.springframework.beans.factory.support.AbstractBeanFactory-doGetBean] -Returning cached instance of singleton bean 'dao'
+[23:09:36:066][org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor-registerDependentBeans] -Autowiring by type from bean name 'albumService' to bean named 'dao'
+[23:09:36:067][org.springframework.beans.factory.support.AbstractBeanFactory-doGetBean] -Returning cached instance of singleton bean 'org.springframework.aop.support.DefaultBeanFactoryPointcutAdvisor#0'
+[23:09:36:067][org.springframework.beans.factory.support.AbstractBeanFactory-doGetBean] -Returning cached instance of singleton bean 'org.springframework.aop.support.DefaultBeanFactoryPointcutAdvisor#0'
+[23:09:36:068][org.springframework.aop.framework.autoproxy.AbstractAutoProxyCreator-buildAdvisors] -Creating implicit proxy for bean 'albumService' with 0 common interceptors and 2 specific interceptors
+[23:09:36:068][org.springframework.aop.framework.JdkDynamicAopProxy-getProxy] -Creating JDK dynamic proxy: target source is SingletonTargetSource for target object [cn.edu.nju.software.timemachine.service.impl.AlbumServiceImp@5878d2]
+[23:09:36:072][org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory-createBean] -Finished creating instance of bean 'albumService'
+[23:09:36:072][org.springframework.beans.factory.support.DefaultSingletonBeanRegistry-getSingleton] -Creating shared instance of singleton bean 'userService'
+[23:09:36:073][org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory-createBean] -Creating instance of bean 'userService'
+[23:09:36:073][org.springframework.beans.factory.support.AbstractBeanFactory-doGetBean] -Returning cached instance of singleton bean 'org.springframework.aop.support.DefaultBeanFactoryPointcutAdvisor#0'
+[23:09:36:074][org.springframework.beans.factory.annotation.InjectionMetadata-<init>] -Found injected element on class [cn.edu.nju.software.timemachine.service.impl.UserServiceImpl]: AutowiredFieldElement for protected cn.edu.nju.software.timemachine.dao.IDao cn.edu.nju.software.timemachine.service.impl.ServiceImpl.dao
+[23:09:36:074][org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory-doCreateBean] -Eagerly caching bean 'userService' to allow for resolving potential circular references
+[23:09:36:075][org.springframework.beans.CachedIntrospectionResults-<init>] -Getting BeanInfo for class [cn.edu.nju.software.timemachine.service.impl.UserServiceImpl]
+[23:09:36:078][org.springframework.beans.CachedIntrospectionResults-<init>] -Caching PropertyDescriptors for class [cn.edu.nju.software.timemachine.service.impl.UserServiceImpl]
+[23:09:36:078][org.springframework.beans.CachedIntrospectionResults-<init>] -Found bean property 'class' of type [java.lang.Class]
+[23:09:36:079][org.springframework.beans.factory.annotation.InjectionMetadata-inject] -Processing injected method of bean 'userService': AutowiredFieldElement for protected cn.edu.nju.software.timemachine.dao.IDao cn.edu.nju.software.timemachine.service.impl.ServiceImpl.dao
+[23:09:36:079][org.springframework.beans.factory.support.AbstractBeanFactory-doGetBean] -Returning cached instance of singleton bean 'dao'
+[23:09:36:080][org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor-registerDependentBeans] -Autowiring by type from bean name 'userService' to bean named 'dao'
+[23:09:36:080][org.springframework.beans.factory.support.AbstractBeanFactory-doGetBean] -Returning cached instance of singleton bean 'org.springframework.aop.support.DefaultBeanFactoryPointcutAdvisor#0'
+[23:09:36:080][org.springframework.beans.factory.support.AbstractBeanFactory-doGetBean] -Returning cached instance of singleton bean 'org.springframework.aop.support.DefaultBeanFactoryPointcutAdvisor#0'
+[23:09:36:081][org.springframework.aop.framework.autoproxy.AbstractAutoProxyCreator-buildAdvisors] -Creating implicit proxy for bean 'userService' with 0 common interceptors and 2 specific interceptors
+[23:09:36:081][org.springframework.aop.framework.JdkDynamicAopProxy-getProxy] -Creating JDK dynamic proxy: target source is SingletonTargetSource for target object [cn.edu.nju.software.timemachine.service.impl.UserServiceImpl@d37b87]
+[23:09:36:085][org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory-createBean] -Finished creating instance of bean 'userService'
+[23:09:36:086][org.springframework.beans.factory.support.AbstractBeanFactory-doGetBean] -Returning cached instance of singleton bean 'dao'
+[23:09:36:086][org.springframework.beans.factory.support.AbstractBeanFactory-doGetBean] -Returning cached instance of singleton bean 'dataSource'
+[23:09:36:086][org.springframework.beans.factory.support.AbstractBeanFactory-doGetBean] -Returning cached instance of singleton bean 'sessionFactory'
+[23:09:36:087][org.springframework.beans.factory.support.DefaultSingletonBeanRegistry-getSingleton] -Creating shared instance of singleton bean 'hibernateTemplate'
+[23:09:36:087][org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory-createBean] -Creating instance of bean 'hibernateTemplate'
+[23:09:36:087][org.springframework.beans.factory.support.AbstractBeanFactory-doGetBean] -Returning cached instance of singleton bean 'org.springframework.aop.support.DefaultBeanFactoryPointcutAdvisor#0'
+[23:09:36:092][org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory-doCreateBean] -Eagerly caching bean 'hibernateTemplate' to allow for resolving potential circular references
+[23:09:36:092][org.springframework.beans.CachedIntrospectionResults-<init>] -Getting BeanInfo for class [org.springframework.orm.hibernate3.HibernateTemplate]
+[23:09:36:097][org.springframework.beans.CachedIntrospectionResults-<init>] -Caching PropertyDescriptors for class [org.springframework.orm.hibernate3.HibernateTemplate]
+[23:09:36:097][org.springframework.beans.CachedIntrospectionResults-<init>] -Found bean property 'allowCreate' of type [boolean]
+[23:09:36:098][org.springframework.beans.CachedIntrospectionResults-<init>] -Found bean property 'alwaysUseNewSession' of type [boolean]
+[23:09:36:098][org.springframework.beans.CachedIntrospectionResults-<init>] -Found bean property 'beanFactory' of type [org.springframework.beans.factory.BeanFactory]
+[23:09:36:099][org.springframework.beans.CachedIntrospectionResults-<init>] -Found bean property 'cacheQueries' of type [boolean]
+[23:09:36:099][org.springframework.beans.CachedIntrospectionResults-<init>] -Found bean property 'checkWriteOperations' of type [boolean]
+[23:09:36:100][org.springframework.beans.CachedIntrospectionResults-<init>] -Found bean property 'class' of type [java.lang.Class]
+[23:09:36:100][org.springframework.beans.CachedIntrospectionResults-<init>] -Found bean property 'entityInterceptor' of type [org.hibernate.Interceptor]
+[23:09:36:101][org.springframework.beans.CachedIntrospectionResults-<init>] -Found bean property 'entityInterceptorBeanName' of type [java.lang.String]
+[23:09:36:101][org.springframework.beans.CachedIntrospectionResults-<init>] -Found bean property 'exposeNativeSession' of type [boolean]
+[23:09:36:101][org.springframework.beans.CachedIntrospectionResults-<init>] -Found bean property 'fetchSize' of type [int]
+[23:09:36:102][org.springframework.beans.CachedIntrospectionResults-<init>] -Found bean property 'filterName' of type [java.lang.String]
+[23:09:36:102][org.springframework.beans.CachedIntrospectionResults-<init>] -Found bean property 'filterNames' of type [[Ljava.lang.String;]
+[23:09:36:102][org.springframework.beans.CachedIntrospectionResults-<init>] -Found bean property 'flushMode' of type [int]
+[23:09:36:102][org.springframework.beans.CachedIntrospectionResults-<init>] -Found bean property 'flushModeName' of type [java.lang.String]
+[23:09:36:103][org.springframework.beans.CachedIntrospectionResults-<init>] -Found bean property 'jdbcExceptionTranslator' of type [org.springframework.jdbc.support.SQLExceptionTranslator]
+[23:09:36:103][org.springframework.beans.CachedIntrospectionResults-<init>] -Found bean property 'maxResults' of type [int]
+[23:09:36:103][org.springframework.beans.CachedIntrospectionResults-<init>] -Found bean property 'queryCacheRegion' of type [java.lang.String]
+[23:09:36:104][org.springframework.beans.CachedIntrospectionResults-<init>] -Found bean property 'sessionFactory' of type [org.hibernate.SessionFactory]
+[23:09:36:105][org.springframework.beans.factory.support.AbstractBeanFactory-doGetBean] -Returning cached instance of singleton bean 'sessionFactory'
+[23:09:36:105][org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory-invokeInitMethods] -Invoking afterPropertiesSet() on bean with name 'hibernateTemplate'
+[23:09:36:105][org.springframework.beans.factory.support.AbstractBeanFactory-doGetBean] -Returning cached instance of singleton bean 'org.springframework.aop.support.DefaultBeanFactoryPointcutAdvisor#0'
+[23:09:36:106][org.springframework.beans.factory.support.AbstractBeanFactory-doGetBean] -Returning cached instance of singleton bean 'org.springframework.aop.support.DefaultBeanFactoryPointcutAdvisor#0'
+[23:09:36:152][org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory-createBean] -Finished creating instance of bean 'hibernateTemplate'
+[23:09:36:152][org.springframework.beans.factory.support.AbstractBeanFactory-doGetBean] -Returning cached instance of singleton bean 'transactionManager'
+[23:09:36:152][org.springframework.beans.factory.support.AbstractBeanFactory-doGetBean] -Returning cached instance of singleton bean 'txAdvice'
+[23:09:36:153][org.springframework.beans.factory.support.AbstractBeanFactory-doGetBean] -Returning cached instance of singleton bean 'org.springframework.aop.config.internalAutoProxyCreator'
+[23:09:36:153][org.springframework.beans.factory.support.AbstractBeanFactory-doGetBean] -Returning cached instance of singleton bean 'org.springframework.aop.support.DefaultBeanFactoryPointcutAdvisor#0'
+[23:09:36:155][org.springframework.context.support.AbstractApplicationContext-initLifecycleProcessor] -Unable to locate LifecycleProcessor with name 'lifecycleProcessor': using default [org.springframework.context.support.DefaultLifecycleProcessor@4dd1b]
+[23:09:36:156][org.springframework.beans.factory.support.AbstractBeanFactory-doGetBean] -Returning cached instance of singleton bean 'lifecycleProcessor'
+[23:09:36:156][org.springframework.context.support.AbstractApplicationContext-publishEvent] -Publishing event in org.springframework.context.support.GenericApplicationContext@125fefa: org.springframework.context.event.ContextRefreshedEvent[source=org.springframework.context.support.GenericApplicationContext@125fefa: startup date [Thu Mar 17 23:09:33 CST 2011]; root of context hierarchy]
+[23:09:36:157][org.springframework.beans.CachedIntrospectionResults-<init>] -Getting BeanInfo for class [cn.edu.nju.software.timemachine.test.service.AlbumServiceTest]
+[23:09:36:159][org.springframework.beans.CachedIntrospectionResults-<init>] -Caching PropertyDescriptors for class [cn.edu.nju.software.timemachine.test.service.AlbumServiceTest]
+[23:09:36:160][org.springframework.beans.CachedIntrospectionResults-<init>] -Found bean property 'albumService' of type [cn.edu.nju.software.timemachine.service.IAlbumService]
+[23:09:36:160][org.springframework.beans.CachedIntrospectionResults-<init>] -Found bean property 'class' of type [java.lang.Class]
+[23:09:36:161][org.springframework.beans.factory.annotation.InjectionMetadata-<init>] -Found injected element on class [cn.edu.nju.software.timemachine.test.service.AlbumServiceTest]: AutowiredFieldElement for private cn.edu.nju.software.timemachine.service.IAlbumService cn.edu.nju.software.timemachine.test.service.AlbumServiceTest.albumService
+[23:09:36:162][org.springframework.beans.factory.annotation.InjectionMetadata-inject] -Processing injected method of bean 'cn.edu.nju.software.timemachine.test.service.AlbumServiceTest': AutowiredFieldElement for private cn.edu.nju.software.timemachine.service.IAlbumService cn.edu.nju.software.timemachine.test.service.AlbumServiceTest.albumService
+[23:09:36:162][org.springframework.beans.factory.support.AbstractBeanFactory-doGetBean] -Returning cached instance of singleton bean 'albumService'
+[23:09:36:163][org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor-registerDependentBeans] -Autowiring by type from bean name 'cn.edu.nju.software.timemachine.test.service.AlbumServiceTest' to bean named 'albumService'
+[23:09:36:163][org.springframework.beans.factory.support.AbstractBeanFactory-doGetBean] -Returning cached instance of singleton bean 'org.springframework.aop.support.DefaultBeanFactoryPointcutAdvisor#0'
+[23:09:36:163][org.springframework.beans.factory.support.AbstractBeanFactory-doGetBean] -Returning cached instance of singleton bean 'org.springframework.aop.support.DefaultBeanFactoryPointcutAdvisor#0'
+[23:09:36:170][org.springframework.test.context.TestContextManager-beforeTestMethod] -beforeTestMethod(): instance [cn.edu.nju.software.timemachine.test.service.AlbumServiceTest@1ffc686], method [public void cn.edu.nju.software.timemachine.test.service.AlbumServiceTest.nothingTest()]
+[23:09:36:173][org.springframework.test.context.junit4.SpringMethodRoadie-runTestMethod] -Test method [public void cn.edu.nju.software.timemachine.test.service.AlbumServiceTest.nothingTest()] threw exception: null
+[23:09:36:173][org.springframework.test.context.TestContextManager-afterTestMethod] -afterTestMethod(): instance [cn.edu.nju.software.timemachine.test.service.AlbumServiceTest@1ffc686], method [public void cn.edu.nju.software.timemachine.test.service.AlbumServiceTest.nothingTest()], exception [null]
+[23:09:36:175][org.springframework.test.context.support.DirtiesContextTestExecutionListener-afterTestMethod] -After test method: context [[TestContext@1a082e2 testClass = AlbumServiceTest, locations = array<String>['classpath:applicationContext.xml'], testInstance = cn.edu.nju.software.timemachine.test.service.AlbumServiceTest@1ffc686, testMethod = nothingTest@AlbumServiceTest, testException = [null]]], dirtiesContext [false].
+[23:09:36:176][org.springframework.test.context.junit4.SpringJUnit4ClassRunner-invokeTestMethod] -Invoking test method [public void cn.edu.nju.software.timemachine.test.service.CategoryServiceTest.nothingTest()]
+[23:09:36:177][org.springframework.test.context.TestContextManager-prepareTestInstance] -prepareTestInstance(): instance [cn.edu.nju.software.timemachine.test.service.CategoryServiceTest@43487e]
+[23:09:36:177][org.springframework.test.context.support.DependencyInjectionTestExecutionListener-prepareTestInstance] -Performing dependency injection for test context [[TestContext@14c7a98 testClass = CategoryServiceTest, locations = array<String>['classpath:applicationContext.xml'], testInstance = cn.edu.nju.software.timemachine.test.service.CategoryServiceTest@43487e, testMethod = [null], testException = [null]]].
+[23:09:36:177][org.springframework.beans.CachedIntrospectionResults-<init>] -Getting BeanInfo for class [cn.edu.nju.software.timemachine.test.service.CategoryServiceTest]
+[23:09:36:180][org.springframework.beans.CachedIntrospectionResults-<init>] -Caching PropertyDescriptors for class [cn.edu.nju.software.timemachine.test.service.CategoryServiceTest]
+[23:09:36:180][org.springframework.beans.CachedIntrospectionResults-<init>] -Found bean property 'categoryService' of type [cn.edu.nju.software.timemachine.service.ICategoryService]
+[23:09:36:180][org.springframework.beans.CachedIntrospectionResults-<init>] -Found bean property 'class' of type [java.lang.Class]
+[23:09:36:181][org.springframework.beans.factory.annotation.InjectionMetadata-<init>] -Found injected element on class [cn.edu.nju.software.timemachine.test.service.CategoryServiceTest]: AutowiredFieldElement for private cn.edu.nju.software.timemachine.service.ICategoryService cn.edu.nju.software.timemachine.test.service.CategoryServiceTest.categoryService
+[23:09:36:182][org.springframework.beans.factory.annotation.InjectionMetadata-inject] -Processing injected method of bean 'cn.edu.nju.software.timemachine.test.service.CategoryServiceTest': AutowiredFieldElement for private cn.edu.nju.software.timemachine.service.ICategoryService cn.edu.nju.software.timemachine.test.service.CategoryServiceTest.categoryService
+[23:09:36:182][org.springframework.beans.factory.support.AbstractBeanFactory-doGetBean] -Returning cached instance of singleton bean 'categoryService'
+[23:09:36:183][org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor-registerDependentBeans] -Autowiring by type from bean name 'cn.edu.nju.software.timemachine.test.service.CategoryServiceTest' to bean named 'categoryService'
+[23:09:36:183][org.springframework.beans.factory.support.AbstractBeanFactory-doGetBean] -Returning cached instance of singleton bean 'org.springframework.aop.support.DefaultBeanFactoryPointcutAdvisor#0'
+[23:09:36:183][org.springframework.beans.factory.support.AbstractBeanFactory-doGetBean] -Returning cached instance of singleton bean 'org.springframework.aop.support.DefaultBeanFactoryPointcutAdvisor#0'
+[23:09:36:185][org.springframework.test.context.TestContextManager-beforeTestMethod] -beforeTestMethod(): instance [cn.edu.nju.software.timemachine.test.service.CategoryServiceTest@43487e], method [public void cn.edu.nju.software.timemachine.test.service.CategoryServiceTest.nothingTest()]
+[23:09:36:185][org.springframework.test.context.junit4.SpringMethodRoadie-runTestMethod] -Test method [public void cn.edu.nju.software.timemachine.test.service.CategoryServiceTest.nothingTest()] threw exception: null
+[23:09:36:186][org.springframework.test.context.TestContextManager-afterTestMethod] -afterTestMethod(): instance [cn.edu.nju.software.timemachine.test.service.CategoryServiceTest@43487e], method [public void cn.edu.nju.software.timemachine.test.service.CategoryServiceTest.nothingTest()], exception [null]
+[23:09:36:186][org.springframework.test.context.support.DirtiesContextTestExecutionListener-afterTestMethod] -After test method: context [[TestContext@14c7a98 testClass = CategoryServiceTest, locations = array<String>['classpath:applicationContext.xml'], testInstance = cn.edu.nju.software.timemachine.test.service.CategoryServiceTest@43487e, testMethod = nothingTest@CategoryServiceTest, testException = [null]]], dirtiesContext [false].
+[23:09:36:196][org.springframework.context.support.AbstractApplicationContext-doClose] -Closing org.springframework.context.support.GenericApplicationContext@125fefa: startup date [Thu Mar 17 23:09:33 CST 2011]; root of context hierarchy
+[23:09:36:196][org.springframework.context.support.AbstractApplicationContext-publishEvent] -Publishing event in org.springframework.context.support.GenericApplicationContext@125fefa: org.springframework.context.event.ContextClosedEvent[source=org.springframework.context.support.GenericApplicationContext@125fefa: startup date [Thu Mar 17 23:09:33 CST 2011]; root of context hierarchy]
+[23:09:36:197][org.springframework.beans.factory.support.AbstractBeanFactory-doGetBean] -Returning cached instance of singleton bean 'lifecycleProcessor'
+[23:09:36:198][org.springframework.beans.factory.support.DefaultSingletonBeanRegistry-destroySingletons] -Destroying singletons in org.springframework.beans.factory.support.DefaultListableBeanFactory@1ba0f36: defining beans [org.springframework.context.annotation.internalConfigurationAnnotationProcessor,org.springframework.context.annotation.internalAutowiredAnnotationProcessor,org.springframework.context.annotation.internalRequiredAnnotationProcessor,org.springframework.context.annotation.internalCommonAnnotationProcessor,org.springframework.context.annotation.internalPersistenceAnnotationProcessor,sampleAction,categoryService,pictureService,commentService,friendService,baseService,messageService,albumService,userService,dao,dataSource,sessionFactory,hibernateTemplate,transactionManager,txAdvice,org.springframework.aop.config.internalAutoProxyCreator,myPointcut,org.springframework.aop.support.DefaultBeanFactoryPointcutAdvisor#0]; root of factory hierarchy
+[23:09:36:203][org.springframework.beans.factory.support.DefaultSingletonBeanRegistry-destroyBean] -Retrieved dependent beans for bean 'albumService': [cn.edu.nju.software.timemachine.test.service.AlbumServiceTest]
+[23:09:36:204][org.springframework.beans.factory.support.DefaultSingletonBeanRegistry-destroyBean] -Retrieved dependent beans for bean 'categoryService': [cn.edu.nju.software.timemachine.test.service.CategoryServiceTest]
+[23:09:36:205][org.springframework.beans.factory.support.DefaultSingletonBeanRegistry-destroyBean] -Retrieved dependent beans for bean '(inner bean)': [txAdvice]
+[23:09:36:205][org.springframework.beans.factory.support.DisposableBeanAdapter-destroy] -Invoking destroy() on bean with name 'sessionFactory'
+[23:09:36:205][org.springframework.orm.hibernate3.AbstractSessionFactoryBean-destroy] -Closing Hibernate SessionFactory
+[23:09:36:206][org.hibernate.impl.SessionFactoryImpl-close] -closing

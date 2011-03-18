@@ -1,0 +1,832 @@
+[23:09:34:074][org.springframework.beans.CachedIntrospectionResults-<init>] -Caching PropertyDescriptors for class [cn.edu.nju.software.timemachine.dao.impl.DaoImpl]
+[23:09:34:075][org.springframework.beans.CachedIntrospectionResults-<init>] -Found bean property 'class' of type [java.lang.Class]
+[23:09:34:075][org.springframework.beans.CachedIntrospectionResults-<init>] -Found bean property 'hibernateTemplate' of type [org.springframework.orm.hibernate3.HibernateTemplate]
+[23:09:34:076][org.springframework.beans.CachedIntrospectionResults-<init>] -Found bean property 'sessionFactory' of type [org.hibernate.SessionFactory]
+[23:09:34:076][org.springframework.beans.CachedIntrospectionResults-<init>] -Found bean property 'superSessionFactory' of type [org.hibernate.SessionFactory]
+[23:09:34:078][org.springframework.beans.factory.annotation.InjectionMetadata-<init>] -Found injected element on class [cn.edu.nju.software.timemachine.dao.impl.DaoImpl]: AutowiredMethodElement for public void cn.edu.nju.software.timemachine.dao.impl.DaoImpl.setSuperSessionFactory(org.hibernate.SessionFactory)
+[23:09:34:078][org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory-doCreateBean] -Eagerly caching bean 'dao' to allow for resolving potential circular references
+[23:09:34:079][org.springframework.beans.factory.annotation.InjectionMetadata-inject] -Processing injected method of bean 'dao': AutowiredMethodElement for public void cn.edu.nju.software.timemachine.dao.impl.DaoImpl.setSuperSessionFactory(org.hibernate.SessionFactory)
+[23:09:34:081][org.springframework.beans.factory.support.DefaultSingletonBeanRegistry-getSingleton] -Creating shared instance of singleton bean 'sessionFactory'
+[23:09:34:081][org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory-createBean] -Creating instance of bean 'sessionFactory'
+[23:09:34:091][org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory-doCreateBean] -Eagerly caching bean 'sessionFactory' to allow for resolving potential circular references
+[23:09:34:092][org.springframework.beans.CachedIntrospectionResults-<init>] -Getting BeanInfo for class [org.springframework.orm.hibernate3.annotation.AnnotationSessionFactoryBean]
+[23:09:34:100][org.springframework.beans.CachedIntrospectionResults-<init>] -Caching PropertyDescriptors for class [org.springframework.orm.hibernate3.annotation.AnnotationSessionFactoryBean]
+[23:09:34:101][org.springframework.beans.CachedIntrospectionResults-<init>] -Found bean property 'annotatedClasses' of type [[Ljava.lang.Class;]
+[23:09:34:102][org.springframework.beans.CachedIntrospectionResults-<init>] -Found bean property 'annotatedPackages' of type [[Ljava.lang.String;]
+[23:09:34:103][org.springframework.beans.CachedIntrospectionResults-<init>] -Found bean property 'beanClassLoader' of type [java.lang.ClassLoader]
+[23:09:34:103][org.springframework.beans.CachedIntrospectionResults-<init>] -Found bean property 'cacheProvider' of type [org.hibernate.cache.CacheProvider]
+[23:09:34:104][org.springframework.beans.CachedIntrospectionResults-<init>] -Found bean property 'cacheRegionFactory' of type [java.lang.Object]
+[23:09:34:105][org.springframework.beans.CachedIntrospectionResults-<init>] -Found bean property 'cacheableMappingLocations' of type [[Lorg.springframework.core.io.Resource;]
+[23:09:34:106][org.springframework.beans.CachedIntrospectionResults-<init>] -Found bean property 'class' of type [java.lang.Class]
+[23:09:34:106][org.springframework.beans.CachedIntrospectionResults-<init>] -Found bean property 'collectionCacheStrategies' of type [java.util.Properties]
+[23:09:34:107][org.springframework.beans.CachedIntrospectionResults-<init>] -Found bean property 'configLocation' of type [org.springframework.core.io.Resource]
+[23:09:34:113][org.springframework.beans.CachedIntrospectionResults-<init>] -Found bean property 'configLocations' of type [[Lorg.springframework.core.io.Resource;]
+[23:09:34:113][org.springframework.beans.CachedIntrospectionResults-<init>] -Found bean property 'configuration' of type [org.hibernate.cfg.Configuration]
+[23:09:34:114][org.springframework.beans.CachedIntrospectionResults-<init>] -Found bean property 'configurationClass' of type [java.lang.Class]
+[23:09:34:114][org.springframework.beans.CachedIntrospectionResults-<init>] -Found bean property 'dataSource' of type [javax.sql.DataSource]
+[23:09:34:115][org.springframework.beans.CachedIntrospectionResults-<init>] -Found bean property 'entityCacheStrategies' of type [java.util.Properties]
+[23:09:34:115][org.springframework.beans.CachedIntrospectionResults-<init>] -Found bean property 'entityInterceptor' of type [org.hibernate.Interceptor]
+[23:09:34:116][org.springframework.beans.CachedIntrospectionResults-<init>] -Found bean property 'entityTypeFilters' of type [[Lorg.springframework.core.type.filter.TypeFilter;]
+[23:09:34:116][org.springframework.beans.CachedIntrospectionResults-<init>] -Found bean property 'eventListeners' of type [java.util.Map]
+[23:09:34:117][org.springframework.beans.CachedIntrospectionResults-<init>] -Found bean property 'exposeTransactionAwareSessionFactory' of type [boolean]
+[23:09:34:117][org.springframework.beans.CachedIntrospectionResults-<init>] -Found bean property 'filterDefinitions' of type [[Lorg.hibernate.engine.FilterDefinition;]
+[23:09:34:118][org.springframework.beans.CachedIntrospectionResults-<init>] -Found bean property 'hibernateProperties' of type [java.util.Properties]
+[23:09:34:118][org.springframework.beans.CachedIntrospectionResults-<init>] -Found bean property 'jdbcExceptionTranslator' of type [org.springframework.jdbc.support.SQLExceptionTranslator]
+[23:09:34:119][org.springframework.beans.CachedIntrospectionResults-<init>] -Found bean property 'jtaTransactionManager' of type [javax.transaction.TransactionManager]
+[23:09:34:119][org.springframework.beans.CachedIntrospectionResults-<init>] -Found bean property 'lobHandler' of type [org.springframework.jdbc.support.lob.LobHandler]
+[23:09:34:119][org.springframework.beans.CachedIntrospectionResults-<init>] -Found bean property 'mappingDirectoryLocations' of type [[Lorg.springframework.core.io.Resource;]
+[23:09:34:120][org.springframework.beans.CachedIntrospectionResults-<init>] -Found bean property 'mappingJarLocations' of type [[Lorg.springframework.core.io.Resource;]
+[23:09:34:120][org.springframework.beans.CachedIntrospectionResults-<init>] -Found bean property 'mappingLocations' of type [[Lorg.springframework.core.io.Resource;]
+[23:09:34:121][org.springframework.beans.CachedIntrospectionResults-<init>] -Found bean property 'mappingResources' of type [[Ljava.lang.String;]
+[23:09:34:121][org.springframework.beans.CachedIntrospectionResults-<init>] -Found bean property 'namingStrategy' of type [org.hibernate.cfg.NamingStrategy]
+[23:09:34:122][org.springframework.beans.CachedIntrospectionResults-<init>] -Found bean property 'object' of type [java.lang.Object]
+[23:09:34:123][org.springframework.beans.CachedIntrospectionResults-<init>] -Found bean property 'objectType' of type [java.lang.Class]
+[23:09:34:123][org.springframework.beans.CachedIntrospectionResults-<init>] -Found bean property 'packagesToScan' of type [[Ljava.lang.String;]
+[23:09:34:124][org.springframework.beans.CachedIntrospectionResults-<init>] -Found bean property 'resourceLoader' of type [org.springframework.core.io.ResourceLoader]
+[23:09:34:124][org.springframework.beans.CachedIntrospectionResults-<init>] -Found bean property 'schemaUpdate' of type [boolean]
+[23:09:34:125][org.springframework.beans.CachedIntrospectionResults-<init>] -Found bean property 'singleton' of type [boolean]
+[23:09:34:125][org.springframework.beans.CachedIntrospectionResults-<init>] -Found bean property 'typeDefinitions' of type [[Lorg.springframework.orm.hibernate3.TypeDefinitionBean;]
+[23:09:34:126][org.springframework.beans.CachedIntrospectionResults-<init>] -Found bean property 'useTransactionAwareDataSource' of type [boolean]
+[23:09:34:128][org.springframework.beans.factory.support.DefaultSingletonBeanRegistry-getSingleton] -Creating shared instance of singleton bean 'dataSource'
+[23:09:34:129][org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory-createBean] -Creating instance of bean 'dataSource'
+[23:09:34:129][org.springframework.beans.factory.support.AbstractBeanFactory-doGetBean] -Returning cached instance of singleton bean 'org.springframework.aop.support.DefaultBeanFactoryPointcutAdvisor#0'
+[23:09:34:142][org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory-doCreateBean] -Eagerly caching bean 'dataSource' to allow for resolving potential circular references
+[23:09:34:143][org.springframework.beans.CachedIntrospectionResults-<init>] -Getting BeanInfo for class [org.apache.commons.dbcp.BasicDataSource]
+[23:09:34:148][org.springframework.beans.CachedIntrospectionResults-<init>] -Caching PropertyDescriptors for class [org.apache.commons.dbcp.BasicDataSource]
+[23:09:34:149][org.springframework.beans.CachedIntrospectionResults-<init>] -Found bean property 'accessToUnderlyingConnectionAllowed' of type [boolean]
+[23:09:34:150][org.springframework.beans.CachedIntrospectionResults-<init>] -Found bean property 'class' of type [java.lang.Class]
+[23:09:34:151][org.springframework.beans.CachedIntrospectionResults-<init>] -Found bean property 'connection' of type [java.sql.Connection]
+[23:09:34:151][org.springframework.beans.CachedIntrospectionResults-<init>] -Found bean property 'defaultAutoCommit' of type [boolean]
+[23:09:34:152][org.springframework.beans.CachedIntrospectionResults-<init>] -Found bean property 'defaultCatalog' of type [java.lang.String]
+[23:09:34:152][org.springframework.beans.CachedIntrospectionResults-<init>] -Found bean property 'defaultReadOnly' of type [boolean]
+[23:09:34:153][org.springframework.beans.CachedIntrospectionResults-<init>] -Found bean property 'defaultTransactionIsolation' of type [int]
+[23:09:34:153][org.springframework.beans.CachedIntrospectionResults-<init>] -Found bean property 'driverClassName' of type [java.lang.String]
+[23:09:34:153][org.springframework.beans.CachedIntrospectionResults-<init>] -Found bean property 'initialSize' of type [int]
+[23:09:34:154][org.springframework.beans.CachedIntrospectionResults-<init>] -Found bean property 'logAbandoned' of type [boolean]
+[23:09:34:154][org.springframework.beans.CachedIntrospectionResults-<init>] -Found bean property 'logWriter' of type [java.io.PrintWriter]
+[23:09:34:155][org.springframework.beans.CachedIntrospectionResults-<init>] -Found bean property 'loginTimeout' of type [int]
+[23:09:34:155][org.springframework.beans.CachedIntrospectionResults-<init>] -Found bean property 'maxActive' of type [int]
+[23:09:34:156][org.springframework.beans.CachedIntrospectionResults-<init>] -Found bean property 'maxIdle' of type [int]
+[23:09:34:156][org.springframework.beans.CachedIntrospectionResults-<init>] -Found bean property 'maxOpenPreparedStatements' of type [int]
+[23:09:34:157][org.springframework.beans.CachedIntrospectionResults-<init>] -Found bean property 'maxWait' of type [long]
+[23:09:34:157][org.springframework.beans.CachedIntrospectionResults-<init>] -Found bean property 'minEvictableIdleTimeMillis' of type [long]
+[23:09:34:157][org.springframework.beans.CachedIntrospectionResults-<init>] -Found bean property 'minIdle' of type [int]
+[23:09:34:158][org.springframework.beans.CachedIntrospectionResults-<init>] -Found bean property 'numActive' of type [int]
+[23:09:34:158][org.springframework.beans.CachedIntrospectionResults-<init>] -Found bean property 'numIdle' of type [int]
+[23:09:34:159][org.springframework.beans.CachedIntrospectionResults-<init>] -Found bean property 'numTestsPerEvictionRun' of type [int]
+[23:09:34:159][org.springframework.beans.CachedIntrospectionResults-<init>] -Found bean property 'password' of type [java.lang.String]
+[23:09:34:160][org.springframework.beans.CachedIntrospectionResults-<init>] -Found bean property 'poolPreparedStatements' of type [boolean]
+[23:09:34:160][org.springframework.beans.CachedIntrospectionResults-<init>] -Found bean property 'removeAbandoned' of type [boolean]
+[23:09:34:161][org.springframework.beans.CachedIntrospectionResults-<init>] -Found bean property 'removeAbandonedTimeout' of type [int]
+[23:09:34:161][org.springframework.beans.CachedIntrospectionResults-<init>] -Found bean property 'testOnBorrow' of type [boolean]
+[23:09:34:161][org.springframework.beans.CachedIntrospectionResults-<init>] -Found bean property 'testOnReturn' of type [boolean]
+[23:09:34:162][org.springframework.beans.CachedIntrospectionResults-<init>] -Found bean property 'testWhileIdle' of type [boolean]
+[23:09:34:162][org.springframework.beans.CachedIntrospectionResults-<init>] -Found bean property 'timeBetweenEvictionRunsMillis' of type [long]
+[23:09:34:163][org.springframework.beans.CachedIntrospectionResults-<init>] -Found bean property 'url' of type [java.lang.String]
+[23:09:34:163][org.springframework.beans.CachedIntrospectionResults-<init>] -Found bean property 'username' of type [java.lang.String]
+[23:09:34:164][org.springframework.beans.CachedIntrospectionResults-<init>] -Found bean property 'validationQuery' of type [java.lang.String]
+[23:09:34:165][org.springframework.beans.factory.support.AbstractBeanFactory-doGetBean] -Returning cached instance of singleton bean 'org.springframework.aop.support.DefaultBeanFactoryPointcutAdvisor#0'
+[23:09:34:165][org.springframework.beans.factory.support.AbstractBeanFactory-doGetBean] -Returning cached instance of singleton bean 'org.springframework.aop.support.DefaultBeanFactoryPointcutAdvisor#0'
+[23:09:34:298][org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory-createBean] -Finished creating instance of bean 'dataSource'
+[23:09:34:308][org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory-invokeInitMethods] -Invoking afterPropertiesSet() on bean with name 'sessionFactory'
+[23:09:34:331][org.hibernate.cfg.annotations.Version-<clinit>] -Hibernate Annotations 3.4.0.GA
+[23:09:34:341][org.hibernate.cfg.Environment-<clinit>] -Hibernate 3.3.0.SP1
+[23:09:34:345][org.hibernate.cfg.Environment-<clinit>] -hibernate.properties not found
+[23:09:34:349][org.hibernate.cfg.Environment-buildBytecodeProvider] -Bytecode provider name : javassist
+[23:09:34:353][org.hibernate.cfg.Environment-<clinit>] -using JDK 1.4 java.sql.Timestamp handling
+[23:09:34:410][org.hibernate.annotations.common.Version-<clinit>] -Hibernate Commons Annotations 3.1.0.GA
+[23:09:34:421][org.springframework.core.io.support.PathMatchingResourcePatternResolver-doFindMatchingFileSystemResources] -Looking for matching resources in directory tree [/home/ljj/workspace/MyEclipse/TimeMachine/WebRoot/WEB-INF/classes/cn/edu/nju/software/timemachine/entity]
+[23:09:34:422][org.springframework.core.io.support.PathMatchingResourcePatternResolver-doRetrieveMatchingFiles] -Searching directory [/home/ljj/workspace/MyEclipse/TimeMachine/WebRoot/WEB-INF/classes/cn/edu/nju/software/timemachine/entity] for files matching pattern [/home/ljj/workspace/MyEclipse/TimeMachine/WebRoot/WEB-INF/classes/cn/edu/nju/software/timemachine/entity/**/*.class]
+[23:09:34:428][org.springframework.core.io.support.PathMatchingResourcePatternResolver-findPathMatchingResources] -Resolved location pattern [classpath*:cn/edu/nju/software/timemachine/entity/**/*.class] to resources [file [/home/ljj/workspace/MyEclipse/TimeMachine/WebRoot/WEB-INF/classes/cn/edu/nju/software/timemachine/entity/BaseEntity.class], file [/home/ljj/workspace/MyEclipse/TimeMachine/WebRoot/WEB-INF/classes/cn/edu/nju/software/timemachine/entity/Role.class], file [/home/ljj/workspace/MyEclipse/TimeMachine/WebRoot/WEB-INF/classes/cn/edu/nju/software/timemachine/entity/UserMeta.class], file [/home/ljj/workspace/MyEclipse/TimeMachine/WebRoot/WEB-INF/classes/cn/edu/nju/software/timemachine/entity/Album.class], file [/home/ljj/workspace/MyEclipse/TimeMachine/WebRoot/WEB-INF/classes/cn/edu/nju/software/timemachine/entity/Picture.class], file [/home/ljj/workspace/MyEclipse/TimeMachine/WebRoot/WEB-INF/classes/cn/edu/nju/software/timemachine/entity/SimpleComment.class], file [/home/ljj/workspace/MyEclipse/TimeMachine/WebRoot/WEB-INF/classes/cn/edu/nju/software/timemachine/entity/User.class], file [/home/ljj/workspace/MyEclipse/TimeMachine/WebRoot/WEB-INF/classes/cn/edu/nju/software/timemachine/entity/Category.class], file [/home/ljj/workspace/MyEclipse/TimeMachine/WebRoot/WEB-INF/classes/cn/edu/nju/software/timemachine/entity/Friend.class], file [/home/ljj/workspace/MyEclipse/TimeMachine/WebRoot/WEB-INF/classes/cn/edu/nju/software/timemachine/entity/PictureMeta.class], file [/home/ljj/workspace/MyEclipse/TimeMachine/WebRoot/WEB-INF/classes/cn/edu/nju/software/timemachine/entity/AlbumMeta.class], file [/home/ljj/workspace/MyEclipse/TimeMachine/WebRoot/WEB-INF/classes/cn/edu/nju/software/timemachine/entity/Message.class]]
+[23:09:34:447][org.hibernate.cfg.AnnotationConfiguration-secondPassCompile] -Execute first pass mapping processing
+[23:09:34:494][org.hibernate.cfg.AnnotationConfiguration-processArtifactsOfType] -Process hbm files
+[23:09:34:495][org.hibernate.cfg.AnnotationConfiguration-processArtifactsOfType] -Process annotated classes
+[23:09:34:499][org.hibernate.cfg.AnnotationBinder-bindClass] -Binding entity from annotated class: cn.edu.nju.software.timemachine.entity.Role
+[23:09:34:517][org.hibernate.cfg.Ejb3Column-bind] -Binding column DTYPE. Unique false. Nullable false.
+[23:09:34:531][org.hibernate.cfg.annotations.EntityBinder-bindEntity] -Import with entity name Role
+[23:09:34:537][org.hibernate.cfg.annotations.EntityBinder-bindTable] -Bind entity cn.edu.nju.software.timemachine.entity.Role on table Role
+[23:09:34:542][org.hibernate.cfg.AnnotationBinder-addElementsOfAClass] -Processing cn.edu.nju.software.timemachine.entity.Role property annotation
+[23:09:34:553][org.hibernate.cfg.AnnotationBinder-addElementsOfAClass] -Processing cn.edu.nju.software.timemachine.entity.Role property annotation
+[23:09:34:555][org.hibernate.cfg.AnnotationBinder-addElementsOfAClass] -Processing cn.edu.nju.software.timemachine.entity.Role field annotation
+[23:09:34:566][org.hibernate.cfg.AnnotationBinder-addElementsOfAClass] -Processing cn.edu.nju.software.timemachine.entity.Role field annotation
+[23:09:34:574][org.hibernate.cfg.AnnotationBinder-processElementAnnotations] -Processing annotations of cn.edu.nju.software.timemachine.entity.Role.id
+[23:09:34:579][org.hibernate.cfg.Ejb3Column-bind] -Binding column id. Unique false. Nullable false.
+[23:09:34:579][org.hibernate.cfg.AnnotationBinder-processElementAnnotations] -id is an id
+[23:09:34:582][org.hibernate.cfg.annotations.SimpleValueBinder-make] -building SimpleValue for id
+[23:09:34:585][org.hibernate.cfg.annotations.PropertyBinder-make] -Building property id
+[23:09:34:588][org.hibernate.cfg.AnnotationBinder-processElementAnnotations] -Bind @Id on id
+[23:09:34:589][org.hibernate.cfg.AnnotationBinder-processElementAnnotations] -Processing annotations of cn.edu.nju.software.timemachine.entity.Role.dateCreated
+[23:09:34:589][org.hibernate.cfg.Ejb3Column-bind] -Binding column dateCreated. Unique false. Nullable true.
+[23:09:34:591][org.hibernate.cfg.annotations.PropertyBinder-bind] -binding property dateCreated with lazy=false
+[23:09:34:592][org.hibernate.cfg.annotations.SimpleValueBinder-make] -building SimpleValue for dateCreated
+[23:09:34:592][org.hibernate.cfg.annotations.PropertyBinder-make] -Building property dateCreated
+[23:09:34:592][org.hibernate.cfg.AnnotationBinder-processElementAnnotations] -Processing annotations of cn.edu.nju.software.timemachine.entity.Role.version
+[23:09:34:593][org.hibernate.cfg.Ejb3Column-bind] -Binding column version. Unique false. Nullable true.
+[23:09:34:593][org.hibernate.cfg.AnnotationBinder-processElementAnnotations] -version is a version property
+[23:09:34:594][org.hibernate.cfg.annotations.PropertyBinder-bind] -binding property version with lazy=false
+[23:09:34:594][org.hibernate.cfg.annotations.SimpleValueBinder-make] -building SimpleValue for version
+[23:09:34:595][org.hibernate.cfg.annotations.PropertyBinder-make] -Building property version
+[23:09:34:595][org.hibernate.cfg.AnnotationBinder-processElementAnnotations] -Version name: version, unsavedValue: undefined
+[23:09:34:595][org.hibernate.cfg.AnnotationBinder-processElementAnnotations] -Processing annotations of cn.edu.nju.software.timemachine.entity.Role.name
+[23:09:34:596][org.hibernate.cfg.Ejb3Column-bind] -Binding column name. Unique false. Nullable true.
+[23:09:34:596][org.hibernate.cfg.annotations.PropertyBinder-bind] -binding property name with lazy=false
+[23:09:34:597][org.hibernate.cfg.annotations.SimpleValueBinder-make] -building SimpleValue for name
+[23:09:34:597][org.hibernate.cfg.annotations.PropertyBinder-make] -Building property name
+[23:09:34:598][org.hibernate.cfg.AnnotationBinder-processElementAnnotations] -Processing annotations of cn.edu.nju.software.timemachine.entity.Role.userList
+[23:09:34:601][org.hibernate.cfg.Ejb3Column-bind] -Binding column null. Unique false. Nullable true.
+[23:09:34:601][org.hibernate.cfg.Ejb3Column-bind] -Binding column userList. Unique false. Nullable true.
+[23:09:34:603][org.hibernate.cfg.Ejb3Column-bind] -Binding column null. Unique false. Nullable true.
+[23:09:34:618][org.hibernate.cfg.Ejb3Column-bind] -Binding column element. Unique false. Nullable true.
+[23:09:34:619][org.hibernate.cfg.Ejb3Column-bind] -Binding column mapkey. Unique false. Nullable true.
+[23:09:34:620][org.hibernate.cfg.Ejb3Column-bind] -Binding column null. Unique false. Nullable true.
+[23:09:34:621][org.hibernate.cfg.Ejb3Column-bind] -Binding column null. Unique false. Nullable false.
+[23:09:34:622][org.hibernate.cfg.Ejb3Column-bind] -Binding column null. Unique false. Nullable false.
+[23:09:34:623][org.hibernate.cfg.annotations.CollectionBinder-bind] -Collection role: cn.edu.nju.software.timemachine.entity.Role.userList
+[23:09:34:626][org.hibernate.cfg.annotations.PropertyBinder-make] -Building property userList
+[23:09:34:628][org.hibernate.cfg.AnnotationBinder-bindClass] -Binding entity from annotated class: cn.edu.nju.software.timemachine.entity.UserMeta
+[23:09:34:629][org.hibernate.cfg.Ejb3Column-bind] -Binding column DTYPE. Unique false. Nullable false.
+[23:09:34:629][org.hibernate.cfg.annotations.EntityBinder-bindEntity] -Import with entity name UserMeta
+[23:09:34:630][org.hibernate.cfg.annotations.EntityBinder-bindTable] -Bind entity cn.edu.nju.software.timemachine.entity.UserMeta on table UserMeta
+[23:09:34:630][org.hibernate.cfg.AnnotationBinder-addElementsOfAClass] -Processing cn.edu.nju.software.timemachine.entity.UserMeta property annotation
+[23:09:34:631][org.hibernate.cfg.AnnotationBinder-addElementsOfAClass] -Processing cn.edu.nju.software.timemachine.entity.UserMeta property annotation
+[23:09:34:632][org.hibernate.cfg.AnnotationBinder-addElementsOfAClass] -Processing cn.edu.nju.software.timemachine.entity.UserMeta field annotation
+[23:09:34:632][org.hibernate.cfg.AnnotationBinder-addElementsOfAClass] -Processing cn.edu.nju.software.timemachine.entity.UserMeta field annotation
+[23:09:34:635][org.hibernate.cfg.AnnotationBinder-processElementAnnotations] -Processing annotations of cn.edu.nju.software.timemachine.entity.UserMeta.id
+[23:09:34:636][org.hibernate.cfg.Ejb3Column-bind] -Binding column id. Unique false. Nullable false.
+[23:09:34:636][org.hibernate.cfg.AnnotationBinder-processElementAnnotations] -id is an id
+[23:09:34:636][org.hibernate.cfg.annotations.SimpleValueBinder-make] -building SimpleValue for id
+[23:09:34:637][org.hibernate.cfg.annotations.PropertyBinder-make] -Building property id
+[23:09:34:637][org.hibernate.cfg.AnnotationBinder-processElementAnnotations] -Bind @Id on id
+[23:09:34:638][org.hibernate.cfg.AnnotationBinder-processElementAnnotations] -Processing annotations of cn.edu.nju.software.timemachine.entity.UserMeta.dateCreated
+[23:09:34:638][org.hibernate.cfg.Ejb3Column-bind] -Binding column dateCreated. Unique false. Nullable true.
+[23:09:34:639][org.hibernate.cfg.annotations.PropertyBinder-bind] -binding property dateCreated with lazy=false
+[23:09:34:639][org.hibernate.cfg.annotations.SimpleValueBinder-make] -building SimpleValue for dateCreated
+[23:09:34:639][org.hibernate.cfg.annotations.PropertyBinder-make] -Building property dateCreated
+[23:09:34:640][org.hibernate.cfg.AnnotationBinder-processElementAnnotations] -Processing annotations of cn.edu.nju.software.timemachine.entity.UserMeta.version
+[23:09:34:640][org.hibernate.cfg.Ejb3Column-bind] -Binding column version. Unique false. Nullable true.
+[23:09:34:641][org.hibernate.cfg.AnnotationBinder-processElementAnnotations] -version is a version property
+[23:09:34:641][org.hibernate.cfg.annotations.PropertyBinder-bind] -binding property version with lazy=false
+[23:09:34:642][org.hibernate.cfg.annotations.SimpleValueBinder-make] -building SimpleValue for version
+[23:09:34:642][org.hibernate.cfg.annotations.PropertyBinder-make] -Building property version
+[23:09:34:643][org.hibernate.cfg.AnnotationBinder-processElementAnnotations] -Version name: version, unsavedValue: undefined
+[23:09:34:643][org.hibernate.cfg.AnnotationBinder-processElementAnnotations] -Processing annotations of cn.edu.nju.software.timemachine.entity.UserMeta.birthday
+[23:09:34:643][org.hibernate.cfg.Ejb3Column-bind] -Binding column birthday. Unique false. Nullable true.
+[23:09:34:644][org.hibernate.cfg.annotations.PropertyBinder-bind] -binding property birthday with lazy=false
+[23:09:34:644][org.hibernate.cfg.annotations.SimpleValueBinder-make] -building SimpleValue for birthday
+[23:09:34:645][org.hibernate.cfg.annotations.PropertyBinder-make] -Building property birthday
+[23:09:34:645][org.hibernate.cfg.AnnotationBinder-processElementAnnotations] -Processing annotations of cn.edu.nju.software.timemachine.entity.UserMeta.city
+[23:09:34:646][org.hibernate.cfg.Ejb3Column-bind] -Binding column city. Unique false. Nullable true.
+[23:09:34:646][org.hibernate.cfg.annotations.PropertyBinder-bind] -binding property city with lazy=false
+[23:09:34:646][org.hibernate.cfg.annotations.SimpleValueBinder-make] -building SimpleValue for city
+[23:09:34:647][org.hibernate.cfg.annotations.PropertyBinder-make] -Building property city
+[23:09:34:647][org.hibernate.cfg.AnnotationBinder-processElementAnnotations] -Processing annotations of cn.edu.nju.software.timemachine.entity.UserMeta.country
+[23:09:34:648][org.hibernate.cfg.Ejb3Column-bind] -Binding column country. Unique false. Nullable true.
+[23:09:34:648][org.hibernate.cfg.annotations.PropertyBinder-bind] -binding property country with lazy=false
+[23:09:34:649][org.hibernate.cfg.annotations.SimpleValueBinder-make] -building SimpleValue for country
+[23:09:34:649][org.hibernate.cfg.annotations.PropertyBinder-make] -Building property country
+[23:09:34:649][org.hibernate.cfg.AnnotationBinder-processElementAnnotations] -Processing annotations of cn.edu.nju.software.timemachine.entity.UserMeta.otherStuff
+[23:09:34:650][org.hibernate.cfg.Ejb3Column-bind] -Binding column otherStuff. Unique false. Nullable true.
+[23:09:34:650][org.hibernate.cfg.annotations.PropertyBinder-bind] -binding property otherStuff with lazy=false
+[23:09:34:651][org.hibernate.cfg.annotations.SimpleValueBinder-make] -building SimpleValue for otherStuff
+[23:09:34:651][org.hibernate.cfg.annotations.PropertyBinder-make] -Building property otherStuff
+[23:09:34:652][org.hibernate.cfg.AnnotationBinder-processElementAnnotations] -Processing annotations of cn.edu.nju.software.timemachine.entity.UserMeta.user
+[23:09:34:652][org.hibernate.cfg.Ejb3Column-bind] -Binding column null. Unique false. Nullable true.
+[23:09:34:653][org.hibernate.cfg.Ejb3Column-bind] -Binding column user. Unique false. Nullable true.
+[23:09:34:653][org.hibernate.cfg.AnnotationBinder-bindOneToOne] -Fetching user with JOIN
+[23:09:34:656][org.hibernate.cfg.AnnotationBinder-bindClass] -Binding entity from annotated class: cn.edu.nju.software.timemachine.entity.Album
+[23:09:34:656][org.hibernate.cfg.Ejb3Column-bind] -Binding column DTYPE. Unique false. Nullable false.
+[23:09:34:657][org.hibernate.cfg.annotations.EntityBinder-bindEntity] -Import with entity name Album
+[23:09:34:657][org.hibernate.cfg.annotations.EntityBinder-bindTable] -Bind entity cn.edu.nju.software.timemachine.entity.Album on table Album
+[23:09:34:658][org.hibernate.cfg.AnnotationBinder-addElementsOfAClass] -Processing cn.edu.nju.software.timemachine.entity.Album property annotation
+[23:09:34:658][org.hibernate.cfg.AnnotationBinder-addElementsOfAClass] -Processing cn.edu.nju.software.timemachine.entity.Album property annotation
+[23:09:34:659][org.hibernate.cfg.AnnotationBinder-addElementsOfAClass] -Processing cn.edu.nju.software.timemachine.entity.Album field annotation
+[23:09:34:660][org.hibernate.cfg.AnnotationBinder-addElementsOfAClass] -Processing cn.edu.nju.software.timemachine.entity.Album field annotation
+[23:09:34:669][org.hibernate.cfg.AnnotationBinder-processElementAnnotations] -Processing annotations of cn.edu.nju.software.timemachine.entity.Album.id
+[23:09:34:669][org.hibernate.cfg.Ejb3Column-bind] -Binding column id. Unique false. Nullable false.
+[23:09:34:670][org.hibernate.cfg.AnnotationBinder-processElementAnnotations] -id is an id
+[23:09:34:671][org.hibernate.cfg.annotations.SimpleValueBinder-make] -building SimpleValue for id
+[23:09:34:671][org.hibernate.cfg.annotations.PropertyBinder-make] -Building property id
+[23:09:34:672][org.hibernate.cfg.AnnotationBinder-processElementAnnotations] -Bind @Id on id
+[23:09:34:673][org.hibernate.cfg.AnnotationBinder-processElementAnnotations] -Processing annotations of cn.edu.nju.software.timemachine.entity.Album.dateCreated
+[23:09:34:673][org.hibernate.cfg.Ejb3Column-bind] -Binding column dateCreated. Unique false. Nullable true.
+[23:09:34:674][org.hibernate.cfg.annotations.PropertyBinder-bind] -binding property dateCreated with lazy=false
+[23:09:34:675][org.hibernate.cfg.annotations.SimpleValueBinder-make] -building SimpleValue for dateCreated
+[23:09:34:675][org.hibernate.cfg.annotations.PropertyBinder-make] -Building property dateCreated
+[23:09:34:676][org.hibernate.cfg.AnnotationBinder-processElementAnnotations] -Processing annotations of cn.edu.nju.software.timemachine.entity.Album.version
+[23:09:34:677][org.hibernate.cfg.Ejb3Column-bind] -Binding column version. Unique false. Nullable true.
+[23:09:34:677][org.hibernate.cfg.AnnotationBinder-processElementAnnotations] -version is a version property
+[23:09:34:678][org.hibernate.cfg.annotations.PropertyBinder-bind] -binding property version with lazy=false
+[23:09:34:679][org.hibernate.cfg.annotations.SimpleValueBinder-make] -building SimpleValue for version
+[23:09:34:679][org.hibernate.cfg.annotations.PropertyBinder-make] -Building property version
+[23:09:34:680][org.hibernate.cfg.AnnotationBinder-processElementAnnotations] -Version name: version, unsavedValue: undefined
+[23:09:34:681][org.hibernate.cfg.AnnotationBinder-processElementAnnotations] -Processing annotations of cn.edu.nju.software.timemachine.entity.Album.cover
+[23:09:34:682][org.hibernate.cfg.Ejb3Column-bind] -Binding column null. Unique false. Nullable true.
+[23:09:34:682][org.hibernate.cfg.Ejb3Column-bind] -Binding column cover. Unique false. Nullable true.
+[23:09:34:683][org.hibernate.cfg.AnnotationBinder-bindOneToOne] -Fetching cover with SELECT
+[23:09:34:684][org.hibernate.cfg.annotations.PropertyBinder-make] -Building property cover
+[23:09:34:685][org.hibernate.cfg.AnnotationBinder-processElementAnnotations] -Processing annotations of cn.edu.nju.software.timemachine.entity.Album.customDate
+[23:09:34:685][org.hibernate.cfg.Ejb3Column-bind] -Binding column customDate. Unique false. Nullable true.
+[23:09:34:686][org.hibernate.cfg.annotations.PropertyBinder-bind] -binding property customDate with lazy=false
+[23:09:34:686][org.hibernate.cfg.annotations.SimpleValueBinder-make] -building SimpleValue for customDate
+[23:09:34:687][org.hibernate.cfg.annotations.PropertyBinder-make] -Building property customDate
+[23:09:34:687][org.hibernate.cfg.AnnotationBinder-processElementAnnotations] -Processing annotations of cn.edu.nju.software.timemachine.entity.Album.name
+[23:09:34:688][org.hibernate.cfg.Ejb3Column-bind] -Binding column name. Unique false. Nullable true.
+[23:09:34:688][org.hibernate.cfg.annotations.PropertyBinder-bind] -binding property name with lazy=false
+[23:09:34:689][org.hibernate.cfg.annotations.SimpleValueBinder-make] -building SimpleValue for name
+[23:09:34:689][org.hibernate.cfg.annotations.PropertyBinder-make] -Building property name
+[23:09:34:690][org.hibernate.cfg.AnnotationBinder-processElementAnnotations] -Processing annotations of cn.edu.nju.software.timemachine.entity.Album.owner
+[23:09:34:690][org.hibernate.cfg.Ejb3Column-bind] -Binding column null. Unique false. Nullable true.
+[23:09:34:691][org.hibernate.cfg.Ejb3Column-bind] -Binding column owner. Unique false. Nullable true.
+[23:09:34:691][org.hibernate.cfg.annotations.PropertyBinder-make] -Building property owner
+[23:09:34:692][org.hibernate.cfg.AnnotationBinder-processElementAnnotations] -Processing annotations of cn.edu.nju.software.timemachine.entity.Album.pictureList
+[23:09:34:692][org.hibernate.cfg.Ejb3Column-bind] -Binding column null. Unique false. Nullable true.
+[23:09:34:693][org.hibernate.cfg.Ejb3Column-bind] -Binding column pictureList. Unique false. Nullable true.
+[23:09:34:693][org.hibernate.cfg.Ejb3Column-bind] -Binding column null. Unique false. Nullable true.
+[23:09:34:694][org.hibernate.cfg.Ejb3Column-bind] -Binding column element. Unique false. Nullable true.
+[23:09:34:695][org.hibernate.cfg.Ejb3Column-bind] -Binding column mapkey. Unique false. Nullable true.
+[23:09:34:695][org.hibernate.cfg.Ejb3Column-bind] -Binding column null. Unique false. Nullable true.
+[23:09:34:696][org.hibernate.cfg.Ejb3Column-bind] -Binding column null. Unique false. Nullable false.
+[23:09:34:696][org.hibernate.cfg.Ejb3Column-bind] -Binding column null. Unique false. Nullable false.
+[23:09:34:697][org.hibernate.cfg.annotations.CollectionBinder-bind] -Collection role: cn.edu.nju.software.timemachine.entity.Album.pictureList
+[23:09:34:697][org.hibernate.cfg.annotations.PropertyBinder-make] -Building property pictureList
+[23:09:34:698][org.hibernate.cfg.AnnotationBinder-bindClass] -Binding entity from annotated class: cn.edu.nju.software.timemachine.entity.Picture
+[23:09:34:698][org.hibernate.cfg.Ejb3Column-bind] -Binding column DTYPE. Unique false. Nullable false.
+[23:09:34:699][org.hibernate.cfg.annotations.EntityBinder-bindEntity] -Import with entity name Picture
+[23:09:34:699][org.hibernate.cfg.annotations.EntityBinder-bindTable] -Bind entity cn.edu.nju.software.timemachine.entity.Picture on table Picture
+[23:09:34:700][org.hibernate.cfg.AnnotationBinder-addElementsOfAClass] -Processing cn.edu.nju.software.timemachine.entity.Picture property annotation
+[23:09:34:700][org.hibernate.cfg.AnnotationBinder-addElementsOfAClass] -Processing cn.edu.nju.software.timemachine.entity.Picture property annotation
+[23:09:34:701][org.hibernate.cfg.AnnotationBinder-addElementsOfAClass] -Processing cn.edu.nju.software.timemachine.entity.Picture field annotation
+[23:09:34:702][org.hibernate.cfg.AnnotationBinder-addElementsOfAClass] -Processing cn.edu.nju.software.timemachine.entity.Picture field annotation
+[23:09:34:703][org.hibernate.cfg.AnnotationBinder-processElementAnnotations] -Processing annotations of cn.edu.nju.software.timemachine.entity.Picture.id
+[23:09:34:704][org.hibernate.cfg.Ejb3Column-bind] -Binding column id. Unique false. Nullable false.
+[23:09:34:704][org.hibernate.cfg.AnnotationBinder-processElementAnnotations] -id is an id
+[23:09:34:705][org.hibernate.cfg.annotations.SimpleValueBinder-make] -building SimpleValue for id
+[23:09:34:705][org.hibernate.cfg.annotations.PropertyBinder-make] -Building property id
+[23:09:34:706][org.hibernate.cfg.AnnotationBinder-processElementAnnotations] -Bind @Id on id
+[23:09:34:706][org.hibernate.cfg.AnnotationBinder-processElementAnnotations] -Processing annotations of cn.edu.nju.software.timemachine.entity.Picture.dateCreated
+[23:09:34:707][org.hibernate.cfg.Ejb3Column-bind] -Binding column dateCreated. Unique false. Nullable true.
+[23:09:34:707][org.hibernate.cfg.annotations.PropertyBinder-bind] -binding property dateCreated with lazy=false
+[23:09:34:708][org.hibernate.cfg.annotations.SimpleValueBinder-make] -building SimpleValue for dateCreated
+[23:09:34:708][org.hibernate.cfg.annotations.PropertyBinder-make] -Building property dateCreated
+[23:09:34:709][org.hibernate.cfg.AnnotationBinder-processElementAnnotations] -Processing annotations of cn.edu.nju.software.timemachine.entity.Picture.version
+[23:09:34:709][org.hibernate.cfg.Ejb3Column-bind] -Binding column version. Unique false. Nullable true.
+[23:09:34:710][org.hibernate.cfg.AnnotationBinder-processElementAnnotations] -version is a version property
+[23:09:34:710][org.hibernate.cfg.annotations.PropertyBinder-bind] -binding property version with lazy=false
+[23:09:34:711][org.hibernate.cfg.annotations.SimpleValueBinder-make] -building SimpleValue for version
+[23:09:34:711][org.hibernate.cfg.annotations.PropertyBinder-make] -Building property version
+[23:09:34:712][org.hibernate.cfg.AnnotationBinder-processElementAnnotations] -Version name: version, unsavedValue: undefined
+[23:09:34:712][org.hibernate.cfg.AnnotationBinder-processElementAnnotations] -Processing annotations of cn.edu.nju.software.timemachine.entity.Picture.album
+[23:09:34:713][org.hibernate.cfg.Ejb3Column-bind] -Binding column null. Unique false. Nullable true.
+[23:09:34:713][org.hibernate.cfg.Ejb3Column-bind] -Binding column album. Unique false. Nullable true.
+[23:09:34:714][org.hibernate.cfg.annotations.PropertyBinder-make] -Building property album
+[23:09:34:714][org.hibernate.cfg.AnnotationBinder-processElementAnnotations] -Processing annotations of cn.edu.nju.software.timemachine.entity.Picture.commentList
+[23:09:34:715][org.hibernate.cfg.Ejb3Column-bind] -Binding column null. Unique false. Nullable true.
+[23:09:34:716][org.hibernate.cfg.Ejb3Column-bind] -Binding column commentList. Unique false. Nullable true.
+[23:09:34:716][org.hibernate.cfg.Ejb3Column-bind] -Binding column null. Unique false. Nullable true.
+[23:09:34:717][org.hibernate.cfg.Ejb3Column-bind] -Binding column element. Unique false. Nullable true.
+[23:09:34:717][org.hibernate.cfg.Ejb3Column-bind] -Binding column mapkey. Unique false. Nullable true.
+[23:09:34:718][org.hibernate.cfg.Ejb3Column-bind] -Binding column null. Unique false. Nullable true.
+[23:09:34:718][org.hibernate.cfg.Ejb3Column-bind] -Binding column null. Unique false. Nullable false.
+[23:09:34:719][org.hibernate.cfg.Ejb3Column-bind] -Binding column null. Unique false. Nullable false.
+[23:09:34:719][org.hibernate.cfg.annotations.CollectionBinder-bind] -Collection role: cn.edu.nju.software.timemachine.entity.Picture.commentList
+[23:09:34:720][org.hibernate.cfg.annotations.PropertyBinder-make] -Building property commentList
+[23:09:34:720][org.hibernate.cfg.AnnotationBinder-processElementAnnotations] -Processing annotations of cn.edu.nju.software.timemachine.entity.Picture.customDate
+[23:09:34:721][org.hibernate.cfg.Ejb3Column-bind] -Binding column customDate. Unique false. Nullable true.
+[23:09:34:721][org.hibernate.cfg.annotations.PropertyBinder-bind] -binding property customDate with lazy=false
+[23:09:34:722][org.hibernate.cfg.annotations.SimpleValueBinder-make] -building SimpleValue for customDate
+[23:09:34:722][org.hibernate.cfg.annotations.PropertyBinder-make] -Building property customDate
+[23:09:34:723][org.hibernate.cfg.AnnotationBinder-processElementAnnotations] -Processing annotations of cn.edu.nju.software.timemachine.entity.Picture.pictureMeta
+[23:09:34:723][org.hibernate.cfg.Ejb3Column-bind] -Binding column null. Unique false. Nullable true.
+[23:09:34:724][org.hibernate.cfg.Ejb3Column-bind] -Binding column pictureMeta. Unique false. Nullable true.
+[23:09:34:724][org.hibernate.cfg.AnnotationBinder-bindOneToOne] -Fetching pictureMeta with SELECT
+[23:09:34:725][org.hibernate.cfg.annotations.PropertyBinder-make] -Building property pictureMeta
+[23:09:34:725][org.hibernate.cfg.AnnotationBinder-processElementAnnotations] -Processing annotations of cn.edu.nju.software.timemachine.entity.Picture.pictureType
+[23:09:34:726][org.hibernate.cfg.Ejb3Column-bind] -Binding column pictureType. Unique false. Nullable true.
+[23:09:34:726][org.hibernate.cfg.annotations.PropertyBinder-bind] -binding property pictureType with lazy=false
+[23:09:34:727][org.hibernate.cfg.annotations.SimpleValueBinder-make] -building SimpleValue for pictureType
+[23:09:34:727][org.hibernate.cfg.annotations.PropertyBinder-make] -Building property pictureType
+[23:09:34:728][org.hibernate.cfg.AnnotationBinder-bindClass] -Binding entity from annotated class: cn.edu.nju.software.timemachine.entity.SimpleComment
+[23:09:34:728][org.hibernate.cfg.Ejb3Column-bind] -Binding column DTYPE. Unique false. Nullable false.
+[23:09:34:729][org.hibernate.cfg.annotations.EntityBinder-bindEntity] -Import with entity name SimpleComment
+[23:09:34:730][org.hibernate.cfg.annotations.EntityBinder-bindTable] -Bind entity cn.edu.nju.software.timemachine.entity.SimpleComment on table SimpleComment
+[23:09:34:730][org.hibernate.cfg.AnnotationBinder-addElementsOfAClass] -Processing cn.edu.nju.software.timemachine.entity.SimpleComment property annotation
+[23:09:34:731][org.hibernate.cfg.AnnotationBinder-addElementsOfAClass] -Processing cn.edu.nju.software.timemachine.entity.SimpleComment property annotation
+[23:09:34:731][org.hibernate.cfg.AnnotationBinder-addElementsOfAClass] -Processing cn.edu.nju.software.timemachine.entity.SimpleComment field annotation
+[23:09:34:732][org.hibernate.cfg.AnnotationBinder-addElementsOfAClass] -Processing cn.edu.nju.software.timemachine.entity.SimpleComment field annotation
+[23:09:34:733][org.hibernate.cfg.AnnotationBinder-processElementAnnotations] -Processing annotations of cn.edu.nju.software.timemachine.entity.SimpleComment.id
+[23:09:34:734][org.hibernate.cfg.Ejb3Column-bind] -Binding column id. Unique false. Nullable false.
+[23:09:34:737][org.hibernate.cfg.AnnotationBinder-processElementAnnotations] -id is an id
+[23:09:34:738][org.hibernate.cfg.annotations.SimpleValueBinder-make] -building SimpleValue for id
+[23:09:34:738][org.hibernate.cfg.annotations.PropertyBinder-make] -Building property id
+[23:09:34:739][org.hibernate.cfg.AnnotationBinder-processElementAnnotations] -Bind @Id on id
+[23:09:34:739][org.hibernate.cfg.AnnotationBinder-processElementAnnotations] -Processing annotations of cn.edu.nju.software.timemachine.entity.SimpleComment.dateCreated
+[23:09:34:740][org.hibernate.cfg.Ejb3Column-bind] -Binding column dateCreated. Unique false. Nullable true.
+[23:09:34:740][org.hibernate.cfg.annotations.PropertyBinder-bind] -binding property dateCreated with lazy=false
+[23:09:34:741][org.hibernate.cfg.annotations.SimpleValueBinder-make] -building SimpleValue for dateCreated
+[23:09:34:741][org.hibernate.cfg.annotations.PropertyBinder-make] -Building property dateCreated
+[23:09:34:741][org.hibernate.cfg.AnnotationBinder-processElementAnnotations] -Processing annotations of cn.edu.nju.software.timemachine.entity.SimpleComment.version
+[23:09:34:742][org.hibernate.cfg.Ejb3Column-bind] -Binding column version. Unique false. Nullable true.
+[23:09:34:742][org.hibernate.cfg.AnnotationBinder-processElementAnnotations] -version is a version property
+[23:09:34:743][org.hibernate.cfg.annotations.PropertyBinder-bind] -binding property version with lazy=false
+[23:09:34:743][org.hibernate.cfg.annotations.SimpleValueBinder-make] -building SimpleValue for version
+[23:09:34:744][org.hibernate.cfg.annotations.PropertyBinder-make] -Building property version
+[23:09:34:744][org.hibernate.cfg.AnnotationBinder-processElementAnnotations] -Version name: version, unsavedValue: undefined
+[23:09:34:745][org.hibernate.cfg.AnnotationBinder-processElementAnnotations] -Processing annotations of cn.edu.nju.software.timemachine.entity.SimpleComment.commentor
+[23:09:34:745][org.hibernate.cfg.Ejb3Column-bind] -Binding column null. Unique false. Nullable true.
+[23:09:34:745][org.hibernate.cfg.Ejb3Column-bind] -Binding column commentor. Unique false. Nullable true.
+[23:09:34:746][org.hibernate.cfg.AnnotationBinder-bindOneToOne] -Fetching commentor with SELECT
+[23:09:34:746][org.hibernate.cfg.annotations.PropertyBinder-make] -Building property commentor
+[23:09:34:747][org.hibernate.cfg.AnnotationBinder-processElementAnnotations] -Processing annotations of cn.edu.nju.software.timemachine.entity.SimpleComment.picture
+[23:09:34:747][org.hibernate.cfg.Ejb3Column-bind] -Binding column null. Unique false. Nullable true.
+[23:09:34:748][org.hibernate.cfg.Ejb3Column-bind] -Binding column picture. Unique false. Nullable true.
+[23:09:34:748][org.hibernate.cfg.annotations.PropertyBinder-make] -Building property picture
+[23:09:34:749][org.hibernate.cfg.AnnotationBinder-processElementAnnotations] -Processing annotations of cn.edu.nju.software.timemachine.entity.SimpleComment.type
+[23:09:34:749][org.hibernate.cfg.Ejb3Column-bind] -Binding column type. Unique false. Nullable true.
+[23:09:34:750][org.hibernate.cfg.annotations.PropertyBinder-bind] -binding property type with lazy=false
+[23:09:34:750][org.hibernate.cfg.annotations.SimpleValueBinder-make] -building SimpleValue for type
+[23:09:34:750][org.hibernate.cfg.annotations.PropertyBinder-make] -Building property type
+[23:09:34:751][org.hibernate.cfg.AnnotationBinder-bindClass] -Binding entity from annotated class: cn.edu.nju.software.timemachine.entity.User
+[23:09:34:751][org.hibernate.cfg.Ejb3Column-bind] -Binding column DTYPE. Unique false. Nullable false.
+[23:09:34:752][org.hibernate.cfg.annotations.EntityBinder-bindEntity] -Import with entity name User
+[23:09:34:752][org.hibernate.cfg.annotations.EntityBinder-bindTable] -Bind entity cn.edu.nju.software.timemachine.entity.User on table User
+[23:09:34:753][org.hibernate.cfg.AnnotationBinder-addElementsOfAClass] -Processing cn.edu.nju.software.timemachine.entity.User property annotation
+[23:09:34:753][org.hibernate.cfg.AnnotationBinder-addElementsOfAClass] -Processing cn.edu.nju.software.timemachine.entity.User property annotation
+[23:09:34:754][org.hibernate.cfg.AnnotationBinder-addElementsOfAClass] -Processing cn.edu.nju.software.timemachine.entity.User field annotation
+[23:09:34:755][org.hibernate.cfg.AnnotationBinder-addElementsOfAClass] -Processing cn.edu.nju.software.timemachine.entity.User field annotation
+[23:09:34:758][org.hibernate.cfg.AnnotationBinder-processElementAnnotations] -Processing annotations of cn.edu.nju.software.timemachine.entity.User.id
+[23:09:34:759][org.hibernate.cfg.Ejb3Column-bind] -Binding column id. Unique false. Nullable false.
+[23:09:34:759][org.hibernate.cfg.AnnotationBinder-processElementAnnotations] -id is an id
+[23:09:34:759][org.hibernate.cfg.annotations.SimpleValueBinder-make] -building SimpleValue for id
+[23:09:34:760][org.hibernate.cfg.annotations.PropertyBinder-make] -Building property id
+[23:09:34:760][org.hibernate.cfg.AnnotationBinder-processElementAnnotations] -Bind @Id on id
+[23:09:34:761][org.hibernate.cfg.AnnotationBinder-processElementAnnotations] -Processing annotations of cn.edu.nju.software.timemachine.entity.User.dateCreated
+[23:09:34:761][org.hibernate.cfg.Ejb3Column-bind] -Binding column dateCreated. Unique false. Nullable true.
+[23:09:34:762][org.hibernate.cfg.annotations.PropertyBinder-bind] -binding property dateCreated with lazy=false
+[23:09:34:762][org.hibernate.cfg.annotations.SimpleValueBinder-make] -building SimpleValue for dateCreated
+[23:09:34:762][org.hibernate.cfg.annotations.PropertyBinder-make] -Building property dateCreated
+[23:09:34:763][org.hibernate.cfg.AnnotationBinder-processElementAnnotations] -Processing annotations of cn.edu.nju.software.timemachine.entity.User.version
+[23:09:34:763][org.hibernate.cfg.Ejb3Column-bind] -Binding column version. Unique false. Nullable true.
+[23:09:34:764][org.hibernate.cfg.AnnotationBinder-processElementAnnotations] -version is a version property
+[23:09:34:764][org.hibernate.cfg.annotations.PropertyBinder-bind] -binding property version with lazy=false
+[23:09:34:765][org.hibernate.cfg.annotations.SimpleValueBinder-make] -building SimpleValue for version
+[23:09:34:765][org.hibernate.cfg.annotations.PropertyBinder-make] -Building property version
+[23:09:34:766][org.hibernate.cfg.AnnotationBinder-processElementAnnotations] -Version name: version, unsavedValue: undefined
+[23:09:34:766][org.hibernate.cfg.AnnotationBinder-processElementAnnotations] -Processing annotations of cn.edu.nju.software.timemachine.entity.User.albumList
+[23:09:34:766][org.hibernate.cfg.Ejb3Column-bind] -Binding column null. Unique false. Nullable true.
+[23:09:34:767][org.hibernate.cfg.Ejb3Column-bind] -Binding column albumList. Unique false. Nullable true.
+[23:09:34:768][org.hibernate.cfg.Ejb3Column-bind] -Binding column null. Unique false. Nullable true.
+[23:09:34:768][org.hibernate.cfg.Ejb3Column-bind] -Binding column element. Unique false. Nullable true.
+[23:09:34:769][org.hibernate.cfg.Ejb3Column-bind] -Binding column mapkey. Unique false. Nullable true.
+[23:09:34:769][org.hibernate.cfg.Ejb3Column-bind] -Binding column null. Unique false. Nullable true.
+[23:09:34:770][org.hibernate.cfg.Ejb3Column-bind] -Binding column null. Unique false. Nullable false.
+[23:09:34:770][org.hibernate.cfg.Ejb3Column-bind] -Binding column null. Unique false. Nullable false.
+[23:09:34:770][org.hibernate.cfg.annotations.CollectionBinder-bind] -Collection role: cn.edu.nju.software.timemachine.entity.User.albumList
+[23:09:34:771][org.hibernate.cfg.annotations.PropertyBinder-make] -Building property albumList
+[23:09:34:771][org.hibernate.cfg.AnnotationBinder-processElementAnnotations] -Processing annotations of cn.edu.nju.software.timemachine.entity.User.categoryList
+[23:09:34:772][org.hibernate.cfg.Ejb3Column-bind] -Binding column null. Unique false. Nullable true.
+[23:09:34:772][org.hibernate.cfg.Ejb3Column-bind] -Binding column categoryList. Unique false. Nullable true.
+[23:09:34:773][org.hibernate.cfg.Ejb3Column-bind] -Binding column null. Unique false. Nullable true.
+[23:09:34:773][org.hibernate.cfg.Ejb3Column-bind] -Binding column element. Unique false. Nullable true.
+[23:09:34:774][org.hibernate.cfg.Ejb3Column-bind] -Binding column mapkey. Unique false. Nullable true.
+[23:09:34:774][org.hibernate.cfg.Ejb3Column-bind] -Binding column null. Unique false. Nullable true.
+[23:09:34:774][org.hibernate.cfg.Ejb3Column-bind] -Binding column null. Unique false. Nullable false.
+[23:09:34:775][org.hibernate.cfg.Ejb3Column-bind] -Binding column null. Unique false. Nullable false.
+[23:09:34:775][org.hibernate.cfg.annotations.CollectionBinder-bind] -Collection role: cn.edu.nju.software.timemachine.entity.User.categoryList
+[23:09:34:776][org.hibernate.cfg.annotations.PropertyBinder-make] -Building property categoryList
+[23:09:34:776][org.hibernate.cfg.AnnotationBinder-processElementAnnotations] -Processing annotations of cn.edu.nju.software.timemachine.entity.User.email
+[23:09:34:777][org.hibernate.cfg.Ejb3Column-bind] -Binding column email. Unique false. Nullable true.
+[23:09:34:777][org.hibernate.cfg.annotations.PropertyBinder-bind] -binding property email with lazy=false
+[23:09:34:778][org.hibernate.cfg.annotations.SimpleValueBinder-make] -building SimpleValue for email
+[23:09:34:778][org.hibernate.cfg.annotations.PropertyBinder-make] -Building property email
+[23:09:34:778][org.hibernate.cfg.AnnotationBinder-processElementAnnotations] -Processing annotations of cn.edu.nju.software.timemachine.entity.User.name
+[23:09:34:779][org.hibernate.cfg.Ejb3Column-bind] -Binding column name. Unique false. Nullable true.
+[23:09:34:779][org.hibernate.cfg.annotations.PropertyBinder-bind] -binding property name with lazy=false
+[23:09:34:780][org.hibernate.cfg.annotations.SimpleValueBinder-make] -building SimpleValue for name
+[23:09:34:780][org.hibernate.cfg.annotations.PropertyBinder-make] -Building property name
+[23:09:34:781][org.hibernate.cfg.AnnotationBinder-processElementAnnotations] -Processing annotations of cn.edu.nju.software.timemachine.entity.User.password
+[23:09:34:781][org.hibernate.cfg.Ejb3Column-bind] -Binding column password. Unique false. Nullable true.
+[23:09:34:781][org.hibernate.cfg.annotations.PropertyBinder-bind] -binding property password with lazy=false
+[23:09:34:782][org.hibernate.cfg.annotations.SimpleValueBinder-make] -building SimpleValue for password
+[23:09:34:782][org.hibernate.cfg.annotations.PropertyBinder-make] -Building property password
+[23:09:34:783][org.hibernate.cfg.AnnotationBinder-processElementAnnotations] -Processing annotations of cn.edu.nju.software.timemachine.entity.User.role
+[23:09:34:783][org.hibernate.cfg.Ejb3Column-bind] -Binding column null. Unique false. Nullable true.
+[23:09:34:784][org.hibernate.cfg.Ejb3Column-bind] -Binding column role. Unique false. Nullable true.
+[23:09:34:784][org.hibernate.cfg.annotations.PropertyBinder-make] -Building property role
+[23:09:34:785][org.hibernate.cfg.AnnotationBinder-processElementAnnotations] -Processing annotations of cn.edu.nju.software.timemachine.entity.User.userMeta
+[23:09:34:785][org.hibernate.cfg.Ejb3Column-bind] -Binding column null. Unique false. Nullable true.
+[23:09:34:786][org.hibernate.cfg.Ejb3Column-bind] -Binding column userMeta. Unique false. Nullable true.
+[23:09:34:786][org.hibernate.cfg.AnnotationBinder-bindOneToOne] -Fetching userMeta with SELECT
+[23:09:34:786][org.hibernate.cfg.annotations.PropertyBinder-make] -Building property userMeta
+[23:09:34:787][org.hibernate.cfg.AnnotationBinder-bindClass] -Binding entity from annotated class: cn.edu.nju.software.timemachine.entity.Category
+[23:09:34:787][org.hibernate.cfg.Ejb3Column-bind] -Binding column DTYPE. Unique false. Nullable false.
+[23:09:34:788][org.hibernate.cfg.annotations.EntityBinder-bindEntity] -Import with entity name Category
+[23:09:34:788][org.hibernate.cfg.annotations.EntityBinder-bindTable] -Bind entity cn.edu.nju.software.timemachine.entity.Category on table Category
+[23:09:34:789][org.hibernate.cfg.AnnotationBinder-addElementsOfAClass] -Processing cn.edu.nju.software.timemachine.entity.Category property annotation
+[23:09:34:789][org.hibernate.cfg.AnnotationBinder-addElementsOfAClass] -Processing cn.edu.nju.software.timemachine.entity.Category property annotation
+[23:09:34:790][org.hibernate.cfg.AnnotationBinder-addElementsOfAClass] -Processing cn.edu.nju.software.timemachine.entity.Category field annotation
+[23:09:34:791][org.hibernate.cfg.AnnotationBinder-addElementsOfAClass] -Processing cn.edu.nju.software.timemachine.entity.Category field annotation
+[23:09:34:792][org.hibernate.cfg.AnnotationBinder-processElementAnnotations] -Processing annotations of cn.edu.nju.software.timemachine.entity.Category.id
+[23:09:34:792][org.hibernate.cfg.Ejb3Column-bind] -Binding column id. Unique false. Nullable false.
+[23:09:34:792][org.hibernate.cfg.AnnotationBinder-processElementAnnotations] -id is an id
+[23:09:34:793][org.hibernate.cfg.annotations.SimpleValueBinder-make] -building SimpleValue for id
+[23:09:34:793][org.hibernate.cfg.annotations.PropertyBinder-make] -Building property id
+[23:09:34:794][org.hibernate.cfg.AnnotationBinder-processElementAnnotations] -Bind @Id on id
+[23:09:34:794][org.hibernate.cfg.AnnotationBinder-processElementAnnotations] -Processing annotations of cn.edu.nju.software.timemachine.entity.Category.dateCreated
+[23:09:34:795][org.hibernate.cfg.Ejb3Column-bind] -Binding column dateCreated. Unique false. Nullable true.
+[23:09:34:795][org.hibernate.cfg.annotations.PropertyBinder-bind] -binding property dateCreated with lazy=false
+[23:09:34:796][org.hibernate.cfg.annotations.SimpleValueBinder-make] -building SimpleValue for dateCreated
+[23:09:34:796][org.hibernate.cfg.annotations.PropertyBinder-make] -Building property dateCreated
+[23:09:34:797][org.hibernate.cfg.AnnotationBinder-processElementAnnotations] -Processing annotations of cn.edu.nju.software.timemachine.entity.Category.version
+[23:09:34:797][org.hibernate.cfg.Ejb3Column-bind] -Binding column version. Unique false. Nullable true.
+[23:09:34:798][org.hibernate.cfg.AnnotationBinder-processElementAnnotations] -version is a version property
+[23:09:34:798][org.hibernate.cfg.annotations.PropertyBinder-bind] -binding property version with lazy=false
+[23:09:34:798][org.hibernate.cfg.annotations.SimpleValueBinder-make] -building SimpleValue for version
+[23:09:34:799][org.hibernate.cfg.annotations.PropertyBinder-make] -Building property version
+[23:09:34:799][org.hibernate.cfg.AnnotationBinder-processElementAnnotations] -Version name: version, unsavedValue: undefined
+[23:09:34:800][org.hibernate.cfg.AnnotationBinder-processElementAnnotations] -Processing annotations of cn.edu.nju.software.timemachine.entity.Category.friendList
+[23:09:34:800][org.hibernate.cfg.Ejb3Column-bind] -Binding column null. Unique false. Nullable true.
+[23:09:34:801][org.hibernate.cfg.Ejb3Column-bind] -Binding column friendList. Unique false. Nullable true.
+[23:09:34:801][org.hibernate.cfg.Ejb3Column-bind] -Binding column null. Unique false. Nullable true.
+[23:09:34:802][org.hibernate.cfg.Ejb3Column-bind] -Binding column element. Unique false. Nullable true.
+[23:09:34:802][org.hibernate.cfg.Ejb3Column-bind] -Binding column mapkey. Unique false. Nullable true.
+[23:09:34:803][org.hibernate.cfg.Ejb3Column-bind] -Binding column null. Unique false. Nullable true.
+[23:09:34:803][org.hibernate.cfg.Ejb3Column-bind] -Binding column null. Unique false. Nullable false.
+[23:09:34:803][org.hibernate.cfg.Ejb3Column-bind] -Binding column null. Unique false. Nullable false.
+[23:09:34:804][org.hibernate.cfg.annotations.CollectionBinder-bind] -Collection role: cn.edu.nju.software.timemachine.entity.Category.friendList
+[23:09:34:804][org.hibernate.cfg.annotations.PropertyBinder-make] -Building property friendList
+[23:09:34:805][org.hibernate.cfg.AnnotationBinder-processElementAnnotations] -Processing annotations of cn.edu.nju.software.timemachine.entity.Category.name
+[23:09:34:805][org.hibernate.cfg.Ejb3Column-bind] -Binding column name. Unique false. Nullable true.
+[23:09:34:806][org.hibernate.cfg.annotations.PropertyBinder-bind] -binding property name with lazy=false
+[23:09:34:806][org.hibernate.cfg.annotations.SimpleValueBinder-make] -building SimpleValue for name
+[23:09:34:807][org.hibernate.cfg.annotations.PropertyBinder-make] -Building property name
+[23:09:34:807][org.hibernate.cfg.AnnotationBinder-processElementAnnotations] -Processing annotations of cn.edu.nju.software.timemachine.entity.Category.owner
+[23:09:34:807][org.hibernate.cfg.Ejb3Column-bind] -Binding column null. Unique false. Nullable true.
+[23:09:34:808][org.hibernate.cfg.Ejb3Column-bind] -Binding column owner. Unique false. Nullable true.
+[23:09:34:808][org.hibernate.cfg.annotations.PropertyBinder-make] -Building property owner
+[23:09:34:809][org.hibernate.cfg.AnnotationBinder-bindClass] -Binding entity from annotated class: cn.edu.nju.software.timemachine.entity.Friend
+[23:09:34:809][org.hibernate.cfg.Ejb3Column-bind] -Binding column DTYPE. Unique false. Nullable false.
+[23:09:34:810][org.hibernate.cfg.annotations.EntityBinder-bindEntity] -Import with entity name Friend
+[23:09:34:810][org.hibernate.cfg.annotations.EntityBinder-bindTable] -Bind entity cn.edu.nju.software.timemachine.entity.Friend on table Friend
+[23:09:34:811][org.hibernate.cfg.AnnotationBinder-addElementsOfAClass] -Processing cn.edu.nju.software.timemachine.entity.Friend property annotation
+[23:09:34:811][org.hibernate.cfg.AnnotationBinder-addElementsOfAClass] -Processing cn.edu.nju.software.timemachine.entity.Friend property annotation
+[23:09:34:812][org.hibernate.cfg.AnnotationBinder-addElementsOfAClass] -Processing cn.edu.nju.software.timemachine.entity.Friend field annotation
+[23:09:34:812][org.hibernate.cfg.AnnotationBinder-addElementsOfAClass] -Processing cn.edu.nju.software.timemachine.entity.Friend field annotation
+[23:09:34:813][org.hibernate.cfg.AnnotationBinder-processElementAnnotations] -Processing annotations of cn.edu.nju.software.timemachine.entity.Friend.id
+[23:09:34:814][org.hibernate.cfg.Ejb3Column-bind] -Binding column id. Unique false. Nullable false.
+[23:09:34:814][org.hibernate.cfg.AnnotationBinder-processElementAnnotations] -id is an id
+[23:09:34:815][org.hibernate.cfg.annotations.SimpleValueBinder-make] -building SimpleValue for id
+[23:09:34:815][org.hibernate.cfg.annotations.PropertyBinder-make] -Building property id
+[23:09:34:816][org.hibernate.cfg.AnnotationBinder-processElementAnnotations] -Bind @Id on id
+[23:09:34:816][org.hibernate.cfg.AnnotationBinder-processElementAnnotations] -Processing annotations of cn.edu.nju.software.timemachine.entity.Friend.dateCreated
+[23:09:34:816][org.hibernate.cfg.Ejb3Column-bind] -Binding column dateCreated. Unique false. Nullable true.
+[23:09:34:817][org.hibernate.cfg.annotations.PropertyBinder-bind] -binding property dateCreated with lazy=false
+[23:09:34:817][org.hibernate.cfg.annotations.SimpleValueBinder-make] -building SimpleValue for dateCreated
+[23:09:34:818][org.hibernate.cfg.annotations.PropertyBinder-make] -Building property dateCreated
+[23:09:34:818][org.hibernate.cfg.AnnotationBinder-processElementAnnotations] -Processing annotations of cn.edu.nju.software.timemachine.entity.Friend.version
+[23:09:34:819][org.hibernate.cfg.Ejb3Column-bind] -Binding column version. Unique false. Nullable true.
+[23:09:34:819][org.hibernate.cfg.AnnotationBinder-processElementAnnotations] -version is a version property
+[23:09:34:820][org.hibernate.cfg.annotations.PropertyBinder-bind] -binding property version with lazy=false
+[23:09:34:820][org.hibernate.cfg.annotations.SimpleValueBinder-make] -building SimpleValue for version
+[23:09:34:820][org.hibernate.cfg.annotations.PropertyBinder-make] -Building property version
+[23:09:34:821][org.hibernate.cfg.AnnotationBinder-processElementAnnotations] -Version name: version, unsavedValue: undefined
+[23:09:34:821][org.hibernate.cfg.AnnotationBinder-processElementAnnotations] -Processing annotations of cn.edu.nju.software.timemachine.entity.Friend.category
+[23:09:34:822][org.hibernate.cfg.Ejb3Column-bind] -Binding column null. Unique false. Nullable true.
+[23:09:34:822][org.hibernate.cfg.Ejb3Column-bind] -Binding column category. Unique false. Nullable true.
+[23:09:34:823][org.hibernate.cfg.annotations.PropertyBinder-make] -Building property category
+[23:09:34:823][org.hibernate.cfg.AnnotationBinder-processElementAnnotations] -Processing annotations of cn.edu.nju.software.timemachine.entity.Friend.nikename
+[23:09:34:824][org.hibernate.cfg.Ejb3Column-bind] -Binding column nikename. Unique false. Nullable true.
+[23:09:34:824][org.hibernate.cfg.annotations.PropertyBinder-bind] -binding property nikename with lazy=false
+[23:09:34:824][org.hibernate.cfg.annotations.SimpleValueBinder-make] -building SimpleValue for nikename
+[23:09:34:825][org.hibernate.cfg.annotations.PropertyBinder-make] -Building property nikename
+[23:09:34:825][org.hibernate.cfg.AnnotationBinder-processElementAnnotations] -Processing annotations of cn.edu.nju.software.timemachine.entity.Friend.user
+[23:09:34:826][org.hibernate.cfg.Ejb3Column-bind] -Binding column null. Unique true. Nullable true.
+[23:09:34:826][org.hibernate.cfg.Ejb3Column-bind] -Binding column user. Unique false. Nullable true.
+[23:09:34:827][org.hibernate.cfg.AnnotationBinder-bindOneToOne] -Fetching user with SELECT
+[23:09:34:827][org.hibernate.cfg.annotations.PropertyBinder-make] -Building property user
+[23:09:34:828][org.hibernate.cfg.AnnotationBinder-bindClass] -Binding entity from annotated class: cn.edu.nju.software.timemachine.entity.PictureMeta
+[23:09:34:828][org.hibernate.cfg.Ejb3Column-bind] -Binding column DTYPE. Unique false. Nullable false.
+[23:09:34:828][org.hibernate.cfg.annotations.EntityBinder-bindEntity] -Import with entity name PictureMeta
+[23:09:34:829][org.hibernate.cfg.annotations.EntityBinder-bindTable] -Bind entity cn.edu.nju.software.timemachine.entity.PictureMeta on table PictureMeta
+[23:09:34:829][org.hibernate.cfg.AnnotationBinder-addElementsOfAClass] -Processing cn.edu.nju.software.timemachine.entity.PictureMeta property annotation
+[23:09:34:830][org.hibernate.cfg.AnnotationBinder-addElementsOfAClass] -Processing cn.edu.nju.software.timemachine.entity.PictureMeta property annotation
+[23:09:34:831][org.hibernate.cfg.AnnotationBinder-addElementsOfAClass] -Processing cn.edu.nju.software.timemachine.entity.PictureMeta field annotation
+[23:09:34:831][org.hibernate.cfg.AnnotationBinder-addElementsOfAClass] -Processing cn.edu.nju.software.timemachine.entity.PictureMeta field annotation
+[23:09:34:832][org.hibernate.cfg.AnnotationBinder-processElementAnnotations] -Processing annotations of cn.edu.nju.software.timemachine.entity.PictureMeta.id
+[23:09:34:832][org.hibernate.cfg.Ejb3Column-bind] -Binding column id. Unique false. Nullable false.
+[23:09:34:833][org.hibernate.cfg.AnnotationBinder-processElementAnnotations] -id is an id
+[23:09:34:833][org.hibernate.cfg.annotations.SimpleValueBinder-make] -building SimpleValue for id
+[23:09:34:834][org.hibernate.cfg.annotations.PropertyBinder-make] -Building property id
+[23:09:34:834][org.hibernate.cfg.AnnotationBinder-processElementAnnotations] -Bind @Id on id
+[23:09:34:834][org.hibernate.cfg.AnnotationBinder-processElementAnnotations] -Processing annotations of cn.edu.nju.software.timemachine.entity.PictureMeta.dateCreated
+[23:09:34:835][org.hibernate.cfg.Ejb3Column-bind] -Binding column dateCreated. Unique false. Nullable true.
+[23:09:34:835][org.hibernate.cfg.annotations.PropertyBinder-bind] -binding property dateCreated with lazy=false
+[23:09:34:836][org.hibernate.cfg.annotations.SimpleValueBinder-make] -building SimpleValue for dateCreated
+[23:09:34:836][org.hibernate.cfg.annotations.PropertyBinder-make] -Building property dateCreated
+[23:09:34:837][org.hibernate.cfg.AnnotationBinder-processElementAnnotations] -Processing annotations of cn.edu.nju.software.timemachine.entity.PictureMeta.version
+[23:09:34:837][org.hibernate.cfg.Ejb3Column-bind] -Binding column version. Unique false. Nullable true.
+[23:09:34:838][org.hibernate.cfg.AnnotationBinder-processElementAnnotations] -version is a version property
+[23:09:34:838][org.hibernate.cfg.annotations.PropertyBinder-bind] -binding property version with lazy=false
+[23:09:34:838][org.hibernate.cfg.annotations.SimpleValueBinder-make] -building SimpleValue for version
+[23:09:34:839][org.hibernate.cfg.annotations.PropertyBinder-make] -Building property version
+[23:09:34:839][org.hibernate.cfg.AnnotationBinder-processElementAnnotations] -Version name: version, unsavedValue: undefined
+[23:09:34:840][org.hibernate.cfg.AnnotationBinder-processElementAnnotations] -Processing annotations of cn.edu.nju.software.timemachine.entity.PictureMeta.description
+[23:09:34:840][org.hibernate.cfg.Ejb3Column-bind] -Binding column description. Unique false. Nullable true.
+[23:09:34:841][org.hibernate.cfg.annotations.PropertyBinder-bind] -binding property description with lazy=false
+[23:09:34:841][org.hibernate.cfg.annotations.SimpleValueBinder-make] -building SimpleValue for description
+[23:09:34:841][org.hibernate.cfg.annotations.PropertyBinder-make] -Building property description
+[23:09:34:842][org.hibernate.cfg.AnnotationBinder-processElementAnnotations] -Processing annotations of cn.edu.nju.software.timemachine.entity.PictureMeta.picture
+[23:09:34:842][org.hibernate.cfg.Ejb3Column-bind] -Binding column null. Unique false. Nullable true.
+[23:09:34:843][org.hibernate.cfg.Ejb3Column-bind] -Binding column picture. Unique false. Nullable true.
+[23:09:34:843][org.hibernate.cfg.AnnotationBinder-bindOneToOne] -Fetching picture with JOIN
+[23:09:34:844][org.hibernate.cfg.AnnotationBinder-bindClass] -Binding entity from annotated class: cn.edu.nju.software.timemachine.entity.AlbumMeta
+[23:09:34:844][org.hibernate.cfg.Ejb3Column-bind] -Binding column DTYPE. Unique false. Nullable false.
+[23:09:34:845][org.hibernate.cfg.annotations.EntityBinder-bindEntity] -Import with entity name AlbumMeta
+[23:09:34:845][org.hibernate.cfg.annotations.EntityBinder-bindTable] -Bind entity cn.edu.nju.software.timemachine.entity.AlbumMeta on table AlbumMeta
+[23:09:34:846][org.hibernate.cfg.AnnotationBinder-addElementsOfAClass] -Processing cn.edu.nju.software.timemachine.entity.AlbumMeta property annotation
+[23:09:34:846][org.hibernate.cfg.AnnotationBinder-addElementsOfAClass] -Processing cn.edu.nju.software.timemachine.entity.AlbumMeta property annotation
+[23:09:34:847][org.hibernate.cfg.AnnotationBinder-addElementsOfAClass] -Processing cn.edu.nju.software.timemachine.entity.AlbumMeta field annotation
+[23:09:34:847][org.hibernate.cfg.AnnotationBinder-addElementsOfAClass] -Processing cn.edu.nju.software.timemachine.entity.AlbumMeta field annotation
+[23:09:34:848][org.hibernate.cfg.AnnotationBinder-processElementAnnotations] -Processing annotations of cn.edu.nju.software.timemachine.entity.AlbumMeta.id
+[23:09:34:848][org.hibernate.cfg.Ejb3Column-bind] -Binding column id. Unique false. Nullable false.
+[23:09:34:848][org.hibernate.cfg.AnnotationBinder-processElementAnnotations] -id is an id
+[23:09:34:849][org.hibernate.cfg.annotations.SimpleValueBinder-make] -building SimpleValue for id
+[23:09:34:849][org.hibernate.cfg.annotations.PropertyBinder-make] -Building property id
+[23:09:34:850][org.hibernate.cfg.AnnotationBinder-processElementAnnotations] -Bind @Id on id
+[23:09:34:850][org.hibernate.cfg.AnnotationBinder-processElementAnnotations] -Processing annotations of cn.edu.nju.software.timemachine.entity.AlbumMeta.dateCreated
+[23:09:34:851][org.hibernate.cfg.Ejb3Column-bind] -Binding column dateCreated. Unique false. Nullable true.
+[23:09:34:851][org.hibernate.cfg.annotations.PropertyBinder-bind] -binding property dateCreated with lazy=false
+[23:09:34:852][org.hibernate.cfg.annotations.SimpleValueBinder-make] -building SimpleValue for dateCreated
+[23:09:34:852][org.hibernate.cfg.annotations.PropertyBinder-make] -Building property dateCreated
+[23:09:34:852][org.hibernate.cfg.AnnotationBinder-processElementAnnotations] -Processing annotations of cn.edu.nju.software.timemachine.entity.AlbumMeta.version
+[23:09:34:853][org.hibernate.cfg.Ejb3Column-bind] -Binding column version. Unique false. Nullable true.
+[23:09:34:853][org.hibernate.cfg.AnnotationBinder-processElementAnnotations] -version is a version property
+[23:09:34:854][org.hibernate.cfg.annotations.PropertyBinder-bind] -binding property version with lazy=false
+[23:09:34:854][org.hibernate.cfg.annotations.SimpleValueBinder-make] -building SimpleValue for version
+[23:09:34:855][org.hibernate.cfg.annotations.PropertyBinder-make] -Building property version
+[23:09:34:858][org.hibernate.cfg.AnnotationBinder-processElementAnnotations] -Version name: version, unsavedValue: undefined
+[23:09:34:859][org.hibernate.cfg.AnnotationBinder-bindClass] -Binding entity from annotated class: cn.edu.nju.software.timemachine.entity.Message
+[23:09:34:860][org.hibernate.cfg.Ejb3Column-bind] -Binding column DTYPE. Unique false. Nullable false.
+[23:09:34:861][org.hibernate.cfg.annotations.EntityBinder-bindEntity] -Import with entity name Message
+[23:09:34:862][org.hibernate.cfg.annotations.EntityBinder-bindTable] -Bind entity cn.edu.nju.software.timemachine.entity.Message on table Message
+[23:09:34:863][org.hibernate.cfg.AnnotationBinder-addElementsOfAClass] -Processing cn.edu.nju.software.timemachine.entity.Message property annotation
+[23:09:34:865][org.hibernate.cfg.AnnotationBinder-addElementsOfAClass] -Processing cn.edu.nju.software.timemachine.entity.Message property annotation
+[23:09:34:866][org.hibernate.cfg.AnnotationBinder-addElementsOfAClass] -Processing cn.edu.nju.software.timemachine.entity.Message field annotation
+[23:09:34:867][org.hibernate.cfg.AnnotationBinder-addElementsOfAClass] -Processing cn.edu.nju.software.timemachine.entity.Message field annotation
+[23:09:34:870][org.hibernate.cfg.AnnotationBinder-processElementAnnotations] -Processing annotations of cn.edu.nju.software.timemachine.entity.Message.id
+[23:09:34:871][org.hibernate.cfg.Ejb3Column-bind] -Binding column id. Unique false. Nullable false.
+[23:09:34:872][org.hibernate.cfg.AnnotationBinder-processElementAnnotations] -id is an id
+[23:09:34:873][org.hibernate.cfg.annotations.SimpleValueBinder-make] -building SimpleValue for id
+[23:09:34:874][org.hibernate.cfg.annotations.PropertyBinder-make] -Building property id
+[23:09:34:875][org.hibernate.cfg.AnnotationBinder-processElementAnnotations] -Bind @Id on id
+[23:09:34:875][org.hibernate.cfg.AnnotationBinder-processElementAnnotations] -Processing annotations of cn.edu.nju.software.timemachine.entity.Message.dateCreated
+[23:09:34:876][org.hibernate.cfg.Ejb3Column-bind] -Binding column dateCreated. Unique false. Nullable true.
+[23:09:34:876][org.hibernate.cfg.annotations.PropertyBinder-bind] -binding property dateCreated with lazy=false
+[23:09:34:877][org.hibernate.cfg.annotations.SimpleValueBinder-make] -building SimpleValue for dateCreated
+[23:09:34:877][org.hibernate.cfg.annotations.PropertyBinder-make] -Building property dateCreated
+[23:09:34:877][org.hibernate.cfg.AnnotationBinder-processElementAnnotations] -Processing annotations of cn.edu.nju.software.timemachine.entity.Message.version
+[23:09:34:878][org.hibernate.cfg.Ejb3Column-bind] -Binding column version. Unique false. Nullable true.
+[23:09:34:878][org.hibernate.cfg.AnnotationBinder-processElementAnnotations] -version is a version property
+[23:09:34:879][org.hibernate.cfg.annotations.PropertyBinder-bind] -binding property version with lazy=false
+[23:09:34:879][org.hibernate.cfg.annotations.SimpleValueBinder-make] -building SimpleValue for version
+[23:09:34:880][org.hibernate.cfg.annotations.PropertyBinder-make] -Building property version
+[23:09:34:880][org.hibernate.cfg.AnnotationBinder-processElementAnnotations] -Version name: version, unsavedValue: undefined
+[23:09:34:880][org.hibernate.cfg.AnnotationBinder-processElementAnnotations] -Processing annotations of cn.edu.nju.software.timemachine.entity.Message.content
+[23:09:34:881][org.hibernate.cfg.Ejb3Column-bind] -Binding column content. Unique false. Nullable true.
+[23:09:34:881][org.hibernate.cfg.annotations.PropertyBinder-bind] -binding property content with lazy=false
+[23:09:34:882][org.hibernate.cfg.annotations.SimpleValueBinder-make] -building SimpleValue for content
+[23:09:34:882][org.hibernate.cfg.annotations.PropertyBinder-make] -Building property content
+[23:09:34:883][org.hibernate.cfg.AnnotationBinder-processElementAnnotations] -Processing annotations of cn.edu.nju.software.timemachine.entity.Message.inviter
+[23:09:34:883][org.hibernate.cfg.Ejb3Column-bind] -Binding column null. Unique false. Nullable true.
+[23:09:34:884][org.hibernate.cfg.Ejb3Column-bind] -Binding column inviter. Unique false. Nullable true.
+[23:09:34:884][org.hibernate.cfg.AnnotationBinder-bindOneToOne] -Fetching inviter with SELECT
+[23:09:34:884][org.hibernate.cfg.annotations.PropertyBinder-make] -Building property inviter
+[23:09:34:885][org.hibernate.cfg.AnnotationBinder-processElementAnnotations] -Processing annotations of cn.edu.nju.software.timemachine.entity.Message.invitor
+[23:09:34:886][org.hibernate.cfg.Ejb3Column-bind] -Binding column null. Unique false. Nullable true.
+[23:09:34:886][org.hibernate.cfg.Ejb3Column-bind] -Binding column invitor. Unique false. Nullable true.
+[23:09:34:886][org.hibernate.cfg.AnnotationBinder-bindOneToOne] -Fetching invitor with SELECT
+[23:09:34:887][org.hibernate.cfg.annotations.PropertyBinder-make] -Building property invitor
+[23:09:34:887][org.hibernate.cfg.AnnotationBinder-processElementAnnotations] -Processing annotations of cn.edu.nju.software.timemachine.entity.Message.isRead
+[23:09:34:888][org.hibernate.cfg.Ejb3Column-bind] -Binding column isRead. Unique false. Nullable false.
+[23:09:34:888][org.hibernate.cfg.annotations.PropertyBinder-bind] -binding property isRead with lazy=false
+[23:09:34:889][org.hibernate.cfg.annotations.SimpleValueBinder-make] -building SimpleValue for isRead
+[23:09:34:889][org.hibernate.cfg.annotations.PropertyBinder-make] -Building property isRead
+[23:09:34:890][org.hibernate.cfg.AnnotationConfiguration-processFkSecondPassInOrder] -processing fk mappings (*ToOne and JoinedSubclass)
+[23:09:34:938][org.hibernate.cfg.Configuration-secondPassCompile] -processing extends queue
+[23:09:34:938][org.hibernate.cfg.Configuration-secondPassCompile] -processing collection mappings
+[23:09:34:939][org.hibernate.cfg.CollectionSecondPass-doSecondPass] -Second pass for collection: cn.edu.nju.software.timemachine.entity.Role.userList
+[23:09:34:940][org.hibernate.cfg.annotations.CollectionBinder-bindOneToManySecondPass] -Binding a OneToMany: cn.edu.nju.software.timemachine.entity.Role.userList through a foreign key
+[23:09:34:941][org.hibernate.cfg.annotations.CollectionBinder-bindOneToManySecondPass] -Mapping collection: cn.edu.nju.software.timemachine.entity.Role.userList -> User
+[23:09:34:943][org.hibernate.cfg.annotations.TableBinder-bindFk] -Retrieving property cn.edu.nju.software.timemachine.entity.User.role
+[23:09:34:944][org.hibernate.cfg.CollectionSecondPass-doSecondPass] -Mapped collection key: role_id, one-to-many: cn.edu.nju.software.timemachine.entity.User
+[23:09:34:947][org.hibernate.cfg.annotations.PropertyBinder-make] -Building property user
+[23:09:34:948][org.hibernate.cfg.CollectionSecondPass-doSecondPass] -Second pass for collection: cn.edu.nju.software.timemachine.entity.Album.pictureList
+[23:09:34:949][org.hibernate.cfg.annotations.CollectionBinder-bindOneToManySecondPass] -Binding a OneToMany: cn.edu.nju.software.timemachine.entity.Album.pictureList through a foreign key
+[23:09:34:950][org.hibernate.cfg.annotations.CollectionBinder-bindOneToManySecondPass] -Mapping collection: cn.edu.nju.software.timemachine.entity.Album.pictureList -> Picture
+[23:09:34:950][org.hibernate.cfg.annotations.TableBinder-bindFk] -Retrieving property cn.edu.nju.software.timemachine.entity.Picture.album
+[23:09:34:951][org.hibernate.cfg.CollectionSecondPass-doSecondPass] -Mapped collection key: album_id, one-to-many: cn.edu.nju.software.timemachine.entity.Picture
+[23:09:34:951][org.hibernate.cfg.CollectionSecondPass-doSecondPass] -Second pass for collection: cn.edu.nju.software.timemachine.entity.Picture.commentList
+[23:09:34:952][org.hibernate.cfg.annotations.CollectionBinder-bindOneToManySecondPass] -Binding a OneToMany: cn.edu.nju.software.timemachine.entity.Picture.commentList through a foreign key
+[23:09:34:952][org.hibernate.cfg.annotations.CollectionBinder-bindOneToManySecondPass] -Mapping collection: cn.edu.nju.software.timemachine.entity.Picture.commentList -> SimpleComment
+[23:09:34:952][org.hibernate.cfg.annotations.TableBinder-bindFk] -Retrieving property cn.edu.nju.software.timemachine.entity.SimpleComment.picture
+[23:09:34:953][org.hibernate.cfg.CollectionSecondPass-doSecondPass] -Mapped collection key: picture_id, one-to-many: cn.edu.nju.software.timemachine.entity.SimpleComment
+[23:09:34:953][org.hibernate.cfg.CollectionSecondPass-doSecondPass] -Second pass for collection: cn.edu.nju.software.timemachine.entity.User.albumList
+[23:09:34:954][org.hibernate.cfg.annotations.CollectionBinder-bindOneToManySecondPass] -Binding a OneToMany: cn.edu.nju.software.timemachine.entity.User.albumList through a foreign key
+[23:09:34:954][org.hibernate.cfg.annotations.CollectionBinder-bindOneToManySecondPass] -Mapping collection: cn.edu.nju.software.timemachine.entity.User.albumList -> Album
+[23:09:34:955][org.hibernate.cfg.annotations.TableBinder-bindFk] -Retrieving property cn.edu.nju.software.timemachine.entity.Album.owner
+[23:09:34:955][org.hibernate.cfg.CollectionSecondPass-doSecondPass] -Mapped collection key: owner_id, one-to-many: cn.edu.nju.software.timemachine.entity.Album
+[23:09:34:956][org.hibernate.cfg.CollectionSecondPass-doSecondPass] -Second pass for collection: cn.edu.nju.software.timemachine.entity.User.categoryList
+[23:09:34:956][org.hibernate.cfg.annotations.CollectionBinder-bindOneToManySecondPass] -Binding a OneToMany: cn.edu.nju.software.timemachine.entity.User.categoryList through a foreign key
+[23:09:34:956][org.hibernate.cfg.annotations.CollectionBinder-bindOneToManySecondPass] -Mapping collection: cn.edu.nju.software.timemachine.entity.User.categoryList -> Category
+[23:09:34:957][org.hibernate.cfg.annotations.TableBinder-bindFk] -Retrieving property cn.edu.nju.software.timemachine.entity.Category.owner
+[23:09:34:957][org.hibernate.cfg.CollectionSecondPass-doSecondPass] -Mapped collection key: owner_id, one-to-many: cn.edu.nju.software.timemachine.entity.Category
+[23:09:34:958][org.hibernate.cfg.CollectionSecondPass-doSecondPass] -Second pass for collection: cn.edu.nju.software.timemachine.entity.Category.friendList
+[23:09:34:958][org.hibernate.cfg.annotations.CollectionBinder-bindOneToManySecondPass] -Binding a OneToMany: cn.edu.nju.software.timemachine.entity.Category.friendList through a foreign key
+[23:09:34:959][org.hibernate.cfg.annotations.CollectionBinder-bindOneToManySecondPass] -Mapping collection: cn.edu.nju.software.timemachine.entity.Category.friendList -> Friend
+[23:09:34:959][org.hibernate.cfg.annotations.TableBinder-bindFk] -Retrieving property cn.edu.nju.software.timemachine.entity.Friend.category
+[23:09:34:959][org.hibernate.cfg.CollectionSecondPass-doSecondPass] -Mapped collection key: category_id, one-to-many: cn.edu.nju.software.timemachine.entity.Friend
+[23:09:34:960][org.hibernate.cfg.annotations.PropertyBinder-make] -Building property picture
+[23:09:34:960][org.hibernate.cfg.Configuration-secondPassCompile] -processing native query and ResultSetMapping mappings
+[23:09:34:961][org.hibernate.cfg.Configuration-secondPassCompile] -processing association property references
+[23:09:34:961][org.hibernate.cfg.Configuration-secondPassCompile] -processing foreign key constraints
+[23:09:34:962][org.hibernate.cfg.Configuration-secondPassCompileForeignKeys] -resolving reference to class: cn.edu.nju.software.timemachine.entity.Picture
+[23:09:34:962][org.hibernate.cfg.Configuration-secondPassCompileForeignKeys] -resolving reference to class: cn.edu.nju.software.timemachine.entity.User
+[23:09:34:963][org.hibernate.cfg.Configuration-secondPassCompileForeignKeys] -resolving reference to class: cn.edu.nju.software.timemachine.entity.User
+[23:09:34:963][org.hibernate.cfg.Configuration-secondPassCompileForeignKeys] -resolving reference to class: cn.edu.nju.software.timemachine.entity.User
+[23:09:34:964][org.hibernate.cfg.Configuration-secondPassCompileForeignKeys] -resolving reference to class: cn.edu.nju.software.timemachine.entity.Category
+[23:09:34:964][org.hibernate.cfg.Configuration-secondPassCompileForeignKeys] -resolving reference to class: cn.edu.nju.software.timemachine.entity.User
+[23:09:34:964][org.hibernate.cfg.Configuration-secondPassCompileForeignKeys] -resolving reference to class: cn.edu.nju.software.timemachine.entity.User
+[23:09:34:965][org.hibernate.cfg.Configuration-secondPassCompileForeignKeys] -resolving reference to class: cn.edu.nju.software.timemachine.entity.PictureMeta
+[23:09:34:965][org.hibernate.cfg.Configuration-secondPassCompileForeignKeys] -resolving reference to class: cn.edu.nju.software.timemachine.entity.Album
+[23:09:34:966][org.hibernate.cfg.Configuration-secondPassCompileForeignKeys] -resolving reference to class: cn.edu.nju.software.timemachine.entity.User
+[23:09:34:966][org.hibernate.cfg.Configuration-secondPassCompileForeignKeys] -resolving reference to class: cn.edu.nju.software.timemachine.entity.Picture
+[23:09:34:966][org.hibernate.cfg.Configuration-secondPassCompileForeignKeys] -resolving reference to class: cn.edu.nju.software.timemachine.entity.Role
+[23:09:34:967][org.hibernate.cfg.Configuration-secondPassCompileForeignKeys] -resolving reference to class: cn.edu.nju.software.timemachine.entity.UserMeta
+[23:09:34:977][org.hibernate.validator.Version-<clinit>] -Hibernate Validator 3.1.0.GA
+[23:09:34:980][org.hibernate.validator.ClassValidator-getDefaultResourceBundle] -ResourceBundle ValidatorMessages not found in Validator classloader. Delegate to org.hibernate.validator.resources.DefaultValidatorMessages
+[23:09:34:987][org.hibernate.validator.ClassValidator-getDefaultResourceBundle] -ResourceBundle ValidatorMessages not found in Validator classloader. Delegate to org.hibernate.validator.resources.DefaultValidatorMessages
+[23:09:34:988][org.hibernate.validator.ClassValidator-getDefaultResourceBundle] -ResourceBundle ValidatorMessages not found in Validator classloader. Delegate to org.hibernate.validator.resources.DefaultValidatorMessages
+[23:09:34:989][org.hibernate.validator.ClassValidator-getDefaultResourceBundle] -ResourceBundle ValidatorMessages not found in Validator classloader. Delegate to org.hibernate.validator.resources.DefaultValidatorMessages
+[23:09:34:991][org.hibernate.validator.ClassValidator-getDefaultResourceBundle] -ResourceBundle ValidatorMessages not found in Validator classloader. Delegate to org.hibernate.validator.resources.DefaultValidatorMessages
+[23:09:34:992][org.hibernate.validator.ClassValidator-getDefaultResourceBundle] -ResourceBundle ValidatorMessages not found in Validator classloader. Delegate to org.hibernate.validator.resources.DefaultValidatorMessages
+[23:09:34:993][org.hibernate.validator.ClassValidator-getDefaultResourceBundle] -ResourceBundle ValidatorMessages not found in Validator classloader. Delegate to org.hibernate.validator.resources.DefaultValidatorMessages
+[23:09:34:994][org.hibernate.validator.ClassValidator-getDefaultResourceBundle] -ResourceBundle ValidatorMessages not found in Validator classloader. Delegate to org.hibernate.validator.resources.DefaultValidatorMessages
+[23:09:34:995][org.hibernate.validator.ClassValidator-getDefaultResourceBundle] -ResourceBundle ValidatorMessages not found in Validator classloader. Delegate to org.hibernate.validator.resources.DefaultValidatorMessages
+[23:09:34:996][org.hibernate.validator.ClassValidator-getDefaultResourceBundle] -ResourceBundle ValidatorMessages not found in Validator classloader. Delegate to org.hibernate.validator.resources.DefaultValidatorMessages
+[23:09:34:997][org.hibernate.validator.ClassValidator-getDefaultResourceBundle] -ResourceBundle ValidatorMessages not found in Validator classloader. Delegate to org.hibernate.validator.resources.DefaultValidatorMessages
+[23:09:34:999][org.springframework.orm.hibernate3.LocalSessionFactoryBean-buildSessionFactory] -Building new Hibernate SessionFactory
+[23:09:35:004][org.hibernate.cfg.search.HibernateSearchEventListenerRegister-attemptToLoadSearchEventListener] -Search not present in classpath, ignoring event listener registration.
+[23:09:35:004][org.hibernate.cfg.search.HibernateSearchEventListenerRegister-enableHibernateSearch] -Unable to find org.hibernate.search.event.FullTextIndexEventListener on the classpath. Hibernate Search is not enabled.
+[23:09:35:004][org.hibernate.cfg.Configuration-buildSessionFactory] -Preparing to build session factory with filters : {}
+[23:09:35:005][org.hibernate.cfg.AnnotationConfiguration-secondPassCompile] -Execute first pass mapping processing
+[23:09:35:005][org.hibernate.cfg.AnnotationConfiguration-processArtifactsOfType] -Process hbm files
+[23:09:35:006][org.hibernate.cfg.AnnotationConfiguration-processArtifactsOfType] -Process annotated classes
+[23:09:35:006][org.hibernate.cfg.AnnotationConfiguration-processFkSecondPassInOrder] -processing fk mappings (*ToOne and JoinedSubclass)
+[23:09:35:006][org.hibernate.cfg.Configuration-secondPassCompile] -processing extends queue
+[23:09:35:007][org.hibernate.cfg.Configuration-secondPassCompile] -processing collection mappings
+[23:09:35:007][org.hibernate.cfg.Configuration-secondPassCompile] -processing native query and ResultSetMapping mappings
+[23:09:35:008][org.hibernate.cfg.Configuration-secondPassCompile] -processing association property references
+[23:09:35:008][org.hibernate.cfg.Configuration-secondPassCompile] -processing foreign key constraints
+[23:09:35:009][org.hibernate.cfg.Configuration-secondPassCompileForeignKeys] -resolving reference to class: cn.edu.nju.software.timemachine.entity.Picture
+[23:09:35:009][org.hibernate.cfg.Configuration-secondPassCompileForeignKeys] -resolving reference to class: cn.edu.nju.software.timemachine.entity.User
+[23:09:35:009][org.hibernate.cfg.Configuration-secondPassCompileForeignKeys] -resolving reference to class: cn.edu.nju.software.timemachine.entity.User
+[23:09:35:010][org.hibernate.cfg.Configuration-secondPassCompileForeignKeys] -resolving reference to class: cn.edu.nju.software.timemachine.entity.User
+[23:09:35:010][org.hibernate.cfg.Configuration-secondPassCompileForeignKeys] -resolving reference to class: cn.edu.nju.software.timemachine.entity.Category
+[23:09:35:011][org.hibernate.cfg.Configuration-secondPassCompileForeignKeys] -resolving reference to class: cn.edu.nju.software.timemachine.entity.User
+[23:09:35:011][org.hibernate.cfg.Configuration-secondPassCompileForeignKeys] -resolving reference to class: cn.edu.nju.software.timemachine.entity.User
+[23:09:35:011][org.hibernate.cfg.Configuration-secondPassCompileForeignKeys] -resolving reference to class: cn.edu.nju.software.timemachine.entity.PictureMeta
+[23:09:35:012][org.hibernate.cfg.Configuration-secondPassCompileForeignKeys] -resolving reference to class: cn.edu.nju.software.timemachine.entity.Album
+[23:09:35:012][org.hibernate.cfg.Configuration-secondPassCompileForeignKeys] -resolving reference to class: cn.edu.nju.software.timemachine.entity.User
+[23:09:35:013][org.hibernate.cfg.Configuration-secondPassCompileForeignKeys] -resolving reference to class: cn.edu.nju.software.timemachine.entity.Picture
+[23:09:35:013][org.hibernate.cfg.Configuration-secondPassCompileForeignKeys] -resolving reference to class: cn.edu.nju.software.timemachine.entity.Role
+[23:09:35:013][org.hibernate.cfg.Configuration-secondPassCompileForeignKeys] -resolving reference to class: cn.edu.nju.software.timemachine.entity.UserMeta
+[23:09:35:014][org.hibernate.validator.ClassValidator-getDefaultResourceBundle] -ResourceBundle ValidatorMessages not found in Validator classloader. Delegate to org.hibernate.validator.resources.DefaultValidatorMessages
+[23:09:35:015][org.hibernate.validator.ClassValidator-getDefaultResourceBundle] -ResourceBundle ValidatorMessages not found in Validator classloader. Delegate to org.hibernate.validator.resources.DefaultValidatorMessages
+[23:09:35:017][org.hibernate.validator.ClassValidator-getDefaultResourceBundle] -ResourceBundle ValidatorMessages not found in Validator classloader. Delegate to org.hibernate.validator.resources.DefaultValidatorMessages
+[23:09:35:018][org.hibernate.validator.ClassValidator-getDefaultResourceBundle] -ResourceBundle ValidatorMessages not found in Validator classloader. Delegate to org.hibernate.validator.resources.DefaultValidatorMessages
+[23:09:35:020][org.hibernate.validator.ClassValidator-getDefaultResourceBundle] -ResourceBundle ValidatorMessages not found in Validator classloader. Delegate to org.hibernate.validator.resources.DefaultValidatorMessages
+[23:09:35:021][org.hibernate.validator.ClassValidator-getDefaultResourceBundle] -ResourceBundle ValidatorMessages not found in Validator classloader. Delegate to org.hibernate.validator.resources.DefaultValidatorMessages
+[23:09:35:023][org.hibernate.validator.ClassValidator-getDefaultResourceBundle] -ResourceBundle ValidatorMessages not found in Validator classloader. Delegate to org.hibernate.validator.resources.DefaultValidatorMessages
+[23:09:35:024][org.hibernate.validator.ClassValidator-getDefaultResourceBundle] -ResourceBundle ValidatorMessages not found in Validator classloader. Delegate to org.hibernate.validator.resources.DefaultValidatorMessages
+[23:09:35:025][org.hibernate.validator.ClassValidator-getDefaultResourceBundle] -ResourceBundle ValidatorMessages not found in Validator classloader. Delegate to org.hibernate.validator.resources.DefaultValidatorMessages
+[23:09:35:026][org.hibernate.validator.ClassValidator-getDefaultResourceBundle] -ResourceBundle ValidatorMessages not found in Validator classloader. Delegate to org.hibernate.validator.resources.DefaultValidatorMessages
+[23:09:35:027][org.hibernate.validator.ClassValidator-getDefaultResourceBundle] -ResourceBundle ValidatorMessages not found in Validator classloader. Delegate to org.hibernate.validator.resources.DefaultValidatorMessages
+[23:09:35:034][org.hibernate.connection.ConnectionProviderFactory-newConnectionProvider] -Initializing connection provider: org.springframework.orm.hibernate3.LocalDataSourceConnectionProvider
+[23:09:35:275][org.hibernate.util.JDBCExceptionReporter-logExceptions] -SQL Exception
+org.apache.commons.dbcp.SQLNestedException: Cannot create PoolableConnectionFactory (Communications link failure
+
+The last packet sent successfully to the server was 0 milliseconds ago. The driver has not received any packets from the server.)
+	at org.apache.commons.dbcp.BasicDataSource.createDataSource(BasicDataSource.java:855)
+	at org.apache.commons.dbcp.BasicDataSource.getConnection(BasicDataSource.java:540)
+	at org.springframework.orm.hibernate3.LocalDataSourceConnectionProvider.getConnection(LocalDataSourceConnectionProvider.java:81)
+	at org.hibernate.cfg.SettingsFactory.buildSettings(SettingsFactory.java:111)
+	at org.hibernate.cfg.Configuration.buildSettings(Configuration.java:2101)
+	at org.hibernate.cfg.Configuration.buildSessionFactory(Configuration.java:1325)
+	at org.hibernate.cfg.AnnotationConfiguration.buildSessionFactory(AnnotationConfiguration.java:867)
+	at org.springframework.orm.hibernate3.LocalSessionFactoryBean.newSessionFactory(LocalSessionFactoryBean.java:855)
+	at org.springframework.orm.hibernate3.LocalSessionFactoryBean.buildSessionFactory(LocalSessionFactoryBean.java:774)
+	at org.springframework.orm.hibernate3.AbstractSessionFactoryBean.afterPropertiesSet(AbstractSessionFactoryBean.java:211)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.invokeInitMethods(AbstractAutowireCapableBeanFactory.java:1460)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.initializeBean(AbstractAutowireCapableBeanFactory.java:1400)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:513)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:450)
+	at org.springframework.beans.factory.support.AbstractBeanFactory$1.getObject(AbstractBeanFactory.java:290)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:222)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:287)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:189)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.findAutowireCandidates(DefaultListableBeanFactory.java:825)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.doResolveDependency(DefaultListableBeanFactory.java:767)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.resolveDependency(DefaultListableBeanFactory.java:685)
+	at org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor$AutowiredMethodElement.inject(AutowiredAnnotationBeanPostProcessor.java:559)
+	at org.springframework.beans.factory.annotation.InjectionMetadata.inject(InjectionMetadata.java:84)
+	at org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor.postProcessPropertyValues(AutowiredAnnotationBeanPostProcessor.java:283)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.populateBean(AbstractAutowireCapableBeanFactory.java:1055)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:511)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:450)
+	at org.springframework.beans.factory.support.AbstractBeanFactory$1.getObject(AbstractBeanFactory.java:290)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:222)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:287)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:189)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.findAutowireCandidates(DefaultListableBeanFactory.java:825)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.doResolveDependency(DefaultListableBeanFactory.java:767)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.resolveDependency(DefaultListableBeanFactory.java:685)
+	at org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor$AutowiredFieldElement.inject(AutowiredAnnotationBeanPostProcessor.java:478)
+	at org.springframework.beans.factory.annotation.InjectionMetadata.inject(InjectionMetadata.java:84)
+	at org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor.postProcessPropertyValues(AutowiredAnnotationBeanPostProcessor.java:283)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.populateBean(AbstractAutowireCapableBeanFactory.java:1055)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:511)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:450)
+	at org.springframework.beans.factory.support.AbstractBeanFactory$1.getObject(AbstractBeanFactory.java:290)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:222)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:287)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:189)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.preInstantiateSingletons(DefaultListableBeanFactory.java:562)
+	at org.springframework.context.support.AbstractApplicationContext.finishBeanFactoryInitialization(AbstractApplicationContext.java:871)
+	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:423)
+	at org.springframework.test.context.support.AbstractGenericContextLoader.loadContext(AbstractGenericContextLoader.java:84)
+	at org.springframework.test.context.support.AbstractGenericContextLoader.loadContext(AbstractGenericContextLoader.java:42)
+	at org.springframework.test.context.TestContext.loadApplicationContext(TestContext.java:173)
+	at org.springframework.test.context.TestContext.getApplicationContext(TestContext.java:197)
+	at org.springframework.test.context.support.DependencyInjectionTestExecutionListener.injectDependencies(DependencyInjectionTestExecutionListener.java:109)
+	at org.springframework.test.context.support.DependencyInjectionTestExecutionListener.prepareTestInstance(DependencyInjectionTestExecutionListener.java:75)
+	at org.springframework.test.context.TestContextManager.prepareTestInstance(TestContextManager.java:255)
+	at org.springframework.test.context.junit4.SpringJUnit4ClassRunner.createTest(SpringJUnit4ClassRunner.java:111)
+	at org.springframework.test.context.junit4.SpringJUnit4ClassRunner.invokeTestMethod(SpringJUnit4ClassRunner.java:148)
+	at org.junit.internal.runners.JUnit4ClassRunner.runMethods(JUnit4ClassRunner.java:59)
+	at org.junit.internal.runners.JUnit4ClassRunner$1.run(JUnit4ClassRunner.java:52)
+	at org.junit.internal.runners.ClassRoadie.runUnprotected(ClassRoadie.java:34)
+	at org.junit.internal.runners.ClassRoadie.runProtected(ClassRoadie.java:44)
+	at org.junit.internal.runners.JUnit4ClassRunner.run(JUnit4ClassRunner.java:50)
+	at org.springframework.test.context.junit4.SpringJUnit4ClassRunner.run(SpringJUnit4ClassRunner.java:97)
+	at org.junit.runners.Suite.runChild(Suite.java:115)
+	at org.junit.runners.Suite.runChild(Suite.java:23)
+	at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:180)
+	at org.junit.runners.ParentRunner.access$000(ParentRunner.java:41)
+	at org.junit.runners.ParentRunner$1.evaluate(ParentRunner.java:173)
+	at org.junit.internal.runners.statements.RunBefores.evaluate(RunBefores.java:28)
+	at org.junit.internal.runners.statements.RunAfters.evaluate(RunAfters.java:31)
+	at org.junit.runners.ParentRunner.run(ParentRunner.java:220)
+	at org.eclipse.jdt.internal.junit4.runner.JUnit4TestReference.run(JUnit4TestReference.java:46)
+	at org.eclipse.jdt.internal.junit.runner.TestExecution.run(TestExecution.java:38)
+	at org.eclipse.jdt.internal.junit.runner.RemoteTestRunner.runTests(RemoteTestRunner.java:467)
+	at org.eclipse.jdt.internal.junit.runner.RemoteTestRunner.runTests(RemoteTestRunner.java:683)
+	at org.eclipse.jdt.internal.junit.runner.RemoteTestRunner.run(RemoteTestRunner.java:390)
+	at org.eclipse.jdt.internal.junit.runner.RemoteTestRunner.main(RemoteTestRunner.java:197)
+Caused by: com.mysql.jdbc.exceptions.jdbc4.CommunicationsException: Communications link failure
+
+The last packet sent successfully to the server was 0 milliseconds ago. The driver has not received any packets from the server.
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:39)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:27)
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:513)
+	at com.mysql.jdbc.Util.handleNewInstance(Util.java:409)
+	at com.mysql.jdbc.SQLError.createCommunicationsException(SQLError.java:1118)
+	at com.mysql.jdbc.MysqlIO.<init>(MysqlIO.java:343)
+	at com.mysql.jdbc.ConnectionImpl.connectOneTryOnly(ConnectionImpl.java:2308)
+	at com.mysql.jdbc.ConnectionImpl.createNewIO(ConnectionImpl.java:2122)
+	at com.mysql.jdbc.ConnectionImpl.<init>(ConnectionImpl.java:774)
+	at com.mysql.jdbc.JDBC4Connection.<init>(JDBC4Connection.java:49)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:39)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:27)
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:513)
+	at com.mysql.jdbc.Util.handleNewInstance(Util.java:409)
+	at com.mysql.jdbc.ConnectionImpl.getInstance(ConnectionImpl.java:375)
+	at com.mysql.jdbc.NonRegisteringDriver.connect(NonRegisteringDriver.java:289)
+	at org.apache.commons.dbcp.DriverConnectionFactory.createConnection(DriverConnectionFactory.java:37)
+	at org.apache.commons.dbcp.PoolableConnectionFactory.makeObject(PoolableConnectionFactory.java:290)
+	at org.apache.commons.dbcp.BasicDataSource.validateConnectionFactory(BasicDataSource.java:877)
+	at org.apache.commons.dbcp.BasicDataSource.createDataSource(BasicDataSource.java:851)
+	... 75 more
+Caused by: java.net.ConnectException: Connection refused
+	at java.net.PlainSocketImpl.socketConnect(Native Method)
+	at java.net.PlainSocketImpl.doConnect(PlainSocketImpl.java:333)
+	at java.net.PlainSocketImpl.connectToAddress(PlainSocketImpl.java:195)
+	at java.net.PlainSocketImpl.connect(PlainSocketImpl.java:182)
+	at java.net.SocksSocketImpl.connect(SocksSocketImpl.java:366)
+	at java.net.Socket.connect(Socket.java:519)
+	at java.net.Socket.connect(Socket.java:469)
+	at java.net.Socket.<init>(Socket.java:366)
+	at java.net.Socket.<init>(Socket.java:209)
+	at com.mysql.jdbc.StandardSocketFactory.connect(StandardSocketFactory.java:256)
+	at com.mysql.jdbc.MysqlIO.<init>(MysqlIO.java:292)
+	... 90 more
