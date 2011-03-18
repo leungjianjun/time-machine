@@ -16,18 +16,20 @@ public class ServiceImpl<T extends BaseEntity> implements IService<T> {
 	protected IDao<T> dao;
 
 	public boolean add(T baseEntity) {
-		// TODO Auto-generated method stub
-		return false;
+		dao.create(baseEntity);
+		return true;
 	}
 
 	public boolean delete(T baseEntity) {
 		// TODO Auto-generated method stub
-		return false;
+		dao.delete(baseEntity);
+		return true;
 	}
 
 	public boolean update(T baseEntity) {
 		// TODO Auto-generated method stub
-		return false;
+		dao.save(baseEntity);
+		return true;
 	}
 
 }

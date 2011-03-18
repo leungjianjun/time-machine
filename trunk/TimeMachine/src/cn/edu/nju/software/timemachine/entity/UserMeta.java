@@ -1,7 +1,6 @@
 package cn.edu.nju.software.timemachine.entity;
 
-import java.util.Date;
-
+import java.util.Calendar;
 import javax.persistence.Entity;
 import javax.persistence.OneToOne;
 
@@ -12,7 +11,7 @@ public class UserMeta extends BaseEntity {
 	
 	private String country;
 	
-	private Date birthday;
+	private Calendar birthday;
 	
 	private String otherStuff;
 	
@@ -35,11 +34,11 @@ public class UserMeta extends BaseEntity {
 		this.country = country;
 	}
 
-	public Date getBirthday() {
+	public Calendar getBirthday() {
 		return birthday;
 	}
 
-	public void setBirthday(Date birthday) {
+	public void setBirthday(Calendar birthday) {
 		this.birthday = birthday;
 	}
 

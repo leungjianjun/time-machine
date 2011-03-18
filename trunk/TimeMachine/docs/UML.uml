@@ -312,6 +312,7 @@ the same
       <ownedOperation xmi:id="_p6RUcE76EeCcN9XmDH4pbA" name="deleteAlbum"/>
       <ownedOperation xmi:id="_ZtBNQE77EeCcN9XmDH4pbA" name="updateCustomDate"/>
       <ownedOperation xmi:id="_gWHLsE78EeCcN9XmDH4pbA" name="updateDescription"/>
+      <ownedOperation xmi:id="_Jeyr8FE8EeCAOq-0tLOmYg" name="getAlbum"/>
     </packagedElement>
     <packagedElement xmi:type="uml:Class" xmi:id="_SjOncE74EeCcN9XmDH4pbA" name="Constraint">
       <ownedAttribute xmi:id="_gQTbcE74EeCcN9XmDH4pbA" name="sex"/>
@@ -327,7 +328,7 @@ the same
       <ownedOperation xmi:id="_sLE5cE76EeCcN9XmDH4pbA" name="addPicture"/>
       <ownedOperation xmi:id="_gbZJwE77EeCcN9XmDH4pbA" name="deletePicture"/>
       <ownedOperation xmi:id="_mRPi0E77EeCcN9XmDH4pbA" name="updateCustomDate"/>
-      <ownedOperation xmi:id="_cf4hAE78EeCcN9XmDH4pbA" name="updateDescription"/>
+      <ownedOperation xmi:id="_cf4hAE78EeCcN9XmDH4pbA" name=""/>
     </packagedElement>
     <packagedElement xmi:type="uml:Interface" xmi:id="_MGqaYE79EeCcN9XmDH4pbA" name="ICommentService">
       <generalization xmi:id="_wFWWUFBdEeCHPIlMT0Qt-w" general="_ofAQAFBdEeCHPIlMT0Qt-w"/>

@@ -28,7 +28,7 @@ public class DaoImpl<T> extends HibernateDaoSupport implements IDao<T> {
 		return getSession().createQuery(hql);
 	}
 
-	public void dalete(T baseBean) {
+	public void delete(T baseBean) {
 		// TODO Auto-generated method stub
 		getHibernateTemplate().delete(baseBean);
 	}
