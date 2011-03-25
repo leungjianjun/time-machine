@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project-module
+  type="WEB"
+  name="TimeMachine4"
+  id="myeclipse.1300796629466"
+  context-root="/TimeMachine4"
+  j2ee-spec="5.0"
+  archive="TimeMachine4.war">
+  <attributes>
+    <attribute name="webrootdir" value="WebRoot" />
+  </attributes>
+</project-module>
+

@@ -1,0 +1,312 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xml:lang="en" xmlns="http://www.w3.org/1999/xhtml" lang="en">
+
+<head>
+	<meta http-equiv="Content-type" content="text/html; charset=UTF-8">
+	
+	<title>TimeMachine-Fantasitic Web For Your Life</title>
+    <meta name="description" content="Custom jQuery product slider built off the Moving Boxes slider with FancyBox built in." />
+	
+	<link rel="stylesheet" href="css/style.css" type="text/css" media="screen" charset="utf-8">
+
+	<script src="js/jquery-1.4.2.min.js" type="text/javascript" charset="utf-8"></script>
+	<script src="js/slider.js" type="text/javascript" charset="utf-8"></script>
+    <!--<script type="text/javascript" src="js/jquery.bgiframe-2.1.2.js"></script>
+	<script type="text/javascript" src="js/jquery.ui.core.js"></script>
+	<script type="text/javascript" src="js/jquery.ui.dialog.js"></script>
+    <script type="text/javascript" src="js/jquery.ui.draggable.js"></script>
+    <script type="text/javascript" src="js/jquery.ui.mouse.js"></script>
+	<script type="text/javascript" src="js/jquery.ui.position.js"></script>
+	<script type="text/javascript" src="js/jquery.ui.resizable.js"></script>
+	<script type="text/javascript" src="js/jquery.ui.widget.js"></script>-->
+	
+	<link rel="stylesheet" type="text/css" href="fancybox/fancybox/jquery.fancybox-1.2.6.css" media="screen" />
+	<script type="text/javascript" src="fancybox/fancybox/jquery.fancybox-1.2.6.pack.js"></script>
+	<script type="text/javascript">
+		$(document).ready(function() {
+			$("a.zoom2").fancybox({
+				'zoomSpeedIn'		:	500,
+				'zoomSpeedOut'		:	500,
+				'overlayOpacity'	:	0.6,
+				'overlayColor'		:	'#000'
+			});
+		});
+	</script>
+    
+       <script type="text/javascript">
+        $(document).ready(function() {
+            $('#Button1').click(function() {
+                location.reload();
+            });
+        });       
+    </script>
+	<script type="text/javascript">
+		
+		function show(){
+			document.getElementById('slider').style.backgroundColor='#808080';
+			document.getElementById('slider').style.display='none';
+			document.getElementById('login').style.display='block';
+			//document.getElementById('login').style.display='block';
+			//alert("D");
+		}
+		
+		function login(){
+			alert("Now to Lgoin");
+		}
+		
+		function register(){
+			setTimeout("location.href=\'register.html\'",5);
+		}
+		
+		function back(){
+			//document.getElementById('slider-outer').style.backgroundImage='url(../images/back.jpg)';
+			document.getElementById('login').style.display='none';
+			document.getElementById('slider').style.display='block';			
+		}
+	</script>
+</head>
+
+
+<body>
+<div id="logo">
+	<table id="piclog" background="images/3185.gif" ></table>
+</div>
+<div id="exchange">
+	<button id="open" onclick="show()">Login</button><br>
+	<button onclick="register()">Register</button>
+</div>
+
+<div id="demo-outer">
+<div align="center"><center>
+    <script type="text/javascript" language="javascript" src="../../js/file.js"></script>
+</center></div>
+  <div id="wrapper" ></div>
+    
+    
+    
+    
+    
+    
+    
+    
+    <!-- Slider Outer Starts -->
+
+	<div id="slider-outer" >
+		<div id="login" >
+			<table id="logintb">
+				<tr>
+					<td align="right" style="color:white">Account:</td>
+					<td><input type="text" name="account" size="12" /></td>
+					<td><a href="">New User?</a></td>
+				</tr>
+				<tr></tr>
+				<tr></tr>
+				<tr>
+					<td align="right" style="color:white">Password:</td>
+					<td><input type="password" name="passwd" size="12"/></td>
+					<td align="left"><a href="">Forgot Password?</a></td>
+				</tr>
+				<tr>
+					<td></td>
+					<td><input type="submit" name="login" value="Login" onclick="login()"/></td>
+					<td><input type="submit" name="back" value="Back" onclick="back()"/></td>
+				</tr>
+			</table>
+			   <div id="loginPic" ></div>
+		</div>
+	
+		
+	<!-- Slider Starts -->
+		<div id="slider">    
+		  <img class="scrollButtons left" src="images/arrow-left.png" alt="" />
+		<!-- Scroll Starts Here -->
+			<div style="overflow: hidden;" class="scroll">	
+			<!-- Scroll Container Starts -->
+				<div class="scrollContainer">	
+				
+                 <!-- Panel Starts -->
+					<div class="panel" id="panel_1">
+					<!-- Panel Inside Starts -->
+						<div class="inside">
+						<!-- Image Starts -->
+							<img src="images/yalishanda.jpg" alt="" />
+                          <p>Alexander<br />
+                            <a class="zoom2" href="images/5-2.jpg" target="_blank" rel="group6">More Views</a>
+                            <a class="zoom2" href="images/5-3.jpg" target="_blank" rel="group6"></a>
+                          <a class="zoom2" href="images/img6.jpg" target="_blank" rel="group6"></a></p>
+						<!-- Image Ends -->
+                        
+                        
+
+						</div>
+					<!-- Panel Inside Ends -->
+					</div>
+				<!-- Panel Ends -->
+                
+                
+                <!-- Panel Starts -->
+					<div class="panel" id="panel_2">
+					<!-- Panel Inside Starts -->
+						<div class="inside">
+						<!-- Image Starts -->
+							<img src="images/yesu.jpg" alt="" />
+                          <p>Jesus<br />
+                            <a class="zoom2" href="images/red-1.jpg" target="_blank" rel="group2">More Views</a>
+                            <a class="zoom2" href="images/red-2.jpg" target="_blank" rel="group2"></a>
+                          <a class="zoom2" href="images/img2.jpg" target="_blank" rel="group2"></a></p>
+						<!-- Image Ends -->
+
+						</div>
+					<!-- Panel Inside Ends -->
+					</div>
+				<!-- Panel Ends -->
+                
+                <!-- Panel Starts -->
+					<div class="panel" id="panel_3">
+					<!-- Panel Inside Starts -->
+						<div class="inside">
+						<!-- Image Starts -->
+							<img src="images/chenji.jpg" alt="" />
+                          <p>ChengJiSiHan<br />
+                            <a class="zoom2" href="images/ss-1.jpg" target="_blank" rel="group3">More Views</a>
+                            <a class="zoom2" href="images/ss-2.jpg" target="_blank" rel="group3"></a>
+                          <a class="zoom2" href="images/img3.jpg" target="_blank" rel="group3"></a></p>
+						<!-- Image Ends -->
+
+						</div>
+					<!-- Panel Inside Ends -->
+					</div>
+				<!-- Panel Ends -->
+                
+                <!-- Panel Starts -->
+					<div class="panel" id="panel_4">
+					<!-- Panel Inside Starts -->
+						<div class="inside">
+						<!-- Image Starts -->
+							<img src="images/dechuan.jpg"  alt="" />
+                          <p>DechuanJiakang<br />
+                            <a class="zoom2" href="images/100-1.jpg" target="_blank" rel="group4">More Views</a>
+                            <a class="zoom2" href="images/100-2.jpg" target="_blank" rel="group4"></a>
+                          <a class="zoom2" href="images/img4.jpg" target="_blank" rel="group4"></a></p>
+						<!-- Image Ends -->
+
+						</div>
+					<!-- Panel Inside Ends -->
+					</div>
+				<!-- Panel Ends -->
+                
+                <!-- Panel Starts -->
+					<div class="panel" id="panel_5">
+					<!-- Panel Inside Starts -->
+						<div class="inside">
+						<!-- Image Starts -->
+							<img src="images/napolun.jpg"  alt="" />
+                          <p>math problem<br />
+                            <a class="zoom2" href="images/5-1.jpg" target="_blank" rel="group5">More Views</a>
+                          <a class="zoom2" href="images/img5.jpg" target="_blank" rel="group5"></a></p>
+						<!-- Image Ends -->
+
+						</div>
+					<!-- Panel Inside Ends -->
+					</div>
+				<!-- Panel Ends -->
+                
+               
+                
+                <!-- Panel Starts -->
+					<div class="panel" id="panel_6">
+					<!-- Panel Inside Starts -->
+						<div class="inside">
+						<!-- Image Starts -->
+							<img src="images/linken.jpg" width="300" height="450" alt="" />
+                          <p>Linken<br />
+                            <a class="zoom2" href="images/7-1.jpg" target="_blank" rel="group1">More Views</a>
+                            <a class="zoom2" href="images/7-2.jpg" target="_blank" rel="group1"></a>
+                          <a class="zoom2" href="images/img1.jpg" target="_blank" rel="group1"></a></p>
+						<!-- Image Ends -->
+
+						</div>
+					<!-- Panel Inside Ends -->
+					</div>
+				<!-- Panel Ends -->
+                
+                <!-- Panel Starts -->
+					<div class="panel" id="panel_7">
+					<!-- Panel Inside Starts -->
+						<div class="inside">
+						<!-- Image Starts -->
+							<img src="images/mao.jpg" alt="" />
+                          <p>Mao Zedong<br />
+                            <a class="zoom2" href="images/more-1.jpg" target="_blank" rel="group7">More Views</a>
+                            <a class="zoom2" href="images/more-2.jpg" target="_blank" rel="group7"></a>
+                          <a class="zoom2" href="images/img7.jpg" target="_blank" rel="group7"></a></p>
+						<!-- Image Ends -->
+
+						</div>
+					<!-- Panel Inside Ends -->
+					</div>
+				<!-- Panel Ends -->
+                
+                <!-- Panel Starts -->
+					<div class="panel" id="panel_8">
+					<!-- Panel Inside Starts -->
+						<div class="inside">
+						<!-- Image Starts -->
+							<img src="images/tuling.jpg" alt="" />
+                          <p>Alan-Turing<br />
+                            <a class="zoom2" href="images/e-1.jpg" target="_blank" rel="group8">More Views</a>
+                            <a class="zoom2" href="images/e-2.jpg" target="_blank" rel="group8"></a>
+                          <a class="zoom2" href="images/img8.jpg" target="_blank" rel="group8"></a></p>
+						<!-- Image Ends -->
+
+						</div>
+					<!-- Panel Inside Ends -->
+					</div>
+				<!-- Panel Ends -->
+                
+                  <!-- Panel Starts -->
+					<div class="panel" id="panel_9">
+					<!-- Panel Inside Starts -->
+						<div class="inside">
+						<!-- Image Starts -->
+							<img src="images/next.jpg" width="200" height="400" alt="" />
+                          <p>Who Will Be the Next One?You<br />
+                            <a class="zoom2" href="images/w-1.jpg" target="_blank" rel="group9">More Views</a>
+                            <a class="zoom2" href="images/w-2.jpg" target="_blank" rel="group9"></a>
+                          <a class="zoom2" href="images/img9.jpg" target="_blank" rel="group9"></a></p>
+						<!-- Image Ends -->
+
+						</div>
+					<!-- Panel Inside Ends -->
+					</div>
+				<!-- Panel Ends -->
+                
+                
+			
+
+		
+				
+									
+				</div>
+
+			<!-- SCroll Container Ends -->
+			</div>
+		<!-- Scroll Ends Here -->
+		  <img class="scrollButtons right" src="images/arrow-right.png" alt="right" />            
+	  </div>
+	<!-- Slider Ends -->
+	</div>
+<!-- Slider Outer Ends -->
+<div id="login">
+	Login Here
+</div>
+
+</div>
+<div id="info"><strong>TimeMachine </strong>- A fantastic website that makes you enjoy your photos of your whole life!<br />
+  <br />
+    <strong><p align="center" style="color:red">Copyright@2011 NJU Software Instutition</p></strong>
+</div>
+
+</body>
+
+</html>
