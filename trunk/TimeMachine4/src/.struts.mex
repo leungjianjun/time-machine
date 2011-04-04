@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Struts2Diagram version="2.0">
+  <package name="default" location="0,0" size="0,0">
+    <action name="register" location="0,0" size="0,0" />
+    <action name="login" location="0,0" size="0,0" />
+    <action name="changeInfo" location="0,0" size="0,0" />
+    <action name="createAlbum" location="0,0" size="0,0" />
+    <action name="changeAlbum" location="0,0" size="0,0" />
+    <action name="deleteAlbum" location="0,0" size="0,0" />
+    <action name="getAlbums" location="0,0" size="0,0" />
+    <action name="getFriendAlbums" location="0,0" size="0,0" />
+    <action name="searchFriend" location="0,0" size="0,0" />
+    <action name="upload" location="0,0" size="0,0">
+      <result name="success">
+        <resourceEdge source="success" routing="0" target="login.jsp" />
+      </result>
+      <result name="input">
+        <resourceEdge source="input" routing="0" target="upload.jsp" />
+      </result>
+    </action>
+    <action name="deletePicture" location="0,0" size="0,0" />
+  </package>
+  <webResource name="index.jsp" path="/index.jsp" location="345,10" size="150,55" />
+  <webResource name="login.jsp" path="/login.jsp" location="835,290" size="150,55" />
+  <webResource name="{2}.jsp" path="/{1}/{2}.jsp" location="100,465" size="150,55" />
+  <webResource name="upload.jsp" path="/upload.jsp" location="0,0" size="0,0" />
+</Struts2Diagram>
+

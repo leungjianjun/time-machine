@@ -1,0 +1,138 @@
+/*
+ * CSS File for register.html 
+ * 
+ * Author By Moneyc
+ */
+body{
+	background-image:url(../images/regbg.jpg);
+	font-weight:5px;
+}
+#headbar{
+	position:absolute;
+	width:60%;
+	left:20%;
+	height:10%;
+	top:0px;
+}
+
+#body {
+	position:absolute;
+	width:80%;
+	height:90%;
+	top:12%;
+	left:10%;	
+	border-left-color:#707070;
+	border-left-style:double;
+	border-left-width:5px;
+	border-right-color:#707070;
+	border-right-style:double;
+	border-right-width:5px;
+	border-bottom-color:#707070;
+	border-bottom-style:double;
+	border-bottom-width:5px;
+}
+
+#part1{
+	position:absolute;
+	width:100%;
+	height:25%;
+	top:0px;	
+	border-top-color:#808080;
+	border-top-style:solid;
+	border-top-width:2px;
+}
+#tb1{
+	position:absolute;
+	left:20%;
+	
+}
+
+#part2{
+	position:absolute;
+	width:100%;
+	height:50%;
+	top:25%;
+	border-top-color:#808080;
+	border-top-style:solid;
+	border-top-width:2px;
+}
+#tb2{
+	position:absolute;
+	left:10%;
+	
+}
+#tb3{
+	position:absolute;
+	right:30%;
+	
+}
+
+#part3{
+	position:absolute;
+	width:100%;
+	height:25%;
+	bottom:0px;
+	border-top-color:#808080;
+	border-top-style:solid;
+	border-top-width:2px;
+}
+#submit {
+	position:absolute;
+	left:30%;
+	width:70%;
+	height:auto;
+	bottom:0px;
+}
+
+#remark{
+	position:absolute;
+	bottom:25%;
+	height:20%;
+	width:auto;
+	right:10%;
+}
+
+#accept {
+	position:absolute;
+	top:30%;
+	width:60%;
+	left:20%;
+	heigth:auto;
+}
+.ornage{
+	color:#ff7800;
+	font-size:medium;
+}
+
+.sub_btn{	
+	background: url("../images/subbtn,jpg") no-repeat scroll 0 -82px transparent;
+    border: 2 none;
+    cursor: pointer;
+    font-size: 18px;
+    font-weight: bold;
+    height: 28px;
+    line-height: 28px;
+    margin-top: 10px;
+    text-align: center;
+    text-decoration: none;
+    width: 95px;
+	bottom:5%;
+    left:30%;
+}
+
+.back_btn{
+	background: url("../images/subbtn,jpg") no-repeat scroll 0 -82px transparent;
+    border: 2 none;
+    cursor: pointer;
+    font-size: 18px;
+    font-weight: bold;
+    height: 28px;
+    line-height: 28px;
+    margin-top: 10px;
+    text-align: center;
+    text-decoration: none;
+    width: 95px;
+	bottom:5%;
+	right:0px;
+}
+

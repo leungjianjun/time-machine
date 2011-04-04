@@ -1,0 +1,222 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01//EN" "http://www.w3.org/TR/html4/strict.dtd">
+<html>
+    <head>
+        <meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1">
+        <title>Personal Settings</title>
+        <script type="text/javascript" src="js/jquery-1.4.2.min.js">
+        </script>
+        <script type="text/javascript" src="js/person_set.js">
+        </script>
+        <link rel="stylesheet" type="text/css" href="css/personset.css"/>
+    </head>
+    <body>
+        <div id="headber" class="headbar">
+            <a href="#" class="logo"><img src="img/time_logo.jpg" border="0"></a>
+            <ul class="topbar_ul">
+                <li>
+                    <a style="margin-left:20px;" href="#">Personal Page</a>
+                </li>
+                <li>
+                    <a style="margin-left:20px;" href="#">Personal Setting</a>
+                </li>
+                <li>
+                    <a style="margin-left:20px;" href="#">Page Setting</a>
+                </li>
+            </ul>
+            <div id="exit" class="exit_class">
+                <a style="font-size:x-large;" href="#">Exit Now!</a>
+            </div>
+        </div>
+        <div id="body" class="person_body">
+            <div id="person_photo" class="person_photo">
+                <img id="portrait-img" border="0" alt="user_photo" src="img/userphoto.jpg">
+                <ul class="person_body_info">
+                    <li>
+                        <a href="#">My Info</a>
+                    </li>
+                    <li>
+                        <a href="#">My Photo</a>
+                    </li>
+                    <li>
+                        <a href="#">My Info</a>
+                    </li>
+                </ul>
+            </div>
+            <div class="person_body_class" id="person_body_id">
+                <div class="basicinfo_div">
+                    Basic Information<!--p class="basic_info">
+                    Basic Information
+                    </p>-->
+                </div>
+                <div class="basicinfo_panel">
+                    <table class="basicinfo_tb">
+                        <tr>
+                            <td align="center">
+                                Sex:
+                            </td>
+                            <td>
+                                <input type="radio" value="male" name="sex">Male<input type="radio" value="female" name="sex">Female
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>
+                                Birthday:
+                            </td>
+                            <td>
+                                <select name="birth_year" id="birth_year_id">
+                                    <option value="1980">1980</option>
+                                    <option value="1981">1981</option>
+                                    <option value="1982">1982</option>
+                                    <option value="1983">1983</option>
+                                    <option value="1984">1984</option>
+                                    <option value="1985">1985</option>
+                                    <option value="1986">1986</option>
+                                    <option value="1987">1987</option>
+                                    <option value="1988">1988</option>
+                                    <option value="1989">1989</option>
+                                    <option value="1990">1990</option>
+                                    <option value="1991">1991</option>
+                                    <option value="1992">1992</option>
+                                    <option value="1993">1993</option>
+                                    <option value="1994">1994</option>
+                                    <option value="1995">1995</option>
+                                    <option value="1996">1996</option>
+                                    <option value="1997">1997</option>
+                                    <option value="1998">1998</option>
+                                    <option value="1999">1999</option>
+                                    <option value="2000">2000</option>
+                                    <option value="2001">2001</option>
+                                    <option value="2002">2002</option>
+                                    <option value="2003">2003</option>
+                                    <option value="2004">2004</option>
+                                    <option value="2005">2005</option>
+                                    <option value="2006">2006</option>
+                                    <option value="2007">2007</option>
+                                    <option value="2008">2008</option>
+                                    <option value="2009">2009</option>
+                                    <option value="2010">2010</option>
+                                    <option value="2011">2011</option>
+                                </select>Year
+                                <select name="birth_month" id="birth_month_id">
+                                    <option value="1">1</option>
+                                    <option value="2">2</option>
+                                    <option value="3">3</option>
+                                    <option value="4">4</option>
+                                    <option value="5">5</option>
+                                    <option value="6">6</option>
+                                    <option value="7">7</option>
+                                    <option value="8">8</option>
+                                    <option value="9">9</option>
+                                    <option value="10">10</option>
+                                    <option value="11">11</option>
+                                    <option value="12">12</option>
+                                </select>Month
+                                <select name="birth_day" id="birth_day_id">
+                                    <option value="1">1</option>
+                                    <option value="2">2</option>
+                                    <option value="3">3</option>
+                                    <option value="4">4</option>
+                                    <option value="5">5</option>
+                                    <option value="6">6</option>
+                                    <option value="7">7</option>
+                                    <option value="8">8</option>
+                                    <option value="9">9</option>
+                                    <option value="10">10</option>
+                                    <option value="11">11</option>
+                                    <option value="12">12</option>
+                                    <option value="13">13</option>
+                                    <option value="14">14</option>
+                                    <option value="15">15</option>
+                                    <option value="16">16</option>
+                                    <option value="17">17</option>
+                                    <option value="18">18</option>
+                                    <option value="19">19</option>
+                                    <option value="20">20</option>
+                                    <option value="21">21</option>
+                                    <option value="22">22</option>
+                                    <option value="23">23</option>
+                                    <option value="24">24</option>
+                                    <option value="25">25</option>
+                                    <option value="26">26</option>
+                                    <option value="27">27</option>
+                                    <option value="28">28</option>
+                                    <option value="29">29</option>
+                                    <option value="30">30</option>
+                                    <option value="31">31</option>
+                                </select>Day
+                            </td>
+                        </tr>
+                        <tr>
+                            <td align="center">
+                                Living In:
+                            </td>
+                            <td>
+                                <input type="text" size="20" name="living_place" id="living_place_id">
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>
+                                Remark;
+                            </td>
+                            <td style="height:60px;">
+                                <textarea name="remark" cols="25" rows="6" id="remark_id">
+                                </textarea>
+                            </td>
+                        </tr>
+                    </table>
+                    <table class="photo_tb">
+                        <tr>
+                            <td align="center">
+                                <p>
+                                    Create Photo Folder:
+                                </p>
+                            </td>
+                            <td>
+                                <input type="text" name="pf_name" size="12">
+                            </td>
+                        </tr>
+                        <tr>
+                            <td align="center">
+                                <p>
+                                    Folder Time:
+                                </p>
+                            </td>
+                            <td>
+                                <input type="text" name="pf_time" size="12">
+                            </td>
+                        </tr>
+                    </table>
+                </div>
+                <div class="security_info">
+                    <!-- 用于设置Security信息-->Change Your Password
+                    <table class="security_tb">
+                        <tr>
+                            <td align="center">
+                                Enter Old Password:
+                            </td>
+                            <td>
+                                <input type="password" id="old_password" size="20">
+                            </td>
+                        </tr>
+                        <tr>
+                            <td align="center">
+                                Enter New Password:
+                            </td>
+                            <td>
+                                <input type="password" id="new_first_password" size="20">
+                            </td>
+                        </tr>
+                        <tr>
+                            <td align="center">
+                                Repeate New Again:
+                            </td>
+                            <td>
+                                <input type="password" id="new_second_password" size="20">
+                            </td>
+                        </tr>
+                    </table>
+                </div>
+            </div><a href="#"><img src="./img/submit_btn.png" class="sub_btn" onclick="personInfo_Sub()"></a><a href="#"><img src="img/back_btn.png" class="back_btn"></a>
+        </div>
+    </body>
+</html>

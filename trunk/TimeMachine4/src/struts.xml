@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE struts PUBLIC
+    "-//Apache Software Foundation//DTD Struts Configuration 2.0//EN"
+    "http://struts.apache.org/dtds/struts-2.0.dtd">
+
+<struts>
+	
+	<package name="default" extends="struts-default">
+		
+		<action name="register" class="cn.edu.nju.software.timemachine.action.user.RegisterAction">
+		</action>
+		
+		<action name="login" class="cn.edu.nju.software.timemachine.action.user.LoginAction">
+		</action>
+		
+		<action name="changeInfo" class="cn.edu.nju.software.timemachine.action.user.ChangeInfoAction"></action>
+		
+		<action name="createAlbum" class="cn.edu.nju.software.timemachine.action.album.CreateAlbumAction"></action>
+		
+		<action name="changeAlbum" class="cn.edu.nju.software.timemachine.action.album.ChangeAlbumAction"></action>
+		
+		<action name="deleteAlbum" class="cn.edu.nju.software.timemachine.action.album.DeleteAlbumAction"></action>
+		
+		<action name="getAlbums" class="cn.edu.nju.software.timemachine.action.album.GetAlbumListAction"></action>
+		
+		<action name="getFriendAlbums" class="cn.edu.nju.software.timemachine.action.album.GetFriendAlbumsAction"></action>
+		
+		<action name="searchFriend" class="cn.edu.nju.software.timemachine.action.friend.SearchFriendAction"></action>
+		
+		<action name="createFriend" class="cn.edu.nju.software.timemachine.action.friend.CreateFriendAction"></action>
+		
+		<action name="upload" class="cn.edu.nju.software.timemachine.action.picture.AddPhotoAction">
+			<result name="success">/login.jsp</result>
+			<result name="input">/upload.jsp</result>
+		</action>
+		
+		<action name="deletePicture" class="cn.edu.nju.software.timemachine.action.picture.DeletePhotoAction"></action>
+	</package>
+	
+	
+	
+	
+</struts>
