@@ -1,0 +1,105 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<title>Manage Your Albums</title>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+<meta http-equiv="imagetoolbar" content="no">
+<style type="text/css">
+body{margin:0;padding:0;width:100%;background:url(img/universe1.jpg);}
+html{padding:0;margin:0;}
+.main{width:100%;padding:0;margin:0 auto;}
+td   {color:   red;   font-size;   13px} 
+.slider_block{margin:0 auto;width:980px;padding:14px 0 15px 0;height:239px;background:url(img/white.png) no-repeat;}
+.slider_block img.screen{float:left	;width:303px;border-right:1px solid #FFF;}
+.slider_block div.text{margin:0 0 0 304px;padding:0 0 0 10px;border:0;height:235px;width:582px;background:#000;}
+.slider_block div.text h2{text-transform:uppercase;font:normal 30px Arial, Helvetica, sans-serif;color:#FFF;margin:0;padding:10px 10px 0 10px;line-height:1.2em;}
+.slider_block div.text p{font:normal 11px Arial, Helvetica, sans-serif;color:#FFF;margin:0;padding:10px;line-height:1.8em;}
+.slider_block div.text a{color:#ff7e00;text-decoration:none;}
+.newalbum{position:absolute;top:50%;left:30%;width:40%;height:45%;}
+#slider{margin:0 auto;list-style:none;padding:1px;border:1px solid #dad5c9;width:896px;height:235px;}
+#slider ul,
+#slider li{padding:0;margin:0;list-style:none;}
+#slider li{width:896px;height:235px;overflow:hidden;}
+p#controls{margin:0;padding:0;position:relative;}
+#prevBtn,
+#nextBtn{display:block;margin:0;overflow:hidden;width:40px;height:40px;position:absolute;left:0px;top:-140px;}
+#nextBtn{left:940px;}
+#prevBtn a{display:block;width:40px;height:40px;background:url(img/prev.gif) no-repeat 0 0;}
+#nextBtn a{display:block;width:40px;height:40px;background:url(img/next.gif) no-repeat 0 0;}
+#createBtn a{display:block;margin:0;overflow:hidden;width:406px;height:55px;background:url(img/createnewalbum.png) no-repeat 0 0;position:absolute;left:30%;top:80%;}
+</style>
+<script type="text/javascript" src="js/j.js"></script>
+<script type="text/javascript" src="js/js.js"></script>
+<script type="text/javascript" src="js/upfile.js"></script>
+<script type="text/javascript">
+// <![CDATA[
+$(document).ready(function(){
+$("#slider").easySlider({
+controlsBefore:	'<p id="controls">',
+controlsAfter:	'</p>',
+auto: true,
+continuous: true
+});
+});
+//document.getElementById("upfile").click(function(){alert("A");});
+// ]]>
+</script>
+</head>
+<body>
+<div class="main">
+<div class="slider_block">
+<div id="slider">
+<ul>
+<li><img src="img/universe.jpg" alt="screen 1" width="303" height="235" class="screen">
+<div class="text">
+<h2 >The Universe</h2>
+<p>This is a album of the terrific view of the universe.Created by Lv Xiang and Mei Lirong.</p>
+<p><a href="#"><img src="img/uploadpics.png" id="upload_pic_link" alt="picture" width="141" height="45" border="0"></a></p>
+<p><a href="#"><img src="img/deletealbum.png" id="delete_album_link" alt="picture" width="194" height="44" border="0"></a></p>
+</div>
+</li>
+<li><img src="img/xingye.jpg" alt="screen 2" width="603" height="235" class="screen">
+<div class="text">
+<h2>What an SB!</h2>
+<p>Do you know Li Yaoxing? Just have a look at this album, it will lead you to a world full of SB Li Yaoxing! Looking into his eyes, you will discover, say what, that there would be all kinds of birds in a big forest. </p>
+<p><a href="#"><img src="img/uploadpics.png" id="upload_pic_link" alt="picture" width="141" height="45" border="0"></a></p>
+<p><a href="#"><img src="img/deletealbum.png" id="delete_album_link" alt="picture" width="194" height="44" border="0"></a></p>
+</div>
+</li>
+<li><img src="img/xingye2.jpg" alt="screen 3" width="603" height="235" class="screen">
+<div class="text">
+<h2>Know More About Him!</h2>
+<p>Want to know more of Li Yaoxing? Enjoy this album, you will be satisfied cus you have seen a kind of creature that you have never seen before!!</p>
+<p><a href="#"><img src="img/uploadpics.png" id="upload_pic_link" alt="picture" width="141" height="45" border="0"></a></p>
+<p><a href="#"><img src="img/deletealbum.png" id="delete_album_link" alt="picture" width="194" height="44" border="0"></a></p>
+</div>
+</li>
+</ul>
+</div>
+</div>
+</div>
+<div class="newalbum">
+<table align = "center" border = "0" cellpadding = "2" cellspacing = "2" width="600px" height="150px">
+    	<tr>
+    		<td align = "right" valign = "middle" width = "25%"height = "10%">Name of Your Album</td>
+    		<td align = "left" valign = "middle" width = "75%"height = "10%">
+    				<input type = "text" name = "albumname" id="album_name"/>
+    		</td>
+    	</tr>
+    	<tr>
+    		<td align = "right" valign = "middle" width = "25%"height = "10%">Date</td>
+    		<td align = "left" valign = "middle" width = "75%" height = "10%">
+    				<input type = "text" name = "albumdate" id="album_date"/>
+    		</td>
+    	</tr>
+    	<tr>
+    		<td align = "right" valign = "middle" width = "25%"height = "10%">Details</td>
+    		<td align = "left" valign = "middle" width = "75%" height = "10%">
+    				<input type = "text" name = "albumdetails" id="album_detail"/>
+    		</td>
+    	</tr>
+    	</table>
+    	<p><a href="#"><img src="img/createnewalbum.png" id="upfile_link" alt="picture" width="406" height="55" border="0"></a></p>
+</div>
+</body>
+</html>
